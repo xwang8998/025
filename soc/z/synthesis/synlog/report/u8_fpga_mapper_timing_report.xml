@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\igloo\soc\z\synthesis\synlog\u8_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>clock_divider|clk2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>191.0 MHz</data>
+<data>4.765</data>
+</row>
+<row>
+<data>clock_divider|clk4_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>191.0 MHz</data>
+<data>4.765</data>
+</row>
+<row>
+<data>clock_divider|clk8_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>191.0 MHz</data>
+<data>4.765</data>
+</row>
+<row>
+<data>clock_div|clk2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>573.0 MHz</data>
+<data>8.255</data>
+</row>
+<row>
+<data>clock_div|clk4_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>573.0 MHz</data>
+<data>8.255</data>
+</row>
+<row>
+<data>clock_div|clk8_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>573.0 MHz</data>
+<data>8.255</data>
+</row>
+<row>
+<data>clock_div|clk16_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>573.0 MHz</data>
+<data>8.255</data>
+</row>
+<row>
+<data>clock_div|clk32_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>771.2 MHz</data>
+<data>8.703</data>
+</row>
+<row>
+<data>mclk</data>
+<data>125.0 MHz</data>
+<data>573.0 MHz</data>
+<data>6.255</data>
+</row>
+<row>
+<data>pcm_tx|ii_inferred_clock[5]</data>
+<data>100.0 MHz</data>
+<data>324.8 MHz</data>
+<data>6.922</data>
+</row>
+<row>
+<data>sample|m_inferred_clock[4]</data>
+<data>100.0 MHz</data>
+<data>311.0 MHz</data>
+<data>6.785</data>
+</row>
+<row>
+<data>sdtop|dsd_clkr_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>274.1 MHz</data>
+<data>6.352</data>
+</row>
+<row>
+<data>sdtop|mmclk_d2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>181.2 MHz</data>
+<data>4.482</data>
+</row>
+<row>
+<data>sdtop|mmclk_d4_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>771.2 MHz</data>
+<data>8.703</data>
+</row>
+<row>
+<data>u8_FCCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>170.0 MHz</data>
+<data>4.118</data>
+</row>
+<row>
+<data>u8_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>102.7 MHz</data>
+<data>0.259</data>
+</row>
+<row>
+<data>u8|clock138_bck</data>
+<data>100.0 MHz</data>
+<data>322.8 MHz</data>
+<data>6.902</data>
+</row>
+<row>
+<data>u8|sdclk</data>
+<data>100.0 MHz</data>
+<data>130.3 MHz</data>
+<data>2.324</data>
+</row>
+<row>
+<data>wck</data>
+<data>62.5 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>226.5 MHz</data>
+<data>5.585</data>
+</row>
+</report_table>

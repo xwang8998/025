@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\820\igloo\soc\sdio25\synthesis\synlog\u8_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>adc96|clkd2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>1189.8 MHz</data>
+<data>9.159</data>
+</row>
+<row>
+<data>adc96|clkd4_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>1189.8 MHz</data>
+<data>9.159</data>
+</row>
+<row>
+<data>adc96|clkd8_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>626.7 MHz</data>
+<data>8.404</data>
+</row>
+<row>
+<data>adc96|clkd16_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>281.7 MHz</data>
+<data>6.451</data>
+</row>
+<row>
+<data>mclk</data>
+<data>125.0 MHz</data>
+<data>426.3 MHz</data>
+<data>5.654</data>
+</row>
+<row>
+<data>mclk4549</data>
+<data>62.5 MHz</data>
+<data>170.9 MHz</data>
+<data>10.150</data>
+</row>
+<row>
+<data>sdclk_n</data>
+<data>62.5 MHz</data>
+<data>111.7 MHz</data>
+<data>7.049</data>
+</row>
+<row>
+<data>test|c1_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>1189.8 MHz</data>
+<data>9.159</data>
+</row>
+<row>
+<data>test|c2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>628.7 MHz</data>
+<data>8.409</data>
+</row>
+<row>
+<data>u8_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>117.1 MHz</data>
+<data>1.462</data>
+</row>
+<row>
+<data>u8|sdclk</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>wavegen|pclk_div2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>75.3 MHz</data>
+<data>-3.273</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

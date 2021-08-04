@@ -1,0 +1,16 @@
+Warning: SDC0062: c:\igloo\work\test.sdc:10: create_clock constraint using get_nets command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:25: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:26: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:27: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:28: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:29: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:30: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:32: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:33: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:34: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:40: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:42: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:43: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:44: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:46: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: c:\igloo\work\test.sdc:47: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 

@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/igloo/soc/z/simulation
+vsdf_IOPAD_BI
+Z1 !s110 1598410558
+!i10b 1
+!s100 :TRd^z]ff?G?N>=DMWMZa3
+I3J1NNbd57gz:HI?>UL<O<3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1598410531
+Z4 8C:/igloo/soc/z/designer/u8/u8_ba.v
+Z5 FC:/igloo/soc/z/designer/u8/u8_ba.v
+L0 6
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1598410558.000000
+Z8 !s107 C:/igloo/soc/z/designer/u8/u8_ba.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/igloo/soc/z/designer/u8/u8_ba.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postlayout -O0
+Z11 tCvgOpt 0
+nsdf_@i@o@p@a@d_@b@i
+vsdf_IOPAD_IN
+R1
+!i10b 1
+!s100 9S_niBg3@BTf5dMC`TWV[3
+IZnkSY6[GDH`W`k3z9Q@Q_1
+R2
+R0
+R3
+R4
+R5
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+!i10b 1
+!s100 fl=4Ul1LozfVFHzMjXD4<3
+IKG;cBGIcAKYZgD761oc@@3
+R2
+R0
+R3
+R4
+R5
+L0 49
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@t@r@i
+vu8
+!s110 1598410559
+!i10b 1
+!s100 KL<[FYVFZfF`9`jIegAZ:1
+IjCAB]LYl=237S<2^DJ:^V2
+R2
+R0
+R3
+R4
+R5
+L0 68
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11

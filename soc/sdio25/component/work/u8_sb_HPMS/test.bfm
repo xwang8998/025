@@ -1,0 +1,17 @@
+#===========================================================
+# Created by Microsemi SmartDesign Tue Aug  3 17:16:36 2021
+# 
+# 
+# Warning:  Do not modify this file, it may lead to unexpected 
+#           simulation failures in your design.
+#
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Main Function
+#-----------------------------------------------------------
+
+procedure main;
+  print "Cortex-M3 is not available on this device";
+return

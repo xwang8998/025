@@ -1,0 +1,38 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Tue Aug  3 17:16:43 2021
+Project   :  D:\820\igloo\soc\sdio25
+Component :  u8_sb
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/u8_sb.v
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/u8_sb.v
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/CCC_0/u8_sb_CCC_0_FCCC.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    D:/820/igloo/soc/sdio25/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/FABOSC_0/u8_sb_FABOSC_0_OSC.v
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/u8_sb.v
+    D:/820/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/820/igloo/soc/sdio25/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    D:/820/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/820/igloo/soc/sdio25/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    D:/820/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS_pre.v
+
+Stimulus files for all Simulation tools:
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/subsystem.bfm
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/subsystem.bfm
+    D:/820/igloo/soc/sdio25/component/work/u8_sb/subsystem.bfm
+

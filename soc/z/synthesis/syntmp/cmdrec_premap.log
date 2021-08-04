@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe  -mp  4  -prjfile  C:\igloo\soc\z\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\igloo\soc\z\synthesis   -part M2GL005  -package VF256  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -retiming -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\igloo\soc\z\synthesis\synlog\report\u8_premap.xml  -top_level_module  u8  -oedif  C:\igloo\soc\z\synthesis\u8.edn  -conchk_prepass  C:\igloo\soc\z\synthesis\u8_cck.rpt   -freq 100.000   -tcl  C:\igloo\soc\z\designer\u8\synthesis.fdc  C:\igloo\soc\z\synthesis\synwork\u8_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\igloo\soc\z\synthesis\synwork\u8_prem.srd  -qsap  C:\igloo\soc\z\synthesis\u8.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v  -ologparam  C:\igloo\soc\z\synthesis\syntmp\u8.plg  -osyn  C:\igloo\soc\z\synthesis\synwork\u8_prem.srd  -prjdir  C:\igloo\soc\z\synthesis\  -prjname  u8_syn  -log  C:\igloo\soc\z\synthesis\synlog\u8_premap.srr 
+rc:1 success:1 runtime:2
+file:C:\igloo\soc\z\synthesis\scratchproject.prs|io:o|time:1625208780|size:4906|exec:0
+file:C:\igloo\soc\z\synthesis\u8.edn|io:o|time:1625298034|size:5134703|exec:0
+file:C:\igloo\soc\z\synthesis\u8_cck.rpt|io:o|time:1625299362|size:35754|exec:0
+file:C:\igloo\soc\z\designer\u8\synthesis.fdc|io:i|time:1625299353|size:2414|exec:0
+file:C:\igloo\soc\z\synthesis\synwork\u8_mult.srs|io:i|time:1625299360|size:5567|exec:0
+file:C:\igloo\soc\z\synthesis\synwork\u8_prem.srd|io:o|time:1625299361|size:350299|exec:0
+file:C:\igloo\soc\z\synthesis\u8.sap|io:o|time:1625299362|size:14129|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v|io:i|time:1487916428|size:16387|exec:0
+file:C:\igloo\soc\z\synthesis\syntmp\u8.plg|io:o|time:1625299360|size:0|exec:0
+file:C:\igloo\soc\z\synthesis\synwork\u8_prem.srd|io:o|time:1625299361|size:350299|exec:0
+file:C:\igloo\soc\z\synthesis\synlog\u8_premap.srr|io:o|time:1625299362|size:43009|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_generic.exe|io:i|time:1485279362|size:17958400|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe|io:i|time:1485280914|size:32495616|exec:1

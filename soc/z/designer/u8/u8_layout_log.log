@@ -1,0 +1,64 @@
+INFO: Reading User SDC file c:\igloo\work\test.sdc.
+16 warnings found.
+Check logfile C:\igloo\soc\z\constraint\placer_sdc_errors.log for details.
+
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file c:\igloo\work\test.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 23 fixed I/O macros, 6 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.1 
+Design: u8                              Started: Sat Jul 03 16:04:12 2021
+
+Initializing Timing-Driven Placement ...
+While analyzing gated clock network, ambiguities have been found on gates test_0/u100/DSD138/UIN100/UCK0/bcko_sn_m2:Y, test_0/u100/DSD138/UIN100/UCK0/bcko_u_0:Y, test_0/u100/DSD138/UIN100/UCK0/bcko_u_0_RNIB9VS1:Y, test_0/u100/DSD138/UIN100/UCK0/bcko_0:Y, test_0/u100/DSD138/UIN100/UCK0/bcko_u_2:Y, test_0/u100/DSD138/UIN100/UCK0/bcko_u_3:Y, test_0/u100/DSD138/UIN100/UCK0/bcko_u_3_RNI3EM53:Y, test_0/u100/DSD138/UIN100/UCK0/bckox2_u_2:Y, test_0/u100/DSD138/UIN100/UCK0/bckox2_u_3:Y, test_0/u100/DSD138/UIN100/UCK0/bckox2_u_0:Y, test_0/u100/DSD138/UIN100/UCK0/bckox2_u_1:Y, test_0/u100/DSD138/UIN100/UCK0/bckox2_u_1_RNIHS2Q1:Y, test_0/u100/DSD138/UIN100/UCK0/pobck:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 8 seconds
+Placement Runtime            : 75 seconds
+
+Placer completed successfully.
+
+Design: u8                              
+Finished: Sat Jul 03 16:06:14 2021
+Total CPU Time:     00:01:58            Total Elapsed Time: 00:02:02
+Total Memory Usage: 366.2 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\igloo\soc\z\designer\u8\u8   Started: Sat Jul 03 16:06:21 2021
+
+Final stats: search run time 17.058720
+
+Router completed successfully.
+
+Design: C:\igloo\soc\z\designer\u8\u8   
+Finished: Sat Jul 03 16:06:42 2021
+Total CPU Time:     00:00:20            Total Elapsed Time: 00:00:21
+Total Memory Usage: 305.3 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 3297 | 6060  | 54.41      |
+| DFF           | 3769 | 6060  | 62.19      |
+| I/O Register  | 0    | 477   | 0.00       |
+| Logic Element | 4840 | 6060  | 79.87      |
++---------------+------+-------+------------+
+

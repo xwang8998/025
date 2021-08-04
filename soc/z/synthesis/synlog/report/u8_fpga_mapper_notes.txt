@@ -1,0 +1,133 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"c:\igloo\soc\z\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\fifo\fifo_0\rtl\vlog\core\fifo_fifo_0_ram_wrapper.v":45:25:45:35|Tristate driver B_DB_DETECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) on net B_DB_DETECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\fifo\fifo_0\rtl\vlog\core\fifo_fifo_0_ram_wrapper.v":44:25:44:35|Tristate driver A_DB_DETECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) on net A_DB_DETECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\fifo\fifo_0\rtl\vlog\core\fifo_fifo_0_ram_wrapper.v":43:25:43:36|Tristate driver B_SB_CORRECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) on net B_SB_CORRECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\fifo\fifo_0\rtl\vlog\core\fifo_fifo_0_ram_wrapper.v":42:25:42:36|Tristate driver A_SB_CORRECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) on net A_SB_CORRECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\igloo\soc\z\component\work\fifo\fifo_0\rtl\vlog\core\fifo_fifo_0_ram_wrapper.v":45:25:45:35|Tristate driver B_DB_DETECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_1(verilog)) on net B_DB_DETECT (in view: work.FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s_1(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\igloo\work\sd.v":529:0:529:5|Removing sequential instance demo[17:0] (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[2] (in view: work.u8_sb(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[3] (in view: work.u8_sb(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[2] (in view: work.u8_sb(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[1] (in view: work.u8_sb(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"c:\igloo\work\sound.v":644:0:644:5|Found counter in view:work.sdtop(verilog) instance DSD138.UIN100.cnt[5:0] 
+@N: MO231 :"c:\igloo\work\sound.v":608:0:608:5|Found counter in view:work.sdtop(verilog) instance DSD138.UIN100.jishi[31:0] 
+@N: MO230 :"c:\igloo\work\sd.v":529:0:529:5|Found up-down counter in view:work.sdtop(verilog) instance i[7:0]  
+@N: MO231 :"c:\igloo\work\sd.v":529:0:529:5|Found counter in view:work.sdtop(verilog) instance buffer_under_run[7:0] 
+@N: MO231 :"c:\igloo\work\sd.v":1408:0:1408:5|Found counter in view:work.sd_data(verilog) instance i[9:0] 
+@N: MO231 :"c:\igloo\work\sd.v":1408:0:1408:5|Found counter in view:work.sd_data(verilog) instance blkn[4:0] 
+@N: MO231 :"c:\igloo\work\sound.v":1722:0:1722:5|Found counter in view:work.dsd_tx(verilog) instance i[4:0] 
+@N: MO231 :"c:\igloo\work\sound.v":1684:0:1684:5|Found counter in view:work.pcm_tx(verilog) instance i[5:0] 
+@N: MF179 :"c:\igloo\work\sound.v":1370:2:1370:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r18 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1371:2:1371:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r19 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1372:2:1372:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r20 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1373:2:1373:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r21 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1374:2:1374:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r22 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1375:2:1375:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r23 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1376:2:1376:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r24 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1377:2:1377:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r25 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1378:2:1378:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r26 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1379:2:1379:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r27 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1355:2:1355:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r3 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1356:2:1356:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r4 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1357:2:1357:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r5 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1358:2:1358:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r6 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1359:2:1359:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r7 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1360:2:1360:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r8 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1361:2:1361:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r9 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1362:2:1362:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r10 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1363:2:1363:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r11 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1364:2:1364:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r12 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1365:2:1365:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r13 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1366:2:1366:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r14 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1367:2:1367:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r15 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1368:2:1368:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r16 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1369:2:1369:36|Found 32 by 32 bit equality operator ('==') un1_source_left_r17 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1353:13:1353:46|Found 32 by 32 bit equality operator ('==') un1_source_left_r1 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1354:2:1354:35|Found 32 by 32 bit equality operator ('==') un1_source_left_r2 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1406:2:1406:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r17 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1407:2:1407:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r18 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1408:2:1408:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r19 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1409:2:1409:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r20 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1410:2:1410:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r21 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1411:2:1411:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r22 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1412:2:1412:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r23 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1413:2:1413:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r24 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1414:2:1414:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r25 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1415:2:1415:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r26 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1416:2:1416:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r27 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1391:3:1391:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r2 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1392:2:1392:37|Found 32 by 32 bit equality operator ('==') un1_source_right_r3 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1393:2:1393:37|Found 32 by 32 bit equality operator ('==') un1_source_right_r4 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1394:2:1394:37|Found 32 by 32 bit equality operator ('==') un1_source_right_r5 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1395:2:1395:37|Found 32 by 32 bit equality operator ('==') un1_source_right_r6 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1396:2:1396:37|Found 32 by 32 bit equality operator ('==') un1_source_right_r7 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1397:2:1397:37|Found 32 by 32 bit equality operator ('==') un1_source_right_r8 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1398:2:1398:37|Found 32 by 32 bit equality operator ('==') un1_source_right_r9 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1399:2:1399:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r10 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1400:2:1400:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r11 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1401:2:1401:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r12 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1402:2:1402:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r13 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1403:2:1403:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r14 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1404:2:1404:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r15 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1405:2:1405:38|Found 32 by 32 bit equality operator ('==') un1_source_right_r16 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sound.v":1390:10:1390:45|Found 32 by 32 bit equality operator ('==') un1_source_right_r1 (in view: work.pcm_tx(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1854:87:1854:120|Found 32 by 32 bit equality operator ('==') un1_source_left_r1_1 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1854:50:1854:83|Found 32 by 32 bit equality operator ('==') un1_source_left_r2_1 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1854:13:1854:46|Found 32 by 32 bit equality operator ('==') un1_source_left_r3 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1854:124:1854:157|Found 32 by 32 bit equality operator ('==') un1_source_left_r4 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1854:161:1854:194|Found 32 by 32 bit equality operator ('==') un1_source_left_r5 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1856:87:1856:120|Found 32 by 32 bit equality operator ('==') un1_source_left_l1_1 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1856:50:1856:83|Found 32 by 32 bit equality operator ('==') un1_source_left_l2_1 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1856:13:1856:46|Found 32 by 32 bit equality operator ('==') un1_source_left_l3 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1856:161:1856:194|Found 32 by 32 bit equality operator ('==') un1_source_left_l5 (in view: work.sample(verilog))
+@N: MF179 :"c:\igloo\work\sd.v":1856:124:1856:157|Found 32 by 32 bit equality operator ('==') un1_source_left_l4 (in view: work.sample(verilog))
+@N: MO231 :"c:\igloo\work\sound.v":903:0:903:5|Found counter in view:work.spdif_tx(verilog) instance bit_counter[5:0] 
+@N: MO225 :"c:\igloo\work\ram.v":115:0:115:5|There are no possible illegal states for state machine state[3:0] (in view: work.mem_controller(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\igloo\work\ram.v":115:0:115:5|Found counter in view:work.mem_controller(verilog) instance k[4:0] 
+@N: MO231 :"c:\igloo\work\bigfifo.v":143:0:143:5|Found counter in view:work.bigfifo(verilog) instance i[7:0] 
+@N: MF179 :|Found 14 by 14 bit equality operator ('==') next_read_addr (in view: work.bigfifo(verilog))
+@N: MO231 :"c:\igloo\work\test.v":288:0:288:5|Found counter in view:work.clock138master(verilog) instance i[14:0] 
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[6] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: MO106 :"c:\igloo\work\test.v":312:12:312:29|Found ROM .delname. (in view: work.u8(verilog)) with 64 words by 1 bit.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance u8_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[5] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[4] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[3] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[2] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[1] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\igloo\soc\z\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[0] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: FX271 :"c:\igloo\work\sd.v":1408:0:1408:5|Replicating instance test_0.u100.UD100.data_out_en_ret (in view: work.u8(verilog)) with 4 loads 1 time to improve timing.
+@N: MF322 |Retiming summary: 65 registers retimed to 92 
+@N: FP130 |Promoting Net test_0.u100.reset_n_i_i on CLKINT  I_525 
+@N: FP130 |Promoting Net test_0.u100.UPCMTX.ii[5] on CLKINT  I_526 
+@N: FP130 |Promoting Net test_0.u100.u_sample.m[4] on CLKINT  I_527 
+@N: FP130 |Promoting Net u8_sb_0_HPMS_READY on CLKINT  I_528 
+@N: FP130 |Promoting Net test_0.u100.USPDIF_TX.reset_n_i_i on CLKINT  I_529 
+@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_530 
+@N: FP130 |Promoting Net test_0.u100.mmclk_d2 on CLKINT  I_531 
+@N: FP130 |Promoting Net test_0.u200.reset_n_i_i on CLKINT  I_532 
+@N: FP130 |Promoting Net clock138_bck_c on CLKINT  I_533 
+@N: MT611 :|Automatically generated clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock is not used and is being removed
+@N: FX1056 |Writing EDF file: C:\igloo\soc\z\synthesis\u8.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock mclk with period 8.00ns 
+@N: MT615 |Found clock wck with period 16.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

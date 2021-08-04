@@ -1,0 +1,96 @@
+INFO: Reading User SDC file D:\820\igloo\work\test.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file D:\820\igloo\soc\sdio25\constraint\io\025.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 55 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 12.900.20 
+Design: u8                              Started: Wed Aug  4 11:34:02 2021
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+Info:  This design contains global nets which are difficult to route, and extra effort is being applied to find a solution.
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 2 seconds
+Placement                : 9 seconds
+Improvement              : 27 seconds
+
+Placer completed successfully.
+
+Design: u8                              
+Finished: Wed Aug  4 11:35:10 2021
+Total CPU Time:     00:01:09            Total Elapsed Time: 00:01:08
+Total Memory Usage: 465.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: test_0/c2:Q
+       Net: test_0/c2
+Clock pins: 1
+    Driver: test_0/c1:Q
+       Net: test_0/c1
+Clock pins: 1
+    Driver: test_0/UADC/clkd2:Q
+       Net: test_0/UADC/clkd2
+Clock pins: 1
+    Driver: test_0/UADC/clkd4:Q
+       Net: test_0/UADC/clkd4
+Clock pins: 1
+    Driver: test_0/UADC/clkd8:Q
+       Net: test_0/UADC/clkd8
+Clock pins: 1
+
+Router 
+Design: D:\820\igloo\soc\sdio25\designer\u8\u8Started: Wed Aug  4 11:35:19 2021
+
+
+Router completed successfully.
+
+Design: D:\820\igloo\soc\sdio25\designer\u8\u8
+Finished: Wed Aug  4 11:35:36 2021
+Total CPU Time:     00:00:16            Total Elapsed Time: 00:00:17
+Total Memory Usage: 926.0 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 5069 | 27696 | 18.30      |
+| DFF           | 4823 | 27696 | 17.41      |
+| I/O Register  | 6    | 801   | 0.75       |
+| Logic Element | 5487 | 27696 | 19.81      |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  55   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

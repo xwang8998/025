@@ -1,0 +1,34 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Thu Jul 22 16:09:39 2021
+Project   :  C:\igloo\soc\z
+Component :  u8_sb
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    C:/igloo/soc/z/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/igloo/soc/z/component/work/u8_sb/CCC_0/u8_sb_CCC_0_FCCC.v
+    C:/igloo/soc/z/component/work/u8_sb/FABOSC_0/u8_sb_FABOSC_0_OSC.v
+    C:/igloo/soc/z/component/work/u8_sb/u8_sb.v
+    C:/igloo/soc/z/component/work/u8_sb_HPMS/u8_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/igloo/soc/z/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    C:/igloo/soc/z/component/work/u8_sb_HPMS/u8_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/igloo/soc/z/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    C:/igloo/soc/z/component/work/u8_sb_HPMS/u8_sb_HPMS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/igloo/soc/z/component/work/u8_sb/subsystem.bfm
+

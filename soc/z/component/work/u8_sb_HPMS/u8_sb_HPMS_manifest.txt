@@ -1,0 +1,17 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Thu Jul 22 16:09:30 2021
+Project   :  C:\igloo\soc\z
+Component :  u8_sb_HPMS
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/igloo/soc/z/component/work/u8_sb_HPMS/u8_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/igloo/soc/z/component/work/u8_sb_HPMS/u8_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/igloo/soc/z/component/work/u8_sb_HPMS/u8_sb_HPMS_pre.v
+

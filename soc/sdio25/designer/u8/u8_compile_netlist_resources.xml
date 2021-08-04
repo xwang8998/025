@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
+<text>Date: Wed Aug  4 11:33:31 2021
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2GL025</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>484 FBGA</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>0:25:85</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>2.5V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 3.3V</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>u8</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>EDIF</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>D:\820\igloo\soc\sdio25\synthesis\u8.edn</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>5069</cell>
+ <cell>27696</cell>
+ <cell>18.30</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>4829</cell>
+ <cell>27696</cell>
+ <cell>17.44</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>801</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>55</cell>
+ <cell>267</cell>
+ <cell>20.60</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>55</cell>
+ <cell>267</cell>
+ <cell>20.60</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>133</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>0</cell>
+ <cell>34</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>0</cell>
+ <cell>31</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>12</cell>
+ <cell>34</cell>
+ <cell>35.29</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>13</cell>
+ <cell>16</cell>
+ <cell>81.25</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>1</cell>
+ <cell>6</cell>
+ <cell>16.67</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>HPMS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>4637</cell>
+ <cell>4397</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>432</cell>
+ <cell>432</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>5069</cell>
+ <cell>4829</cell>
+</row>
+</table>
+<section><name>HPMS Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>eNVM (256KB)*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eSRAM*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>SPI</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MDDR</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>HPDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>PDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text>* These resources are always marked as used when you are using the HPMS</text>
+<text></text>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>20</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>28</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>29</cell>
+ <cell>7</cell>
+</row>
+<row>
+ <cell>30</cell>
+ <cell>15</cell>
+</row>
+<row>
+ <cell>40</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>41</cell>
+ <cell>60</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>122</cell>
+</row>
+</table>
+<section><name>Detailed MACC Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>2</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>3</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>12</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>40</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVCMOS33</cell>
+ <cell> 3.30v</cell>
+ <cell> N/A</cell>
+ <cell> 3</cell>
+ <cell> 12</cell>
+ <cell> 40</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>3606</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/reset_n_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/reset_n_RNIOFM9/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3605</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/pclk_div2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>493</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/sdclk_n_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/UCK3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>411</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MSS_HPMS_READY_int_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>171</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/mclk_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/UCK1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>119</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/reset_n_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/reset_n_RNI12DE/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>71</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/in_bck_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/UADC/clkd16_inferred_clock_RNI61L/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>70</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u_pcm_tx/reset_n</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u_pcm_tx/reset_n_RNIQ1HA/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UD100/crc_clr</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UD100/crc_clr_RNI1MED/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>37</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u8_sb_0/GL0_INST</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u8_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/adc_clock</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UCK99/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/sdclk_p</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/UCK4/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : mclk_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: mclk_ibuf_RNIC9QA/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>157</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CFG0_GND_INST_NET</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CFG0_GND_INST</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[13][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[13][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[8][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[8][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[7][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[7][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[5][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[5][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[4][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[4][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[2][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[2][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[2]_4</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[0][14]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[27][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[27][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[23][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[23][29]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>157</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CFG0_GND_INST_NET</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CFG0_GND_INST</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[13][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[13][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[8][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[8][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[7][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[7][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[5][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[5][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[4][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[4][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[2][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[2][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[2]_4</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[0][14]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[27][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[27][29]</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/uGEN_DDS/U100/UCORD/z[23][29]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/uGEN_DDS/U100/UCORD/z[23][29]</cell>
+</row>
+</table>
+</doc>

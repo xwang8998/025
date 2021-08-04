@@ -1,0 +1,14 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+SmartFusion2 = D:/Microsemi118/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion2
+postlayout = ../designer/u8/simulation/postlayout
+IGLOO2 = D:/Microsemi118/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion2
+COREAHBLITE_LIB = ../component/Actel/DirectCore/CoreAHBLite/5.2.100/mti/user_vlog/COREAHBLITE_LIB
+smartfusion2 = C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion2
+syncad_vhdl_lib = C:\Microsemi\Libero_SoC_v11.8\Designer/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

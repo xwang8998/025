@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\igloo\soc\z\designer\impl1\u8.adb"
+LIST SOURCE_FILES
+VALUE "C:\igloo\work\test.pdc;pdc"
+VALUE "C:\igloo\work\test.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\igloo\soc\z\synthesis\u8_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

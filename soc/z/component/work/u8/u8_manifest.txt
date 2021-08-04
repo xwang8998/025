@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Wed Aug 26 11:03:55 2020
+Project   :  C:\igloo\soc\z
+Component :  u8
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/igloo/soc/z/component/work/u8/FCCC_0/u8_FCCC_0_FCCC.v
+    C:/igloo/soc/z/component/work/u8/u8.v
+
+Stimulus files for all Simulation tools:
+    C:/igloo/soc/z/component/work/u8/subsystem.bfm
+

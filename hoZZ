@@ -1,0 +1,911 @@
+[33mcommit b1438d3b7933c72ce4d1e7c1cdd8c65905fb843b[m[33m ([m[1;36mHEAD -> [m[1;32mktvadc.v[m[33m, [m[1;31morigin/ktvadc.v[m[33m)[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Jun 16 06:43:04 2018 +0800
+
+    move killdc to adc96, OK
+
+[33mcommit e3d0509c995d4914fb90ceb9f2c19d1197e9b1b8[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Jun 16 05:01:56 2018 +0800
+
+    update adc96.v success
+
+[33mcommit b8dccf751949245c084fd8e04c390f5e1b5a4a47[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Jun 16 04:37:36 2018 +0800
+
+    use adc96.v OK
+
+[33mcommit da1d489f89e3b20708ceadc20ae5448a98c65ab7[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Jun 16 02:13:59 2018 +0800
+
+    ok for dac to use 49MHz mclk
+
+[33mcommit 0ce3be9317632904a72ad2584bff66c18059bdfe[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Jun 16 01:57:27 2018 +0800
+
+    remove some comments
+
+[33mcommit f95cd7bacc80e9f844dc78a743967ee4e66ba955[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Jun 16 01:38:01 2018 +0800
+
+    convert pcm ok
+
+[33mcommit b9186ba0a0fc3bf4ac67a4b7446577fcb413f8b7[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Jun 16 00:36:01 2018 +0800
+
+    remove 1394 fsm, ok
+
+[33mcommit d05f2e050e1b1d9c36407555b6523823b3fda95b[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Jun 15 23:31:25 2018 +0800
+
+    1394 success
+
+[33mcommit 0347e3e127de6d1f453743d51df2ac116ea49641[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Jun 15 14:48:42 2018 +0800
+
+    update test.v ok
+
+[33mcommit 180e8d4a4a102ca9051aaa6d2f61e5523078678b[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Jun 15 14:31:20 2018 +0800
+
+    simplify test.v
+
+[33mcommit 059c1e02530b7ba4edd890311cc64768ad45b033[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Jun 15 14:14:49 2018 +0800
+
+    simplify test.v
+
+[33mcommit 2e7b0bf97d39adfc6890864eb277502d243f6e33[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Jun 15 12:47:44 2018 +0800
+
+    try adc96, bug
+
+[33mcommit 68a87e2844c4063c8dcd23b9a50106a3663238e6[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Jun 15 08:24:09 2018 +0800
+
+    fix adc96.v
+
+[33mcommit 86ef3282833724372890062c199bcbc362e7d931[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Jun 15 02:05:09 2018 +0800
+
+    add adc module
+
+[33mcommit 8597796bd9c2e5db1bf4d7375602d59ac3157001[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu Jun 14 13:37:35 2018 +0800
+
+    design adc for ktv proj
+
+[33mcommit 225bd293000e444d7a5c974d621f1c57418ebe3b[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu May 24 03:42:12 2018 +0800
+
+    save and close sdio25 proj
+
+[33mcommit 67161a373e9ffe0b725f37ae1708a12d9925335e[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue May 22 09:26:20 2018 +0800
+
+    first test ok for miniverb
+
+[33mcommit 02c47037c715fde861f20a817a02fb687d434dfb[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue May 22 08:11:21 2018 +0800
+
+    add tb.v, fix bug in dspcore
+
+[33mcommit cc8cef7904bc41c6c354de619b1d379fc31868d6[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon May 21 12:22:58 2018 +0800
+
+    fix SKP
+
+[33mcommit b2a785ce15c5a879f90dc3da42d69da685462ac1[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 15:30:26 2018 +0800
+
+    save proj after SKP tested
+
+[33mcommit 08405bc740fa9d10d9a6e694aead68392575de46[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 15:29:46 2018 +0800
+
+    SKP tested OK
+
+[33mcommit 88f162ebd453b26552bbefc9bf27b7568338a114[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 15:15:38 2018 +0800
+
+    debug skp
+
+[33mcommit be93d6bc6e9a3d0b3cdd8549cb9c1387636fdcad[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 13:30:01 2018 +0800
+
+    debug SKP
+
+[33mcommit cb9f98d8bae4924a2d5435f09eeb7d96d8b1759d[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 01:41:17 2018 +0800
+
+    add zero buf in config
+
+[33mcommit 53a3519a8ed0ffbfd49f1967e2bf61aec0e2f640[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 01:05:44 2018 +0800
+
+    resume down counter
+
+[33mcommit 6c002873d9864df940b7cc6ef2faf8fbb2738845[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 00:46:21 2018 +0800
+
+    update ramcode to avoid double pipeline
+
+[33mcommit 81c603225e20ebf29db9ca1e3fe83b9b081e0888[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 20 00:12:33 2018 +0800
+
+    fix ram1kx18 double pipelined bug
+
+[33mcommit 8c002111e80ccb27a9738c58e369937d5b5f9466[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat May 19 14:49:33 2018 +0800
+
+    fix sof
+
+[33mcommit 138f6193ee822dcb6d76b0b469caa7612eb04be2[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat May 19 11:43:20 2018 +0800
+
+    debug rmpa
+
+[33mcommit d14a914f4f85d04592d1ed6738a94154310cd8b9[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat May 19 05:27:24 2018 +0800
+
+    add comments
+
+[33mcommit fadc646fa1c1e5732d9da2f266fa945636c0444f[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat May 19 03:01:01 2018 +0800
+
+    make SOF use S.10 format
+
+[33mcommit 20279c56784d581b4fea1839ac943e6adb80347a[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri May 18 14:59:53 2018 +0800
+
+    test wra rda with down counter
+
+[33mcommit 3b28bbe7e7843486b48b0db5eab1405e1abb8cd5[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri May 18 14:39:50 2018 +0800
+
+    debug delay mem, no down counter
+
+[33mcommit 6b22bef0de22d2ea44a2d97c8a946fb2e8e0dad5[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri May 18 12:29:02 2018 +0800
+
+    rda wra 1st pass
+
+[33mcommit f69930857f87eb55eacbb4a53699e934e8c0301f[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu May 17 16:04:34 2018 +0800
+
+    add pre_mem_addr
+
+[33mcommit 56b6d9f6dc2436b766c49bbe853ad19ad107364e[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu May 17 14:51:21 2018 +0800
+
+    add prefetch code
+
+[33mcommit cf23882675b0585a8507d8fb4891a689da3b6691[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu May 17 08:56:18 2018 +0800
+
+    test delay ram access
+
+[33mcommit fcfd05f1652e6e3d3c59975156ef6212d0e6a737[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu May 17 07:46:18 2018 +0800
+
+    redo ram31.v
+
+[33mcommit 54f65925a67631d30ac934834c6d297825f33d0e[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed May 16 14:53:36 2018 +0800
+
+    move n_code update @ run_100+ so run and run100 state can have a non-changing code to use
+
+[33mcommit cdc2e687df30898b26eb266d3b7ef1f76ed0f7cc[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue May 15 12:51:31 2018 +0800
+
+    fix MULX
+
+[33mcommit a22bf21fd1b8f253d02dbb4487b9f8cca20dbff9[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue May 15 11:29:34 2018 +0800
+
+    remove 1cycle instruction, all use 2-cycles
+
+[33mcommit cd269be7d1acb7db71e4ca3d2540060c0a614621[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue May 15 07:23:36 2018 +0800
+
+    verified AND OR XOR WRAX
+
+[33mcommit 5b03c87ceac31497ee17c4dd2ca77bf74e84e36d[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue May 15 06:49:51 2018 +0800
+
+    correct code reading bug, now code will be executed 1 by 1
+
+[33mcommit a415b48356d20fda9b6dcfb88be9244285d9a9cf[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue May 15 04:14:03 2018 +0800
+
+    correct macc bits, slow clock for minidsp
+
+[33mcommit 475d3a6f68aac06aaee4acfbdbe40501bdc744dd[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon May 14 13:20:31 2018 +0800
+
+    correct led pos to fit 025 board
+
+[33mcommit 3dbe3f7a4721625d1f8070dee6ec481efefc24fc[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon May 14 04:05:44 2018 +0800
+
+    add debug
+
+[33mcommit e87234b2034f79b2eb6f5c5c2dd9c553482fb59e[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon May 14 03:59:28 2018 +0800
+
+    add debug
+
+[33mcommit 7025b5170c36eadcea2d1ff76544569bbdf32380[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon May 14 03:56:19 2018 +0800
+
+    use sdio to config dsp
+
+[33mcommit 03054221c622d7156f78cf9a1eb5ab6ae3b291b7[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon May 14 02:15:15 2018 +0800
+
+    add i2c.v
+
+[33mcommit 075d92c44d8cc3428187008ec5d0b188aa14ec15[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 13 14:20:13 2018 +0800
+
+    single channel dsp version
+
+[33mcommit 74643664ca9bcb6f8134e477d302e3c72d019e6d[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 13 13:52:56 2018 +0800
+
+    add dsp codes
+
+[33mcommit 367e90e7f11dc7a5e2bc42169ade93c9aaa67f4f[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 13 07:09:32 2018 +0800
+
+    add 26db gain in sound.v
+
+[33mcommit 92fd274426cfa4e5f7204a5622a85d2c50fe9660[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun May 13 04:56:13 2018 +0800
+
+    always on 45MHz
+
+[33mcommit 567a8d61b08ca401d40d92b6bbfcaceee063c207[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat May 12 15:41:14 2018 +0800
+
+    adjust mic gain
+
+[33mcommit 5e29a3412ce7a9284a237eab5b97986e8150a50a[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat May 12 13:49:30 2018 +0800
+
+    30db gain for 882k wave out, success
+
+[33mcommit 487fce6a37a8e758eac4e7c51bd8a4e065fcb4e4[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Apr 8 15:08:39 2018 +0800
+
+    add some adc sources
+
+[33mcommit 47ff910216bc81d98d288f764e910be15f0e4e58[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Apr 1 18:06:30 2018 +0800
+
+    add adc's decimation filter code in repo
+
+[33mcommit 830af872c5faa44d0784b999a72fd816a7820f8b[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Mar 19 14:04:58 2018 +0800
+
+    update test results
+
+[33mcommit b97bc3e9284580212aec666db03d288453b83acc[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Mar 19 13:58:17 2018 +0800
+
+    test a17, a16 with free running 1394, spur on floor
+
+[33mcommit 0b2169af37ce532b5ce92493399e6e992cc0cf68[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Mar 19 12:13:17 2018 +0800
+
+    A16, aka A1, best THD+N so far
+
+[33mcommit 28a6ae3f6e8aa6992135b0444f123fabc35af619[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 16 07:14:55 2018 +0800
+
+    update debug 3/15, fixed C2 , board OK, new cap C2=560pF
+
+[33mcommit cdd4bf54b24d29fa4f10d7f8712c9497eb61a698[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Mar 13 15:19:06 2018 +0800
+
+    A15 back to A11
+
+[33mcommit 06eb2def7eb0ec4a1be5d44305cc8dbdc60db4c5[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Mar 13 14:09:31 2018 +0800
+
+    try a8, like a4 but 2bit shift
+
+[33mcommit c3ff4b4b28e4500792c31d76a29e671146e70aed[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Mar 13 13:37:48 2018 +0800
+
+    try a7, free running 1394
+
+[33mcommit b452efc9dd9a6b59904258a25e09fe62eb7ecdd6[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Mar 13 13:21:44 2018 +0800
+
+    test A6, 4cycle 1394
+
+[33mcommit 74a6970e6f853498d28fa65717f98bfabf4a878d[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Mar 13 13:05:51 2018 +0800
+
+    test A5, 1cycle 1394
+
+[33mcommit 73caa484b1cb6024adfb7ef4cb8d2102587b6ba2[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Mar 13 12:35:08 2018 +0800
+
+    test A3, same as A2
+
+[33mcommit 904815c4b1625d904d047aeea305290241a01215[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Mar 13 12:12:33 2018 +0800
+
+    A2 test, close to A20
+
+[33mcommit f7386f2a507a082a1fe27a7684551168d0c51910[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Mar 12 02:14:10 2018 +0800
+
+    a22 is 1 cycle latch version
+
+[33mcommit c43f8a3e57605300db8d585b5426d0d2f57bb820[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Mar 12 01:27:52 2018 +0800
+
+    pwm5 version of adc
+
+[33mcommit b7b676cf50aa7d839165c6b83ea3e8e16eeaca67[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Mar 11 02:24:10 2018 +0800
+
+    a20 use big pwm2, huge improvement
+
+[33mcommit bac5caf9c58c805356edd1e16100c383413efd60[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 16:37:18 2018 +0800
+
+    update a17, still noisy
+
+[33mcommit 4c7d09f88bd9dd9010d6b5cf499e52cb80b614e9[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 15:29:50 2018 +0800
+
+    a17 fixed dsd_gear, still noisy
+
+[33mcommit 3bb9f4aa1962e2d086433e27b7552fe8305d4eac[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 11:48:36 2018 +0800
+
+    fixed sound.v dsd_input_gear(), try a17
+
+[33mcommit 1ff7570f9d1520ec863e26a01b7f456a32fe3af6[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 04:38:53 2018 +0800
+
+    now try a11, fixed a10 version
+
+[33mcommit e4c3a5973d82a4469139089d2aee718bafffc988[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 04:31:18 2018 +0800
+
+    fix ram.v
+
+[33mcommit ecf6c7be2fa75fb327765fe4d252b0b4ef44be4f[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 04:30:48 2018 +0800
+
+    fix ram.v
+
+[33mcommit 67a9523effa723476a253ae7c059c6a1cb277d87[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 04:22:37 2018 +0800
+
+    try non debug version of sd.v sound.v
+
+[33mcommit 2668dbc6c91101716dd779babd7957e796f653c5[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Mar 10 04:14:00 2018 +0800
+
+    fix sd.v read adc part, now try sound.v
+
+[33mcommit 7e2b53a61c68f63fdb9ffbda0d9da1955f08db80[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 9 16:37:36 2018 +0800
+
+    sd.v still have bug
+
+[33mcommit 06bfa7b0b34de239b8105a505cf07499dbfa1ca5[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 9 16:04:30 2018 +0800
+
+    fix sd_data reading part, partly fixed
+
+[33mcommit db1b28c39ec608bc95579aaa7d929e735ef1b057[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 9 15:19:12 2018 +0800
+
+    debug ram.v ADC_controller
+
+[33mcommit d5ffcf274622d5279ce7b1fe1d7cb606064122d6[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 9 13:33:14 2018 +0800
+
+    test 1234, en45 is controlled by sdio now
+
+[33mcommit 835c2cdded0c14218e25fc5fade2c67d8c3b008b[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 9 12:48:15 2018 +0800
+
+    update sound.v to test dsd bit order
+
+[33mcommit 1cb46399e0d6508ad4bcfdd1e55eb4daeef6c875[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 9 10:26:38 2018 +0800
+
+    test a10
+
+[33mcommit 36fb10728cfde93a42d6c92817a54563606ab94f[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Mar 9 07:45:09 2018 +0800
+
+    test A7
+
+[33mcommit bfd5403c0d23954a45b0b8dde91a5c1c877b6c0b[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu Mar 8 15:35:45 2018 +0800
+
+    1st working ADC, will fix dsd reading part
+
+[33mcommit c735497deea67eb717be95a2f6d5a3475313f4d7[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Feb 14 15:54:24 2018 +0800
+
+    try free running comparator
+
+[33mcommit 49e778a1d4a9fd07dbe260bcb03a50ab047bae58[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Feb 14 12:35:36 2018 +0800
+
+    debugging...
+
+[33mcommit d2f379e88db31de9c9895282b969072dc8f28f73[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Feb 14 12:12:50 2018 +0800
+
+    debug adc
+
+[33mcommit 30810814c42e160dce55e9f1858021340a3feb7c[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Feb 14 11:47:37 2018 +0800
+
+    corrent P/N pinout, MSB start from left
+
+[33mcommit bba3667b9b5ba529db243e2d70f8db2215780ace[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Jan 15 03:28:41 2018 +0800
+
+    minor update
+
+[33mcommit ad72bbade2034ed5aeb5c4455d777f58ec170a40[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 16:14:59 2018 +0800
+
+    1st try of adc128
+
+[33mcommit 192849c9482390b562b1b3047183eb80d1c41fdc[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 13:53:30 2018 +0800
+
+    force ADC to use dsd mode
+
+[33mcommit de705b7299e4ce2dd5549acd2903a19c079dcd77[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 12:23:21 2018 +0800
+
+    cleanup sdc file
+
+[33mcommit 994f4ac1cfeb8537bf0352d3c37ac36f4d7560ac[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 11:50:09 2018 +0800
+
+    removed DAC, now a minimum adc setup
+
+[33mcommit 1504ce02f0b33822b748aabab95f581ba3e6ead8[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 11:21:47 2018 +0800
+
+    remove some unused codes
+
+[33mcommit fad787139bd2d6cbd8b2916250d42064d831a5e7[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 10:10:29 2018 +0800
+
+    some code clean-up, syn ok
+
+[33mcommit 8c321642d396a242b6d9ceba1802c6faa907b006[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 09:59:33 2018 +0800
+
+    turn dsd ports to inout type
+
+[33mcommit fa558276f510d6815fd7e88864f108294a819ecc[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Jan 14 03:05:20 2018 +0800
+
+    remove clock138 pins
+
+[33mcommit 2ed1d0997ac52c133cbd835fd13eee13c4da430b[m[33m ([m[1;31morigin/pwm[m[33m, [m[1;32mpwm[m[33m)[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu Dec 28 15:11:00 2017 +0800
+
+    simple sdm, reduced LUT, OK @pwm109
+
+[33mcommit 1905776740f5a1707c83847fc35d66678b2976e3[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu Dec 28 09:28:56 2017 +0800
+
+    new simplified 1bit sdm
+
+[33mcommit 61aab25c7c0e7f71b3c77ab074889723587404f3[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Dec 27 10:10:54 2017 +0800
+
+    try pwm108, use pwm89_gen, not ok
+
+[33mcommit 589bbab336f97bff8cd6b051435086e87808c2b6[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Tue Dec 26 16:45:11 2017 +0800
+
+    try pwm106, 2core, ok
+
+[33mcommit 694b9ccec6661c4387694e58010e3663f7f07c2d[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 25 06:38:21 2017 +0800
+
+    3core fir_ram result ok
+
+[33mcommit db7df170c4842d8152a68aed1cc9f1ca7b888f76[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 25 03:34:51 2017 +0800
+
+    pwm103, 1core new fir.v
+
+[33mcommit f8a86cc2d307d8833ecd75c185281554728911c3[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 25 03:29:26 2017 +0800
+
+    add 4core version pwm102, OK
+
+[33mcommit dd6643a656bba157f25716697f26d0d82ce72572[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 18 15:16:39 2017 +0800
+
+    test 3core sdm avg, ok
+
+[33mcommit d4c1f3de9d7af4c44406f13c2cf5deed5a4dbf71[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 18 11:27:59 2017 +0800
+
+    update pwm100 test results, good
+
+[33mcommit 811f6696626011f79e828967437a55e856287c33[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 18 09:29:12 2017 +0800
+
+    new sdm avg, use I3, pwm100
+
+[33mcommit 79eab2a3b9dc564350b02ec26353791ef3768810[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 18 03:55:59 2017 +0800
+
+    2 simple sdm cores combined to pwm99
+
+[33mcommit 73880dae99ea7a8c62484d136d8be05090b13689[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 18 03:39:03 2017 +0800
+
+    2 sdm cores each channel, pwm98 ok
+
+[33mcommit 25d21166c63252fe305fdb45bb6d1851bad0605f[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 17 16:52:57 2017 +0800
+
+    pwm97:simple sdm
+
+[33mcommit 8b73ac7858ad198a73de23892cf2164a250c8c5a[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 17 16:07:56 2017 +0800
+
+    new sdm with feedback tested
+
+[33mcommit 5f1e56e988977547a816eedf068d679231238359[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 11 13:46:36 2017 +0800
+
+    fix bug, enable pwm88
+
+[33mcommit c2e51a59b3879fe9d4b6a16a06a6099be00b3088[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 11 13:45:21 2017 +0800
+
+    fix bug on dem_clk gen
+
+[33mcommit c5f73a4d4f04c0a68b258e548e8936854c085a74[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 11 13:37:51 2017 +0800
+
+    test pwm88
+
+[33mcommit 2f26d86e82053871a68fc5adfae51277ce1b7660[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 11 13:24:13 2017 +0800
+
+    redo pwm1616
+
+[33mcommit 79d420cc44b24f2f3755f94a99a882427d8b1e5b[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 11 13:10:47 2017 +0800
+
+    try pwm88, shorter code
+
+[33mcommit 8d096119cba968ebc18469a73bd48bfbbcb14161[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 11 11:39:39 2017 +0800
+
+    try 16xclock pwm1616
+
+[33mcommit 2b2ce6c481e8ccd6ba30c669edbdc60ab6e9d291[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Mon Dec 11 02:27:58 2017 +0800
+
+    sim complete double edge pwm86
+
+[33mcommit 37dcb63da201ca1a979296d9d981241bc5df5736[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 15:20:50 2017 +0800
+
+    update pwm86's test result
+
+[33mcommit 7605b8ab48fbd542e0f2e00798921ffab23c982e[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 14:30:59 2017 +0800
+
+    add pwm86, 8bpwm @ 8xclock
+
+[33mcommit 011d6afcb75c37259b1b20d8537da1a005a232e4[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 13:42:51 2017 +0800
+
+    test pwm85, use (8,0) (6,2) and (4,4)
+
+[33mcommit 892c03a6a0203f0dbf2929c99d7c3c066457f1dd[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 08:20:00 2017 +0800
+
+    try pwm84 single fall edge
+
+[33mcommit 06256269de3caf44920bf4839933ad8b286b25bc[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 08:16:25 2017 +0800
+
+    try pwm84 single fall edge
+
+[33mcommit ff647ac221f79efdfc321f32c597ec610241f0f7[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 06:43:54 2017 +0800
+
+    try pwm84 hop every 4bits
+
+[33mcommit eba42755148647d3a1d1ab67cd3577f1b75e15f0[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 05:57:52 2017 +0800
+
+    try pwm84 hopping 1 bit
+
+[33mcommit 2739bc454f580cdf3d53c1278cd7df6dafa4d19d[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 05:55:43 2017 +0800
+
+    correct pwm84, check performance
+
+[33mcommit 59efa761891add8faa6cac792a18c16bcc95685d[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Dec 10 01:34:27 2017 +0800
+
+    try a new pwm44, where 1-3 is 1000 - 0111
+
+[33mcommit c6d0e0d3327096435e4cb39030ced2e50e38edbf[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Dec 9 16:05:51 2017 +0800
+
+    finished testing pwm84,bad
+
+[33mcommit cebb26d8a4b859a023097c24cba89f004fb28825[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Dec 9 15:58:21 2017 +0800
+
+    try 8xclk pwm84
+
+[33mcommit 089d65476c63f513af9969f232f19382c8daee05[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Dec 9 13:06:55 2017 +0800
+
+    try 16bit queue in pwm44
+
+[33mcommit 459c61cdb212417ae5c6ea1f187b2620f3f712bc[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Dec 9 09:25:30 2017 +0800
+
+    try nomatch order of sending bits
+
+[33mcommit 100314db5fec5509267f2c36372d9ae3e67ba2aa[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Dec 8 16:10:16 2017 +0800
+
+    try pwm44 for 4b pwm
+
+[33mcommit 7afe4d493f9de1dace66f78bb533fb6fe904e1c3[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Dec 8 15:38:33 2017 +0800
+
+    pwm85 result not good, recheck pwm_82 code
+
+[33mcommit 74910aef1fc4be8bf986c37e66af91917badc995[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Dec 8 14:33:43 2017 +0800
+
+    retry pwm82, use 16bit queue, pick 9bit out of every 2b of queue
+
+[33mcommit 9d8efaa04eb3e2d5d52fc1ac1aea8c0d358914de[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Dec 8 11:10:52 2017 +0800
+
+    pwm83 not as good as pwm42
+
+[33mcommit 7421f5cfea65ce0b9e524e5bec824c89e34ae295[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Dec 8 09:43:41 2017 +0800
+
+    try single sided 8x clock pwm
+
+[33mcommit 3eb701c755c7b0e99d925fc2666547608da1fe82[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Dec 8 09:20:18 2017 +0800
+
+    double edge pwm test, not good @8xclk
+
+[33mcommit 8a9ba033b58fbc5bf16bb610bfc20026d7def5ab[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Fri Dec 8 02:57:55 2017 +0800
+
+    try lq = lp ^ 0xff; not good, floor goes up by freq
+
+[33mcommit 86111f93273f83d69024c83d3b208a39bdb52878[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu Dec 7 13:55:05 2017 +0800
+
+    single edge pwm2, good result 109THD 96THDN
+
+[33mcommit 18febc3bf9f04a5caf46d44bdb96dc95926607ff[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Thu Dec 7 08:58:20 2017 +0800
+
+    1st try pwm version
+
+[33mcommit 5dde3ad737f9011e38821f90a618d59c331a0a15[m[33m ([m[1;31morigin/1bdac[m[33m, [m[1;32m1bdac[m[33m)[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Nov 5 11:27:17 2017 +0800
+
+    d128 mclk delay 3.7ns
+
+[33mcommit 1cf8e2f5fd1d46668c955542ed8dc2144639684f[m
+Author: Yi <jerryzy@yahoo.com>
+Date:   Sat Nov 4 13:16:27 2017 -0700
+
+    use parametered sdm in sd.v
+
+[33mcommit 0544afd02920dc6b61a3504c0bea0732725e2194[m
+Author: Yi <jerryzy@yahoo.com>
+Date:   Sat Nov 4 12:55:26 2017 -0700
+
+    update sdm.v using parameters
+
+[33mcommit b5a73dc79392e0990e285e61791d8499bc3fdaec[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sat Nov 4 01:46:46 2017 +0800
+
+    mclk buffer output, 3.5ns odelay, 104THD on nc7sz74 dac board
+
+[33mcommit e8e4f00fcb5ed9177423b69b21057bbec4762fe2[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Sun Oct 29 14:18:33 2017 +0800
+
+    output dsd128, adjust timing
+
+[33mcommit 0feaeb3ae6c99cbaf16fe7cf2c80ed15b819b2d9[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Oct 25 22:03:29 2017 +0800
+
+    dsd512 1bdac, 1st git version, work OK
+
+[33mcommit cc0501526ee9657eb83c966fb0b5169e0193170a[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Oct 25 20:09:25 2017 +0800
+
+    1st try 1bdac git, waiting..
+
+[33mcommit b8902e7649a5707ccd4f81a60a0554ac86f4072a[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Yi Zhou <jerryzy@yahoo.com>
+Date:   Wed Oct 25 18:34:27 2017 +0800
+
+    1st version d025+9038
+
+[33mcommit 461024f483a712c4606bbcaeefdd4849fdf5d168[m
+Author: yizhou <jerryzy@yahoo.com>
+Date:   Wed Oct 25 18:28:48 2017 +0800
+
+    Initial commit

@@ -1,0 +1,251 @@
+@W: CG921 :"c:\igloo\work\test.v":165:15:165:20|is_dsd is already declared in this scope.
+@W: CG921 :"c:\igloo\work\sound.v":116:22:116:26|clk16 is already declared in this scope.
+@W: CG921 :"c:\igloo\work\sound.v":116:29:116:33|clk32 is already declared in this scope.
+@W: CG921 :"c:\igloo\work\sound.v":116:35:116:39|clk64 is already declared in this scope.
+@W: CG1249 :"c:\igloo\work\sd.v":228:11:228:15|Redeclaration of implicit signal odsdl
+@W: CG1249 :"c:\igloo\work\sd.v":229:11:229:15|Redeclaration of implicit signal odsdr
+@W: CG921 :"c:\igloo\work\sd.v":317:12:317:19|dop_left is already declared in this scope.
+@W: CG921 :"c:\igloo\work\sd.v":1829:5:1829:19|n_sample_change is already declared in this scope.
+@W: CG775 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Found Component CoreAHBLite in library COREAHBLITE_LIB
+@W: CL169 :"c:\igloo\work\sd.v":1408:0:1408:5|Pruning unused register demo[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"c:\igloo\work\sd.v":1408:0:1408:5|Pruning unused bits 31 to 28 of odin[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL113 :"c:\igloo\work\sd.v":1408:0:1408:5|Feedback mux created for signal db[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"c:\igloo\work\sd.v":1408:0:1408:5|All reachable assignments to db[7:0] assign 0, register removed by optimization
+@W: CL169 :"c:\igloo\work\sound.v":68:0:68:5|Pruning unused register clk32. Make sure that there are no unused intermediate registers.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":160:29:160:46|Removing wire almostfulli_assert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":161:29:161:48|Removing wire almostfulli_deassert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":162:29:162:40|Removing wire fulli_assert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":163:29:163:42|Removing wire fulli_deassert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":171:29:171:37|Removing wire neg_reset, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":172:29:172:36|Removing wire re_top_p, as there is no assignment to it.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|Pruning unused register empty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|Pruning unused register aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register empty_top_fwft_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":336:3:336:8|Pruning unused register sc_r_fwft[9:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":486:7:486:12|All reachable assignments to genblk6.wack_r assign 0, register removed by optimization.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":486:7:486:12|All reachable assignments to genblk6.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|All reachable assignments to underflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|All reachable assignments to dvld_r assign 0, register removed by optimization.
+@W: CL177 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":240:3:240:8|Sharing sequential element wrcnt. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Optimizing register bit dvld_r2 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":197:36:197:41|Removing wire EMPTY2, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":198:36:198:42|Removing wire AEMPTY2, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":199:36:199:45|Removing wire fifo_rd_en, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":203:36:203:46|Removing wire pf_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":204:36:204:48|Removing wire fwft_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":209:36:209:39|Removing wire pf_Q, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":210:36:210:41|Removing wire fwft_Q, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":228:36:228:45|Removing wire DVLD_async, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":230:36:230:44|Removing wire DVLD_sync, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":231:36:231:44|Removing wire fwft_dvld, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":232:36:232:49|Removing wire fwft_reg_valid, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":233:36:233:42|Removing wire pf_dvld, as there is no assignment to it.
+@W: CG133 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":242:36:242:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":256:36:256:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":274:8:274:19|Removing wire reset_sync_r, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":275:8:275:19|Removing wire reset_sync_w, as there is no assignment to it.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":1060:3:1060:8|Pruning unused register RDATA_ext_r1[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":1050:3:1050:8|Pruning unused register RDATA_ext_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":985:3:985:8|Pruning unused register REN_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":985:3:985:8|Pruning unused register RE_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":985:3:985:8|Pruning unused register re_pulse_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":973:3:973:8|Pruning unused register RDATA_r2[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":953:3:953:8|Pruning unused register RDATA_r_pre[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":943:3:943:8|Pruning unused register fwft_Q_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":930:5:930:10|Pruning unused register RDATA_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":418:3:418:8|Pruning unused register DVLD_async_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":418:3:418:8|Pruning unused register DVLD_sync_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":418:3:418:8|Pruning unused register DVLD_scntr_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":405:3:405:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":405:3:405:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@W: CG133 :"c:\igloo\work\sound.v":1272:11:1272:14|Object word is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"c:\igloo\work\sound.v":1634:0:1634:5|Pruning unused register lden. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1624:0:1624:5|Pruning unused register rden. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1494:0:1494:5|Pruning unused register source_right_r28[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1494:0:1494:5|Pruning unused register source_right_r29[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1422:0:1422:5|Pruning unused register source_left_r28[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1422:0:1422:5|Pruning unused register source_left_r29[31:0]. Make sure that there are no unused intermediate registers.
+@W: CG133 :"c:\igloo\work\sd.v":1864:9:1864:10|Object ii is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"c:\igloo\work\sd.v":1928:24:1928:30|Object ndsd_ll is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"c:\igloo\work\sd.v":1928:32:1928:38|Object ndsd_rr is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_l_r0[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_l_r1[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_r_r0[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_r_r1[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register ndsd_l[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register ndsd_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register nn[4:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register sum_one[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1933:0:1933:5|Pruning unused register kk[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1916:0:1916:5|Pruning unused register dsd_l_r0[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1916:0:1916:5|Pruning unused register dsd_l_r1[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1791:0:1791:5|Pruning unused register x1counter[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1791:0:1791:5|Pruning unused register xbegin_pick. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":942:0:942:5|Pruning unused register address_out. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":903:0:903:5|Pruning unused register dop_fill[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 0 of channel_status_shift[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"c:\igloo\work\bigfifo.v":111:0:111:5|Pruning unused register c3[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\bigfifo.v":110:0:110:5|Pruning unused register c2[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit HTRANS[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\bigfifo.v":143:0:143:5|Pruning register bit 0 of HTRANS[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"c:\igloo\work\ram.v":115:0:115:5|Pruning unused register fifo_clear_i2s. Make sure that there are no unused intermediate registers.
+@W: CG360 :"c:\igloo\work\sd.v":106:23:106:31|Removing wire HADDR_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":107:24:107:33|Removing wire HWDATA_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":108:23:108:32|Removing wire HTRANS_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":109:17:109:26|Removing wire HWRITE_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":155:12:155:20|Removing wire read_data, as there is no assignment to it.
+@W: CL169 :"c:\igloo\work\sd.v":529:0:529:5|Pruning unused register use_adc_mode. Make sure that there are no unused intermediate registers.
+@W: CL190 :"c:\igloo\work\sd.v":529:0:529:5|Optimizing register bit sound_card_ctrl[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sd.v":529:0:529:5|Optimizing register bit sound_card_ctrl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"c:\igloo\work\sd.v":529:0:529:5|Pruning register bits 4 to 3 of sound_card_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"c:\igloo\work\test.v":288:0:288:5|Pruning unused register do_selftest. Make sure that there are no unused intermediate registers.
+@W: CG360 :"c:\igloo\work\test.v":125:11:125:15|Removing wire debug, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\test.v":164:5:164:12|Removing wire spdif_in, as there is no assignment to it.
+@W: CL169 :"c:\igloo\work\test.v":87:0:87:5|Pruning unused register mclk_d2. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@W: CL247 :"C:\igloo\soc\z\component\work\u8_sb_HPMS\u8_sb_HPMS.v":51:14:51:31|Input port bit 0 of FIC_0_AHB_S_HTRANS[1:0] is unused
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":120:15:120:23|Input port bit 0 of HTRANS_M0[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":131:15:131:23|Input port bit 0 of HTRANS_M1[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":142:15:142:23|Input port bit 0 of HTRANS_M2[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":153:15:153:23|Input port bit 0 of HTRANS_M3[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":163:15:163:22|Input port bit 1 of HRESP_S0[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":176:15:176:22|Input port bit 1 of HRESP_S1[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":189:15:189:22|Input port bit 1 of HRESP_S2[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":202:15:202:22|Input port bit 1 of HRESP_S3[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":215:15:215:22|Input port bit 1 of HRESP_S4[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":228:15:228:22|Input port bit 1 of HRESP_S5[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":241:15:241:22|Input port bit 1 of HRESP_S6[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":254:15:254:22|Input port bit 1 of HRESP_S7[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":267:15:267:22|Input port bit 1 of HRESP_S8[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":280:15:280:22|Input port bit 1 of HRESP_S9[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":293:15:293:23|Input port bit 1 of HRESP_S10[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":306:15:306:23|Input port bit 1 of HRESP_S11[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":319:15:319:23|Input port bit 1 of HRESP_S12[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":332:15:332:23|Input port bit 1 of HRESP_S13[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":345:15:345:23|Input port bit 1 of HRESP_S14[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":358:15:358:23|Input port bit 1 of HRESP_S15[1:0] is unused
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":371:15:371:23|Input port bit 1 of HRESP_S16[1:0] is unused
+@W: CL246 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 15 to 0 of SDATAREADY[16:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 15 to 0 of SHRESP[16:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL156 :"c:\igloo\work\sd.v":155:12:155:20|*Input read_data[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL157 :"c:\igloo\work\sd.v":89:13:89:15|*Output led has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL246 :"c:\igloo\work\ram.v":29:12:29:15|Input port bits 4 to 3 of ctrl[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"c:\igloo\work\bigfifo.v":143:0:143:5|Pruning register bits 7 to 4 of j[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 1 of channel_status_shift[23:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 2 of channel_status_shift[23:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 3 of channel_status_shift[23:3]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 4 of channel_status_shift[23:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 5 of channel_status_shift[23:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"c:\igloo\work\sound.v":880:13:880:23|Input port bits 7 to 0 of source_left[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"c:\igloo\work\sound.v":881:13:881:24|Input port bits 7 to 0 of source_right[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"c:\igloo\work\sd.v":1748:11:1748:14|Input port bit 7 of ctrl[7:0] is unused
+@W: CL246 :"c:\igloo\work\sd.v":1748:11:1748:14|Input port bits 5 to 3 of ctrl[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"c:\igloo\work\sound.v":1587:0:1587:5|Pruning register bits 31 to 9 of hh_R[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"c:\igloo\work\sound.v":1571:0:1571:5|Pruning register bits 31 to 9 of hh_L[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":42:25:42:36|*Output A_SB_CORRECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":43:25:43:36|*Output B_SB_CORRECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":44:25:44:35|*Output A_DB_DETECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":45:25:45:35|*Output B_DB_DETECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL156 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":197:36:197:41|*Input EMPTY2 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL246 :"c:\igloo\work\sound.v":533:12:533:16|Input port bits 6 to 3 of ictrl[7:0] are unused. Assign logic for all port bits or change the input port size.
+

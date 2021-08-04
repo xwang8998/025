@@ -1,0 +1,131 @@
+
+#1001 : create_clock -name mclk -period 8 -waveform {0 4} [get_ports { mclk }]
+# line 7 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+create_clock -name {mclk} -period {8.000} -waveform {0.000 4.000} [get_ports {mclk}]
+
+#1003 : create_clock -name sdclk_n -period 16 -waveform {0 8} [get_pins { test_0.UCK3.Y }]
+# line 9 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+create_clock -name {sdclk_n} -period {16.000} -waveform {0.000 8.000} [get_pins {test_0.UCK3.Y}]
+
+#1004 : create_clock -name mclk4549 -period 16 -waveform {0 8} [get_pins { test_0.UCK1.Y }]
+# line 10 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+create_clock -name {mclk4549} -period {16.000} -waveform {0.000 8.000} [get_pins {test_0.UCK1.Y}]
+
+#1005 : set_output_delay 3.7 -clock mclk [get_ports { *dsd_* }]
+# line 11 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_output_delay -clock [get_clocks {mclk}] {3.700} [get_ports {dsd_ln0 dsd_ln1 dsd_ln2 dsd_ln3 dsd_ln4 dsd_ln5 dsd_ln6 dsd_ln7 dsd_lp0 dsd_lp1 dsd_lp2 dsd_lp3 dsd_lp4 dsd_lp5 dsd_lp6 dsd_lp7 dsd_rn0 dsd_rn1 dsd_rn2 dsd_rn3 dsd_rn4 dsd_rn5 dsd_rn6 dsd_rn7 dsd_rp0 dsd_rp1 dsd_rp2 dsd_rp3 dsd_rp4 dsd_rp5 dsd_rp6 dsd_rp7}]
+
+#1006 : set_output_delay 0.5 -clock sdclk_n [get_ports { cmd sd_d0 sd_d1 sd_d2 sd_d3 }]
+# line 12 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_output_delay -clock [get_clocks {sdclk_n}] {0.500} [get_ports {cmd sd_d0 sd_d1 sd_d2 sd_d3}]
+
+#1007 : set_false_path -from [get_ports { DEVRST_N* }]
+# line 13 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_ports {DEVRST_N}]
+
+#1008 : set_false_path -to [get_ports { en45* }]
+# line 14 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {en45}]
+
+#1009 : set_false_path -to [get_ports { en49* }]
+# line 15 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {en49}]
+
+#1010 : set_false_path -to [get_ports { led* }]
+# line 16 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {led0 led1 led2 led3 led4 led5 led6 led7}]
+
+#1011 : set_false_path -to [get_ports { spdif_en* }]
+# line 17 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {spdif_en}]
+
+#1012 : set_false_path -from [get_clocks { gl0 }] -to test_0*
+# line 18 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { gl0 }] -to {test_0*}
+
+#1013 : set_false_path -from [get_clocks { mclk4549 }] -to u8_sb*
+# line 19 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk4549}] -to [get_clocks {u8_sb_CCC_0_FCCC|GL0_net_inferred_clock}]
+
+#1014 : set_false_path -from [get_clocks { mclk }] -to test_0.u100*
+# line 20 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk}] -to {test_0.u100*}
+
+#1015 : set_false_path -from [get_clocks { mclk4549 }] -to test_0.mclk_d2*
+# line 21 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk4549}] -to [get_cells {test_0.mclk_d2}]
+
+#1016 : set_false_path -from [get_clocks { sdclk_n }] -to *ufifo*
+# line 22 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to {*ufifo*}
+
+#1017 : set_false_path -from [get_clocks { sdclk_n }] -to u8_sb*
+# line 23 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to [get_clocks {u8_sb_CCC_0_FCCC|GL0_net_inferred_clock}]
+
+#1018 : set_false_path -from [get_clocks { sdclk_n }] -to *uctrl*
+# line 24 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to {*uctrl*}
+
+#1019 : set_clock_groups -name u8grps -asynchronous -group [get_clocks { gl0 }] -group [get_clocks { mclk }] -group [get_clocks { mclk4549 }] -group [get_clocks { sdclk_n }]
+# line 25 in d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_clock_groups -name {u8grps} -asynchronous -group [get_clocks {mclk}] -group [get_clocks {mclk4549}] -group [get_clocks {sdclk_n}]
+define_attribute {i:test_0.UD0} {syn_noprune} 1
+define_attribute {i:test_0.UD1} {syn_noprune} 1
+define_attribute {i:test_0.UD2} {syn_noprune} 1
+define_attribute {i:test_0.UD3} {syn_noprune} 1
+define_attribute {i:test_0.UD4} {syn_noprune} 1
+define_attribute {i:test_0.UD5} {syn_noprune} 1
+define_attribute {i:test_0.UD6} {syn_noprune} 1
+define_attribute {i:test_0.UD7} {syn_noprune} 1
+define_attribute {i:test_0.UE0} {syn_noprune} 1
+define_attribute {i:test_0.UE1} {syn_noprune} 1
+define_attribute {i:test_0.UE2} {syn_noprune} 1
+define_attribute {i:test_0.UE3} {syn_noprune} 1
+define_attribute {i:test_0.UE4} {syn_noprune} 1
+define_attribute {i:test_0.UE5} {syn_noprune} 1
+define_attribute {i:test_0.UE6} {syn_noprune} 1
+define_attribute {i:test_0.UE7} {syn_noprune} 1
+define_attribute {i:test_0.UF0} {syn_noprune} 1
+define_attribute {i:test_0.UF1} {syn_noprune} 1
+define_attribute {i:test_0.UF2} {syn_noprune} 1
+define_attribute {i:test_0.UF3} {syn_noprune} 1
+define_attribute {i:test_0.UF4} {syn_noprune} 1
+define_attribute {i:test_0.UF5} {syn_noprune} 1
+define_attribute {i:test_0.UF6} {syn_noprune} 1
+define_attribute {i:test_0.UF7} {syn_noprune} 1
+define_attribute {i:test_0.UG0} {syn_noprune} 1
+define_attribute {i:test_0.UG1} {syn_noprune} 1
+define_attribute {i:test_0.UG2} {syn_noprune} 1
+define_attribute {i:test_0.UG3} {syn_noprune} 1
+define_attribute {i:test_0.UG4} {syn_noprune} 1
+define_attribute {i:test_0.UG5} {syn_noprune} 1
+define_attribute {i:test_0.UG6} {syn_noprune} 1
+define_attribute {i:test_0.UG7} {syn_noprune} 1
+define_attribute {i:test_0.UBB} {syn_noprune} 1
+define_attribute {i:test_0.UDAT0} {syn_noprune} 1
+define_attribute {i:test_0.UDAT1} {syn_noprune} 1
+define_attribute {i:test_0.UDAT2} {syn_noprune} 1
+define_attribute {i:test_0.UDAT3} {syn_noprune} 1
+define_attribute {i:test_0.UDAT20} {syn_noprune} 1
+define_attribute {i:test_0.UDAT21} {syn_noprune} 1
+define_attribute {i:test_0.UDAT22} {syn_noprune} 1
+define_attribute {i:u8_sb_0} {syn_noprune} 1

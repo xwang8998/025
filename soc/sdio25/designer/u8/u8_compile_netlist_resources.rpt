@@ -1,0 +1,228 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Wed Aug  4 11:33:31 2021
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | IGLOO2         |
+| Device                         | M2GL025        |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------+
+| Topcell | u8                                       |
+| Format  | EDIF                                     |
+| Source  | D:\820\igloo\soc\sdio25\synthesis\u8.edn |
++---------+------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 5069 | 27696 | 18.30      |
+| DFF                       | 4829 | 27696 | 17.44      |
+| I/O Register              | 0    | 801   | 0.00       |
+| User I/O                  | 55   | 267   | 20.60      |
+| -- Single-ended I/O       | 55   | 267   | 20.60      |
+| -- Differential I/O Pairs | 0    | 133   | 0.00       |
+| RAM64x18                  | 0    | 34    | 0.00       |
+| RAM1K18                   | 0    | 31    | 0.00       |
+| MACC                      | 12   | 34    | 35.29      |
+| Chip Globals              | 13   | 16    | 81.25      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| HPMS                      | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 4637 | 4397 |
+| RAM64x18 Interface Logic | 0    | 0    |
+| RAM1K18 Interface Logic  | 0    | 0    |
+| MACC Interface Logic     | 432  | 432  |
+| Total Used               | 5069 | 4829 |
++--------------------------+------+------+
+
+HPMS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| SPI           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the HPMS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 20   |
+| 6      | 1    |
+| 9      | 3    |
+| 10     | 2    |
+| 11     | 2    |
+| 14     | 1    |
+| 15     | 2    |
+| 27     | 3    |
+| 28     | 4    |
+| 29     | 7    |
+| 30     | 15   |
+| 40     | 2    |
+| 41     | 60   |
+| Total  | 122  |
++--------+------+
+
+Detailed MACC Resource Usage
++--------+------+
+| Length | Used |
+| 6      | 2    |
+| Total  | 2    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 12           | 0           | 0               |
+| Bidirectional I/O             | 40           | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  3    |  12    |  40           |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                  |
++--------+---------+-----------------------------------------------------------------------+
+| 3606   | INT_NET | Net   : test_0/uGEN_DDS/U100/reset_n_arst                             |
+|        |         | Driver: test_0/uGEN_DDS/U100/reset_n_RNIOFM9/U0_RGB1                  |
+|        |         | Source: NETLIST                                                       |
+| 3605   | INT_NET | Net   : test_0/uGEN_DDS/U100/pclk_div2                                |
+|        |         | Driver: test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6/U0_RGB1 |
+|        |         | Source: NETLIST                                                       |
+| 493    | INT_NET | Net   : test_0/sdclk_n_1                                              |
+|        |         | Driver: test_0/UCK3/U0_RGB1                                           |
+|        |         | Source: NETLIST                                                       |
+| 411    | INT_NET | Net   : MSS_HPMS_READY_int_arst                                       |
+|        |         | Driver: u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1/U0_RGB1   |
+|        |         | Source: NETLIST                                                       |
+| 171    | INT_NET | Net   : test_0/mclk_1                                                 |
+|        |         | Driver: test_0/UCK1/U0_RGB1                                           |
+|        |         | Source: NETLIST                                                       |
+| 119    | INT_NET | Net   : test_0/u100/reset_n_arst                                      |
+|        |         | Driver: test_0/u100/reset_n_RNI12DE/U0_RGB1                           |
+|        |         | Source: NETLIST                                                       |
+| 71     | INT_NET | Net   : test_0/in_bck_1                                               |
+|        |         | Driver: test_0/UADC/clkd16_inferred_clock_RNI61L/U0_RGB1              |
+|        |         | Source: NETLIST                                                       |
+| 70     | INT_NET | Net   : test_0/u_pcm_tx/reset_n                                       |
+|        |         | Driver: test_0/u_pcm_tx/reset_n_RNIQ1HA/U0_RGB1                       |
+|        |         | Source: NETLIST                                                       |
+| 64     | INT_NET | Net   : test_0/u100/UD100/crc_clr                                     |
+|        |         | Driver: test_0/u100/UD100/crc_clr_RNI1MED/U0_RGB1                     |
+|        |         | Source: NETLIST                                                       |
+| 37     | INT_NET | Net   : u8_sb_0/GL0_INST                                              |
+|        |         | Driver: u8_sb_0/CCC_0/GL0_INST/U0_RGB1                                |
+|        |         | Source: NETLIST                                                       |
+| 9      | INT_NET | Net   : test_0/u100/adc_clock                                         |
+|        |         | Driver: test_0/u100/UCK99/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                       |
+| 5      | INT_NET | Net   : test_0/sdclk_p                                                |
+|        |         | Driver: test_0/UCK4/U0_RGB1                                           |
+|        |         | Source: NETLIST                                                       |
+| 2      | INT_NET | Net   : mclk_c                                                        |
+|        |         | Driver: mclk_ibuf_RNIC9QA/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                       |
++--------+---------+-----------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------------------+
+| Fanout | Type    | Name                                         |
++--------+---------+----------------------------------------------+
+| 157    | INT_NET | Net   : CFG0_GND_INST_NET                    |
+|        |         | Driver: CFG0_GND_INST                        |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[13][29] |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[13][29] |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[8][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[8][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[7][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[7][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[5][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[5][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[4][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[4][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[2][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[2][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[2]_4    |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[0][14]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[27][29] |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[27][29] |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[23][29] |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[23][29] |
++--------+---------+----------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------------------+
+| Fanout | Type    | Name                                         |
++--------+---------+----------------------------------------------+
+| 157    | INT_NET | Net   : CFG0_GND_INST_NET                    |
+|        |         | Driver: CFG0_GND_INST                        |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[13][29] |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[13][29] |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[8][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[8][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[7][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[7][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[5][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[5][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[4][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[4][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[2][29]  |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[2][29]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[2]_4    |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[0][14]  |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[27][29] |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[27][29] |
+| 110    | INT_NET | Net   : test_0/uGEN_DDS/U100/UCORD/z[23][29] |
+|        |         | Driver: test_0/uGEN_DDS/U100/UCORD/z[23][29] |
++--------+---------+----------------------------------------------+
+

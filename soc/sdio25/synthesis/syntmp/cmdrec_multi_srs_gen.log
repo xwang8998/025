@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  u8  -multisrs  D:\820\igloo\soc\sdio25\synthesis\synwork\u8_comp.srs  -osyn  D:\820\igloo\soc\sdio25\synthesis\synwork\u8_mult.srs  -log  D:\820\igloo\soc\sdio25\synthesis\synlog\u8_multi_srs_gen.srr 
+relcom:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top u8 -multisrs ..\synwork\u8_comp.srs -osyn ..\synwork\u8_mult.srs -log ..\synlog\u8_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\u8_comp.srs|io:i|time:1628047949|size:233048|exec:0|csum:98C70FF4CE927FE933CF8F4441A5F53B
+file:..\synwork\u8_mult.srs|io:o|time:1628047951|size:5915|exec:0|csum:
+file:..\synlog\u8_multi_srs_gen.srr|io:o|time:1628047951|size:1141|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

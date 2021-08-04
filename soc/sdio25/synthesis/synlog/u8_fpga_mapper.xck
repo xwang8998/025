@@ -1,0 +1,12 @@
+CKID0001:@|S:test_0.uGEN_DDS.U100.pclk_div2@|E:test_0.uGEN_DDS.U100.ystart[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:test_0.UADC.clkd16@|E:test_0.u_pcm_tx.i[5]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:u8_sb_0.CCC_0.CCC_INST@|E:u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:test_0.UADC.clkd8@|E:test_0.UADC.clkd16@|F:@syn_sample_clock_path1==CKID0004@|M:ClockId0004 
+CKID0005:@|S:test_0.UADC.clkd4@|E:test_0.UADC.clkd8@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 
+CKID0006:@|S:test_0.UADC.clkd2@|E:test_0.UADC.clkd4@|F:@syn_sample_clock_path1==CKID0006@|M:ClockId0006 
+CKID0007:@|S:test_0.c2@|E:test_0.c3@|F:@syn_sample_clock_path==CKID0007@|M:ClockId0007 
+CKID0008:@|S:test_0.c1@|E:test_0.c2@|F:@syn_sample_clock_path1==CKID0008@|M:ClockId0008 
+CKID0009:@|S:sdclk@|E:test_0.u100.cmd0@|F:@syn_sample_clock_path==CKID0009@|M:ClockId0009 
+CKID0010:@|S:test_0.UCK3@|E:test_0.u100.buffer_under_run[7]@|F:@syn_sample_clock_path==CKID0010@|M:ClockId0010 
+CKID0011:@|S:test_0.UCK1@|E:test_0.UADC.dsd_rpp[0]@|F:@syn_sample_clock_path==CKID0011@|M:ClockId0011 
+CKID0012:@|S:mclk@|E:test_0.mclk_d2@|F:@syn_sample_clock_path==CKID0012@|M:ClockId0012 

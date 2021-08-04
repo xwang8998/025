@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Fri Jul 10 16:33:22 2020
+Project   :  C:\igloo\soc\z
+Component :  clk_div
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/igloo/soc/z/component/work/clk_div/clk_div.v
+    C:/igloo/soc/z/component/work/clk_div/clk_div_0/clk_div_clk_div_0_FCCC.v
+

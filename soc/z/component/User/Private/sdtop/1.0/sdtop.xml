@@ -1,0 +1,209 @@
+<spirit:component xmlns:actel-cc="http://www.actel.com/XMLSchema/CoreConsole" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1 http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1/component.xsd">
+  <spirit:vendor>User</spirit:vendor>
+  <spirit:library>Private</spirit:library>
+  <spirit:name>sdtop</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+  </spirit:memoryMaps>
+  <spirit:hwModel>
+    <spirit:views>
+    </spirit:views>
+    <spirit:signals>
+      <spirit:signal>
+        <spirit:name>sdclk_p</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>sdclk_n</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>rst_n</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>cmd</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>cmd_out</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>cmd_out_en</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>sd_data_in</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left>3</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>sd_data_out</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>3</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>sd_data_out_en</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>mmclk</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>mclk</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>obck</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>olrck</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>odata</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>omclk</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>dac_mode</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>bck_i</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>lrck_i</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>data_i</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>spdif_en</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>spdif_tx</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>pobck</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>polrck</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>is_dsd</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>HREADY</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>HRDATA</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left>31</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>HADDR</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>31</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>HWDATA</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>31</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>HTRANS</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>1</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>HWRITE</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>en45</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>en49</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>db64</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>63</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>led</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>7</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+    </spirit:signals>
+    <spirit:hwParameters>
+      <spirit:hwParameter spirit:id="INI" spirit:name="INI" spirit:prompt="INI:" spirit:dataType="int" spirit:resolve="user">0</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="STB" spirit:name="STB" spirit:prompt="STB:" spirit:dataType="int" spirit:resolve="user">1</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="TRN" spirit:name="TRN" spirit:prompt="TRN:" spirit:dataType="int" spirit:resolve="user">2</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="CMD" spirit:name="CMD" spirit:prompt="CMD:" spirit:dataType="int" spirit:resolve="user">3</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="INACTIVE" spirit:name="INACTIVE" spirit:prompt="INACTIVE:" spirit:dataType="int" spirit:resolve="user">4</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="INIT" spirit:name="INIT" spirit:prompt="INIT:" spirit:dataType="int" spirit:resolve="user">0</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="READ_CMD" spirit:name="READ_CMD" spirit:prompt="READ_CMD:" spirit:dataType="int" spirit:resolve="user">1</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_CMD" spirit:name="HANDLE_CMD" spirit:prompt="HANDLE_CMD:" spirit:dataType="int" spirit:resolve="user">2</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="SEND_RESP" spirit:name="SEND_RESP" spirit:prompt="SEND_RESP:" spirit:dataType="int" spirit:resolve="user">3</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="SEND_RESP_20" spirit:name="SEND_RESP_20" spirit:prompt="SEND_RESP_20:" spirit:dataType="int" spirit:resolve="user">4</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_CMD357" spirit:name="HANDLE_CMD357" spirit:prompt="HANDLE_CMD357:" spirit:dataType="int" spirit:resolve="user">5</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_CMD52" spirit:name="HANDLE_CMD52" spirit:prompt="HANDLE_CMD52:" spirit:dataType="int" spirit:resolve="user">6</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_CCCR" spirit:name="HANDLE_CCCR" spirit:prompt="HANDLE_CCCR:" spirit:dataType="int" spirit:resolve="user">7</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_FBR" spirit:name="HANDLE_FBR" spirit:prompt="HANDLE_FBR:" spirit:dataType="int" spirit:resolve="user">8</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_CIS" spirit:name="HANDLE_CIS" spirit:prompt="HANDLE_CIS:" spirit:dataType="int" spirit:resolve="user">9</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_CMD53" spirit:name="HANDLE_CMD53" spirit:prompt="HANDLE_CMD53:" spirit:dataType="int" spirit:resolve="user">10</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="CARD_RESET" spirit:name="CARD_RESET" spirit:prompt="CARD_RESET:" spirit:dataType="int" spirit:resolve="user">11</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="HANDLE_USER" spirit:name="HANDLE_USER" spirit:prompt="HANDLE_USER:" spirit:dataType="int" spirit:resolve="user">12</spirit:hwParameter>
+    </spirit:hwParameters>
+  </spirit:hwModel>
+  <spirit:choices>
+  </spirit:choices>
+  <spirit:fileSets>
+  <spirit:fileSet spirit:fileSetId="HDL_FILESET">
+    <spirit:file>
+      <spirit:name>c:/igloo/work/sd.v</spirit:name>
+      <spirit:fileType>verilogSource</spirit:fileType>
+    <spirit:vendorExtensions></spirit:vendorExtensions>
+    </spirit:file>
+  <spirit:vendorExtensions></spirit:vendorExtensions>
+  </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:vendorExtensions>
+    <actel-cc:type typeName="IP"/>
+    <actel-cc:instantiateOnCreation value="false"/>
+    <actel-cc:diveInPermission value="READ_WRITE"/>
+    <actel-cc:categories categoryName="OS" style="hidden">
+      <actel-cc:category name="PC">
+      </actel-cc:category>
+    </actel-cc:categories>
+  </spirit:vendorExtensions>
+</spirit:component>

@@ -1,0 +1,15 @@
+Software Version: 11.8.1.12
+Opened 'C:\igloo\soc\z\designer\u8\u8_fp\u8.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\igloo\soc\z\designer\u8\ae7fc521-df05-4c7e-9f05-dc7edf05dc7e.pdb' has been loaded successfully.
+DESIGN : u8;  CHECKSUM : 63B6;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+Successfully exported STAPL file: 'C:\igloo\soc\z\designer\u8\export\u8_gd1_dop_v4.stp'; file programs Fabric.
+Fabric component digest: 1eaa039453d67de038fe29e4ac431a8cc63c628e49999e3a21acadaecee05e0e
+Finished: Sat Jul 03 16:09:23 2021 (Elapsed time 00:00:08)
+
+The 'export_single_stapl' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

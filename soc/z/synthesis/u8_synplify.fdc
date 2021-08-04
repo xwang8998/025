@@ -1,0 +1,85 @@
+
+#1001 : create_clock -name mclk -period 8 -waveform {0 4} [get_ports { mclk }]
+# line 7 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+create_clock -name {mclk} -period {8.000} -waveform {0.000 4.000} [get_ports {mclk}]
+
+#1006 : create_clock -name wck -period 16 -waveform {0 8} [get_nets { wck }]
+# line 12 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+create_clock -name {wck} -period {16.000} -waveform {0.000 8.000} [get_nets {wck_c}]
+set_false_path -from [get_ports {DEVRST_N}]
+set_false_path -to [get_ports {en45}]
+set_false_path -to [get_ports {en49}]
+set_false_path -to [get_ports {led0 led1 led2 led3 led4 led5 led6 led7}]
+set_false_path -to [get_ports {spdif_en spdif_tx}]
+
+#1017 : set_false_path -from [get_clocks { gl0 }] -to test_0*
+# line 23 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { gl0 }] -to {test_0*}
+set_false_path -from [get_clocks { mclk4549 }] -to [get_clocks {u8_sb_CCC_0_FCCC|GL0_net_inferred_clock}]
+
+#1019 : set_false_path -from [get_clocks { mclk4549 }] -to *USPDIF_TX*
+# line 25 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { mclk4549 }] -to {*USPDIF_TX*}
+set_false_path -from [get_clocks {mclk}] -to {test_0.u100*}
+
+#1021 : set_false_path -from [get_clocks { mclk4549 }] -to *UPCMTX*
+# line 27 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { mclk4549 }] -to {*UPCMTX*}
+
+#1022 : set_false_path -from [get_clocks { sdclk_n }] -to test_0.u200*
+# line 28 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { sdclk_n }] -to {test_0.u200*}
+
+#1023 : set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+# line 29 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { sdclk_n }] -to {*usync*}
+
+#1024 : set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+# line 30 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { sdclk_n }] -to {*usync*}
+
+#1025 : set_false_path -from [get_clocks { sdclk_n }] -to *ufifo*
+# line 31 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { sdclk_n }] -to {*ufifo*}
+set_false_path -from [get_cells {test_0.u100.uctrl.sound_card_start}]
+set_false_path -from [get_cells {test_0.u100.uctrl.use_dsd}]
+
+#1028 : set_false_path -from [get_clocks { in_bck }] -to test_0.u100.uctrl*
+# line 34 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { in_bck }] -to {test_0.u100.uctrl*}
+set_false_path -from [get_clocks { sdclk_n }] -to [get_clocks {u8_sb_CCC_0_FCCC|GL0_net_inferred_clock}]
+
+#1030 : set_false_path -from [get_clocks { clock138_bck }] -to test_0.u200*
+# line 36 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { clock138_bck }] -to {test_0.u200*}
+set_false_path -from [get_clocks {mclk}] -to {test_0.u200*}
+
+#1032 : set_false_path -from [get_clocks { sdclk_n }] -to *UPCM*
+# line 38 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { sdclk_n }] -to {*UPCM*}
+
+#1033 : set_false_path -from [get_clocks { sdclk_n }] -to *uctrl*
+# line 39 in c:/igloo/soc/z/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { sdclk_n }] -to {*uctrl*}
+define_attribute {i:test_0.UBB} {syn_noprune} 1
+define_attribute {i:test_0.UDAT0} {syn_noprune} 1
+define_attribute {i:test_0.UDAT1} {syn_noprune} 1
+define_attribute {i:test_0.UDAT2} {syn_noprune} 1
+define_attribute {i:test_0.UDAT3} {syn_noprune} 1
+define_attribute {i:test_0.UDAT20} {syn_noprune} 1
+define_attribute {i:test_0.UDAT21} {syn_noprune} 1
+define_attribute {i:test_0.UDAT22} {syn_noprune} 1
+define_attribute {i:u8_sb_0} {syn_noprune} 1

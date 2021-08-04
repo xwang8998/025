@@ -1,0 +1,1080 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"c:\igloo\work\test.v" (library work)
+@W: CG921 :"c:\igloo\work\test.v":165:15:165:20|is_dsd is already declared in this scope.
+@I::"c:\igloo\work\sound.v" (library work)
+@W: CG921 :"c:\igloo\work\sound.v":116:22:116:26|clk16 is already declared in this scope.
+@W: CG921 :"c:\igloo\work\sound.v":116:29:116:33|clk32 is already declared in this scope.
+@W: CG921 :"c:\igloo\work\sound.v":116:35:116:39|clk64 is already declared in this scope.
+@I::"c:\igloo\work\crc7.v" (library work)
+@I::"c:\igloo\work\bigfifo.v" (library work)
+@I::"c:\igloo\work\ram.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_NstagesSync.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_grayToBinConv.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_async.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_fwft.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_resetSync.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_LSRAM_top.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v" (library work)
+@I::"C:\igloo\soc\z\component\work\FIFO\FIFO.v" (library work)
+@I::"c:\igloo\work\sd.v" (library work)
+@W: CG1249 :"c:\igloo\work\sd.v":228:11:228:15|Redeclaration of implicit signal odsdl
+@W: CG1249 :"c:\igloo\work\sd.v":229:11:229:15|Redeclaration of implicit signal odsdr
+@W: CG921 :"c:\igloo\work\sd.v":317:12:317:19|dop_left is already declared in this scope.
+@W: CG921 :"c:\igloo\work\sd.v":1829:5:1829:19|n_sample_change is already declared in this scope.
+@I::"C:\igloo\soc\z\component\work\u8\FCCC_0\u8_FCCC_0_FCCC.v" (library work)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
+@I::"C:\igloo\soc\z\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.v" (library work)
+@I::"C:\igloo\soc\z\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@I::"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v" (library work)
+@I::"C:\igloo\soc\z\component\work\u8_sb_HPMS\u8_sb_HPMS_syn.v" (library work)
+@I::"C:\igloo\soc\z\component\work\u8_sb_HPMS\u8_sb_HPMS.v" (library work)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v" (library COREAHBLITE_LIB)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v" (library COREAHBLITE_LIB)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v" (library COREAHBLITE_LIB)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v" (library COREAHBLITE_LIB)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v" (library COREAHBLITE_LIB)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v" (library COREAHBLITE_LIB)
+@I::"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v" (library COREAHBLITE_LIB)
+@I::"C:\igloo\soc\z\component\work\u8_sb\u8_sb.v" (library work)
+@I::"C:\igloo\soc\z\component\work\u8\u8.v" (library work)
+Verilog syntax check successful!
+File c:\igloo\work\sd.v changed - recompiling
+Selecting top level module u8
+@W: CG775 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Found Component CoreAHBLite in library COREAHBLITE_LIB
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":727:7:727:9|Synthesizing module CCC in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\u8\FCCC_0\u8_FCCC_0_FCCC.v":5:7:5:20|Synthesizing module u8_FCCC_0_FCCC in library work.
+
+@N: CG364 :"c:\igloo\work\sound.v":104:7:104:15|Synthesizing module clock_div in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":367:7:367:21|Synthesizing module CLKINT_PRESERVE in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+
+@N: CG364 :"c:\igloo\work\crc7.v":47:7:47:11|Synthesizing module crc16 in library work.
+
+@N: CG179 :"c:\igloo\work\crc7.v":72:20:72:22|Removing redundant assignment.
+@N: CG364 :"c:\igloo\work\sd.v":1332:7:1332:13|Synthesizing module sd_data in library work.
+
+@W: CL169 :"c:\igloo\work\sd.v":1408:0:1408:5|Pruning unused register demo[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"c:\igloo\work\sd.v":1408:0:1408:5|Pruning unused bits 31 to 28 of odin[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL113 :"c:\igloo\work\sd.v":1408:0:1408:5|Feedback mux created for signal db[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"c:\igloo\work\sd.v":1408:0:1408:5|All reachable assignments to db[7:0] assign 0, register removed by optimization
+@N: CG364 :"c:\igloo\work\sound.v":38:7:38:19|Synthesizing module clock_divider in library work.
+
+@W: CL169 :"c:\igloo\work\sound.v":68:0:68:5|Pruning unused register clk32. Make sure that there are no unused intermediate registers.
+@N: CG364 :"c:\igloo\work\sound.v":530:7:530:12|Synthesizing module inctrl in library work.
+
+@N: CG179 :"c:\igloo\work\sound.v":600:18:600:30|Removing redundant assignment.
+@N: CG179 :"c:\igloo\work\sound.v":612:17:612:21|Removing redundant assignment.
+@N: CG364 :"c:\igloo\work\sound.v":720:7:720:13|Synthesizing module pcm2dsd in library work.
+
+@N: CG364 :"c:\igloo\work\sound.v":1709:7:1709:12|Synthesizing module dsd_tx in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":29:7:29:26|Synthesizing module FIFO_FIFO_0_COREFIFO in library work.
+
+	FAMILY=32'b00000000000000000000000000011000
+	SYNC=32'b00000000000000000000000000000001
+	RCLK_EDGE=32'b00000000000000000000000000000001
+	WCLK_EDGE=32'b00000000000000000000000000000001
+	RE_POLARITY=32'b00000000000000000000000000000000
+	WE_POLARITY=32'b00000000000000000000000000000000
+	RWIDTH=32'b00000000000000000000000000100000
+	WWIDTH=32'b00000000000000000000000000100000
+	RDEPTH=32'b00000000000000000000000111100000
+	WDEPTH=32'b00000000000000000000000111100000
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	CTRL_TYPE=32'b00000000000000000000000000000010
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	AE_STATIC_EN=32'b00000000000000000000000000000001
+	AF_STATIC_EN=32'b00000000000000000000000000000001
+	AEVAL=32'b00000000000000000000000000000100
+	AFVAL=32'b00000000000000000000000110010000
+	PIPE=32'b00000000000000000000000000000010
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	ECC=32'b00000000000000000000000000000000
+	RESET_POLARITY=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000001
+	RDCNT_EN=32'b00000000000000000000000000000001
+	NUM_STAGES=32'b00000000000000000000000000000010
+	WMSB_DEPTH=32'b00000000000000000000000000001001
+	RMSB_DEPTH=32'b00000000000000000000000000001001
+	WDEPTH_CAL=32'b00000000000000000000000000001000
+	RDEPTH_CAL=32'b00000000000000000000000000001000
+   Generated name = FIFO_FIFO_0_COREFIFO_Z1
+
+@N: CG364 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":28:7:28:37|Synthesizing module FIFO_FIFO_0_corefifo_sync_scntr in library work.
+
+	WRITE_WIDTH=32'b00000000000000000000000000100000
+	WRITE_DEPTH=32'b00000000000000000000000000001001
+	FULL_WRITE_DEPTH=32'b00000000000000000000000111100000
+	READ_WIDTH=32'b00000000000000000000000000100000
+	READ_DEPTH=32'b00000000000000000000000000001001
+	FULL_READ_DEPTH=32'b00000000000000000000000111100000
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	WCLK_HIGH=32'b00000000000000000000000000000001
+	RESET_LOW=32'b00000000000000000000000000000000
+	WRITE_LOW=32'b00000000000000000000000000000000
+	READ_LOW=32'b00000000000000000000000000000000
+	AF_FLAG_STATIC=32'b00000000000000000000000000000001
+	AE_FLAG_STATIC=32'b00000000000000000000000000000001
+	AFULL_VAL=32'b00000000000000000000000110010000
+	AEMPTY_VAL=32'b00000000000000000000000000000100
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000010
+	REGISTER_RADDR=32'b00000000000000000000000000000010
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000001
+	RDCNT_EN=32'b00000000000000000000000000000001
+	ECC=32'b00000000000000000000000000000000
+	WDEPTH_CAL=32'b00000000000000000000000000001000
+	RDEPTH_CAL=32'b00000000000000000000000000001000
+   Generated name = FIFO_FIFO_0_corefifo_sync_scntr_Z2
+
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":160:29:160:46|Removing wire almostfulli_assert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":161:29:161:48|Removing wire almostfulli_deassert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":162:29:162:40|Removing wire fulli_assert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":163:29:163:42|Removing wire fulli_deassert, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":171:29:171:37|Removing wire neg_reset, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":172:29:172:36|Removing wire re_top_p, as there is no assignment to it.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|Pruning unused register empty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|Pruning unused register aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register empty_top_fwft_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":336:3:336:8|Pruning unused register sc_r_fwft[9:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":486:7:486:12|All reachable assignments to genblk6.wack_r assign 0, register removed by optimization.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":486:7:486:12|All reachable assignments to genblk6.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|All reachable assignments to underflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":433:4:433:9|All reachable assignments to dvld_r assign 0, register removed by optimization.
+@W: CL177 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":240:3:240:8|Sharing sequential element wrcnt. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Optimizing register bit dvld_r2 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":411:3:411:8|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_LSRAM_top.v":5:7:5:27|Synthesizing module FIFO_FIFO_0_LSRAM_top in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":4:7:4:29|Synthesizing module FIFO_FIFO_0_ram_wrapper in library work.
+
+	RWIDTH=32'b00000000000000000000000000100000
+	WWIDTH=32'b00000000000000000000000000100000
+	RDEPTH=32'b00000000000000000000000000001001
+	WDEPTH=32'b00000000000000000000000000001001
+	SYNC=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000010
+	CTRL_TYPE=32'b00000000000000000000000000000010
+   Generated name = FIFO_FIFO_0_ram_wrapper_32s_32s_9_9_1s_2s_2s
+
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":197:36:197:41|Removing wire EMPTY2, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":198:36:198:42|Removing wire AEMPTY2, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":199:36:199:45|Removing wire fifo_rd_en, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":203:36:203:46|Removing wire pf_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":204:36:204:48|Removing wire fwft_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":209:36:209:39|Removing wire pf_Q, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":210:36:210:41|Removing wire fwft_Q, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":228:36:228:45|Removing wire DVLD_async, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":230:36:230:44|Removing wire DVLD_sync, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":231:36:231:44|Removing wire fwft_dvld, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":232:36:232:49|Removing wire fwft_reg_valid, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":233:36:233:42|Removing wire pf_dvld, as there is no assignment to it.
+@W: CG133 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":242:36:242:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":256:36:256:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":274:8:274:19|Removing wire reset_sync_r, as there is no assignment to it.
+@W: CG360 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":275:8:275:19|Removing wire reset_sync_w, as there is no assignment to it.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":1060:3:1060:8|Pruning unused register RDATA_ext_r1[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":1050:3:1050:8|Pruning unused register RDATA_ext_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":985:3:985:8|Pruning unused register REN_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":985:3:985:8|Pruning unused register RE_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":985:3:985:8|Pruning unused register re_pulse_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":973:3:973:8|Pruning unused register RDATA_r2[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":953:3:953:8|Pruning unused register RDATA_r_pre[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":943:3:943:8|Pruning unused register fwft_Q_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":930:5:930:10|Pruning unused register RDATA_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":418:3:418:8|Pruning unused register DVLD_async_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":418:3:418:8|Pruning unused register DVLD_sync_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":418:3:418:8|Pruning unused register DVLD_scntr_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":405:3:405:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":405:3:405:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\igloo\soc\z\component\work\FIFO\FIFO.v":9:7:9:10|Synthesizing module FIFO in library work.
+
+@N: CG364 :"c:\igloo\work\sound.v":1257:7:1257:12|Synthesizing module pcm_tx in library work.
+
+@N: CG179 :"c:\igloo\work\sound.v":1632:16:1632:19|Removing redundant assignment.
+@N: CG179 :"c:\igloo\work\sound.v":1642:16:1642:19|Removing redundant assignment.
+@W: CG133 :"c:\igloo\work\sound.v":1272:11:1272:14|Object word is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"c:\igloo\work\sound.v":1634:0:1634:5|Pruning unused register lden. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1624:0:1624:5|Pruning unused register rden. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1494:0:1494:5|Pruning unused register source_right_r28[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1494:0:1494:5|Pruning unused register source_right_r29[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1422:0:1422:5|Pruning unused register source_left_r28[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1422:0:1422:5|Pruning unused register source_left_r29[31:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"c:\igloo\work\sd.v":1745:7:1745:12|Synthesizing module sample in library work.
+
+@N: CG179 :"c:\igloo\work\sd.v":1824:18:1824:30|Removing redundant assignment.
+@N: CG179 :"c:\igloo\work\sd.v":1836:17:1836:21|Removing redundant assignment.
+@W: CG133 :"c:\igloo\work\sd.v":1864:9:1864:10|Object ii is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"c:\igloo\work\sd.v":1928:24:1928:30|Object ndsd_ll is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"c:\igloo\work\sd.v":1928:32:1928:38|Object ndsd_rr is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_l_r0[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_l_r1[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_r_r0[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":2011:0:2011:5|Pruning unused register ndsd_r_r1[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register ndsd_l[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register ndsd_r[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register nn[4:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1945:0:1945:5|Pruning unused register sum_one[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1933:0:1933:5|Pruning unused register kk[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1916:0:1916:5|Pruning unused register dsd_l_r0[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sd.v":1916:0:1916:5|Pruning unused register dsd_l_r1[31:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"c:\igloo\work\sound.v":1741:7:1741:21|Synthesizing module I2S_DSD_RX24Out in library work.
+
+@W: CL169 :"c:\igloo\work\sound.v":1791:0:1791:5|Pruning unused register x1counter[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":1791:0:1791:5|Pruning unused register xbegin_pick. Make sure that there are no unused intermediate registers.
+@N: CG364 :"c:\igloo\work\sound.v":875:7:875:14|Synthesizing module spdif_tx in library work.
+
+@N: CG179 :"c:\igloo\work\sound.v":988:29:988:40|Removing redundant assignment.
+@W: CL169 :"c:\igloo\work\sound.v":942:0:942:5|Pruning unused register address_out. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\sound.v":903:0:903:5|Pruning unused register dop_fill[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 0 of channel_status_shift[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"c:\igloo\work\ram.v":402:7:402:16|Synthesizing module sync_logic in library work.
+
+	c_DATA_WIDTH=32'b00000000000000000000000000000001
+   Generated name = sync_logic_1s
+
+@N: CG364 :"c:\igloo\work\ram.v":402:7:402:16|Synthesizing module sync_logic in library work.
+
+	c_DATA_WIDTH=32'b00000000000000000000000000000011
+   Generated name = sync_logic_3s
+
+@N: CG364 :"c:\igloo\work\bigfifo.v":6:7:6:13|Synthesizing module bigfifo in library work.
+
+@W: CL169 :"c:\igloo\work\bigfifo.v":111:0:111:5|Pruning unused register c3[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"c:\igloo\work\bigfifo.v":110:0:110:5|Pruning unused register c2[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit HTRANS[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\bigfifo.v":143:0:143:5|Pruning register bit 0 of HTRANS[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"c:\igloo\work\ram.v":15:7:15:20|Synthesizing module mem_controller in library work.
+
+@W: CL169 :"c:\igloo\work\ram.v":115:0:115:5|Pruning unused register fifo_clear_i2s. Make sure that there are no unused intermediate registers.
+@N: CG364 :"c:\igloo\work\crc7.v":6:7:6:10|Synthesizing module crc7 in library work.
+
+@N: CG179 :"c:\igloo\work\crc7.v":33:20:33:22|Removing redundant assignment.
+@N: CG364 :"c:\igloo\work\sd.v":44:7:44:11|Synthesizing module sdtop in library work.
+
+@W: CG360 :"c:\igloo\work\sd.v":106:23:106:31|Removing wire HADDR_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":107:24:107:33|Removing wire HWDATA_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":108:23:108:32|Removing wire HTRANS_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":109:17:109:26|Removing wire HWRITE_ADC, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\sd.v":155:12:155:20|Removing wire read_data, as there is no assignment to it.
+@W: CL169 :"c:\igloo\work\sd.v":529:0:529:5|Pruning unused register use_adc_mode. Make sure that there are no unused intermediate registers.
+@A: CL282 :"c:\igloo\work\sd.v":529:0:529:5|Feedback mux created for signal paused. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"c:\igloo\work\sd.v":529:0:529:5|Feedback mux created for signal mdivpn[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"c:\igloo\work\sd.v":529:0:529:5|Feedback mux created for signal i2sbus[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"c:\igloo\work\sd.v":529:0:529:5|Optimizing register bit sound_card_ctrl[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sd.v":529:0:529:5|Optimizing register bit sound_card_ctrl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"c:\igloo\work\sd.v":529:0:529:5|Pruning register bits 4 to 3 of sound_card_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"c:\igloo\work\test.v":258:7:258:20|Synthesizing module clock138master in library work.
+
+@W: CL169 :"c:\igloo\work\test.v":288:0:288:5|Pruning unused register do_selftest. Make sure that there are no unused intermediate registers.
+@N: CG364 :"c:\igloo\work\test.v":6:7:6:10|Synthesizing module test in library work.
+
+@W: CG360 :"c:\igloo\work\test.v":125:11:125:15|Removing wire debug, as there is no assignment to it.
+@W: CG360 :"c:\igloo\work\test.v":164:5:164:12|Removing wire spdif_in, as there is no assignment to it.
+@W: CL169 :"c:\igloo\work\test.v":87:0:87:5|Pruning unused register mclk_d2. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\igloo\soc\z\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.v":5:7:5:22|Synthesizing module u8_sb_CCC_0_FCCC in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC in library COREAHBLITE_LIB.
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b10000000000000000
+	MSB_ADDR=32'b00000000000000000000000000011111
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z3
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v":20:7:20:32|Synthesizing module COREAHBLITE_DEFAULTSLAVESM in library COREAHBLITE_LIB.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	HRESPEXTEND=1'b1
+   Generated name = COREAHBLITE_DEFAULTSLAVESM_0s_0_1
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE in library COREAHBLITE_LIB.
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b10000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0
+
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC in library COREAHBLITE_LIB.
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b00000000000000000
+	MSB_ADDR=32'b00000000000000000000000000011111
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z4
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE in library COREAHBLITE_LIB.
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b00000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_1_1_85_0_0s_0_1_0
+
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":20:7:20:30|Synthesizing module COREAHBLITE_SLAVEARBITER in library COREAHBLITE_LIB.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	M0EXTEND=4'b0000
+	M0DONE=4'b0001
+	M0LOCK=4'b0010
+	M0LOCKEXTEND=4'b0011
+	M1EXTEND=4'b0100
+	M1DONE=4'b0101
+	M1LOCK=4'b0110
+	M1LOCKEXTEND=4'b0111
+	M2EXTEND=4'b1000
+	M2DONE=4'b1001
+	M2LOCK=4'b1010
+	M2LOCKEXTEND=4'b1011
+	M3EXTEND=4'b1100
+	M3DONE=4'b1101
+	M3LOCK=4'b1110
+	M3LOCKEXTEND=4'b1111
+	MASTER_0=4'b0001
+	MASTER_1=4'b0010
+	MASTER_2=4'b0100
+	MASTER_3=4'b1000
+	MASTER_NONE=4'b0000
+   Generated name = COREAHBLITE_SLAVEARBITER_Z5
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":22:7:22:28|Synthesizing module COREAHBLITE_SLAVESTAGE in library COREAHBLITE_LIB.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TRN_IDLE=1'b0
+	MASTER_NONE=4'b0000
+   Generated name = COREAHBLITE_SLAVESTAGE_0s_0_0
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":23:7:23:28|Synthesizing module COREAHBLITE_MATRIX4X16 in library COREAHBLITE_LIB.
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M0_AHBSLOTENABLE=17'b10000000000000000
+	M1_AHBSLOTENABLE=17'b00000000000000000
+	M2_AHBSLOTENABLE=17'b00000000000000000
+	M3_AHBSLOTENABLE=17'b00000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Synthesizing module CoreAHBLite in library COREAHBLITE_LIB.
+
+	FAMILY=6'b011000
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC_0=1'b1
+	SC_1=1'b0
+	SC_2=1'b1
+	SC_3=1'b0
+	SC_4=1'b1
+	SC_5=1'b0
+	SC_6=1'b1
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	M0_AHBSLOT0ENABLE=1'b0
+	M0_AHBSLOT1ENABLE=1'b0
+	M0_AHBSLOT2ENABLE=1'b0
+	M0_AHBSLOT3ENABLE=1'b0
+	M0_AHBSLOT4ENABLE=1'b0
+	M0_AHBSLOT5ENABLE=1'b0
+	M0_AHBSLOT6ENABLE=1'b0
+	M0_AHBSLOT7ENABLE=1'b0
+	M0_AHBSLOT8ENABLE=1'b0
+	M0_AHBSLOT9ENABLE=1'b0
+	M0_AHBSLOT10ENABLE=1'b0
+	M0_AHBSLOT11ENABLE=1'b0
+	M0_AHBSLOT12ENABLE=1'b0
+	M0_AHBSLOT13ENABLE=1'b0
+	M0_AHBSLOT14ENABLE=1'b0
+	M0_AHBSLOT15ENABLE=1'b0
+	M0_AHBSLOT16ENABLE=1'b1
+	M1_AHBSLOT0ENABLE=1'b0
+	M1_AHBSLOT1ENABLE=1'b0
+	M1_AHBSLOT2ENABLE=1'b0
+	M1_AHBSLOT3ENABLE=1'b0
+	M1_AHBSLOT4ENABLE=1'b0
+	M1_AHBSLOT5ENABLE=1'b0
+	M1_AHBSLOT6ENABLE=1'b0
+	M1_AHBSLOT7ENABLE=1'b0
+	M1_AHBSLOT8ENABLE=1'b0
+	M1_AHBSLOT9ENABLE=1'b0
+	M1_AHBSLOT10ENABLE=1'b0
+	M1_AHBSLOT11ENABLE=1'b0
+	M1_AHBSLOT12ENABLE=1'b0
+	M1_AHBSLOT13ENABLE=1'b0
+	M1_AHBSLOT14ENABLE=1'b0
+	M1_AHBSLOT15ENABLE=1'b0
+	M1_AHBSLOT16ENABLE=1'b0
+	M2_AHBSLOT0ENABLE=1'b0
+	M2_AHBSLOT1ENABLE=1'b0
+	M2_AHBSLOT2ENABLE=1'b0
+	M2_AHBSLOT3ENABLE=1'b0
+	M2_AHBSLOT4ENABLE=1'b0
+	M2_AHBSLOT5ENABLE=1'b0
+	M2_AHBSLOT6ENABLE=1'b0
+	M2_AHBSLOT7ENABLE=1'b0
+	M2_AHBSLOT8ENABLE=1'b0
+	M2_AHBSLOT9ENABLE=1'b0
+	M2_AHBSLOT10ENABLE=1'b0
+	M2_AHBSLOT11ENABLE=1'b0
+	M2_AHBSLOT12ENABLE=1'b0
+	M2_AHBSLOT13ENABLE=1'b0
+	M2_AHBSLOT14ENABLE=1'b0
+	M2_AHBSLOT15ENABLE=1'b0
+	M2_AHBSLOT16ENABLE=1'b0
+	M3_AHBSLOT0ENABLE=1'b0
+	M3_AHBSLOT1ENABLE=1'b0
+	M3_AHBSLOT2ENABLE=1'b0
+	M3_AHBSLOT3ENABLE=1'b0
+	M3_AHBSLOT4ENABLE=1'b0
+	M3_AHBSLOT5ENABLE=1'b0
+	M3_AHBSLOT6ENABLE=1'b0
+	M3_AHBSLOT7ENABLE=1'b0
+	M3_AHBSLOT8ENABLE=1'b0
+	M3_AHBSLOT9ENABLE=1'b0
+	M3_AHBSLOT10ENABLE=1'b0
+	M3_AHBSLOT11ENABLE=1'b0
+	M3_AHBSLOT12ENABLE=1'b0
+	M3_AHBSLOT13ENABLE=1'b0
+	M3_AHBSLOT14ENABLE=1'b0
+	M3_AHBSLOT15ENABLE=1'b0
+	M3_AHBSLOT16ENABLE=1'b0
+	SYNC_RESET=32'b00000000000000000000000000000000
+	M0_AHBSLOTENABLE=17'b10000000000000000
+	M1_AHBSLOTENABLE=17'b00000000000000000
+	M2_AHBSLOTENABLE=17'b00000000000000000
+	M3_AHBSLOTENABLE=17'b00000000000000000
+	SC=16'b0000000001010101
+   Generated name = CoreAHBLite_Z6
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z7
+
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\igloo\soc\z\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":5:7:5:24|Synthesizing module u8_sb_FABOSC_0_OSC in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\igloo2.v":718:7:718:14|Synthesizing module SYSRESET in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\u8_sb_HPMS\u8_sb_HPMS_syn.v":5:7:5:13|Synthesizing module MSS_005 in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\u8_sb_HPMS\u8_sb_HPMS.v":9:7:9:16|Synthesizing module u8_sb_HPMS in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\u8_sb\u8_sb.v":9:7:9:11|Synthesizing module u8_sb in library work.
+
+@N: CG364 :"C:\igloo\soc\z\component\work\u8\u8.v":9:7:9:8|Synthesizing module u8 in library work.
+
+@W: CL247 :"C:\igloo\soc\z\component\work\u8_sb_HPMS\u8_sb_HPMS.v":51:14:51:31|Input port bit 0 of FIC_0_AHB_S_HTRANS[1:0] is unused
+
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\igloo\soc\z\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":120:15:120:23|Input port bit 0 of HTRANS_M0[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":131:15:131:23|Input port bit 0 of HTRANS_M1[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":142:15:142:23|Input port bit 0 of HTRANS_M2[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":153:15:153:23|Input port bit 0 of HTRANS_M3[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":163:15:163:22|Input port bit 1 of HRESP_S0[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":176:15:176:22|Input port bit 1 of HRESP_S1[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":189:15:189:22|Input port bit 1 of HRESP_S2[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":202:15:202:22|Input port bit 1 of HRESP_S3[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":215:15:215:22|Input port bit 1 of HRESP_S4[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":228:15:228:22|Input port bit 1 of HRESP_S5[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":241:15:241:22|Input port bit 1 of HRESP_S6[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":254:15:254:22|Input port bit 1 of HRESP_S7[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":267:15:267:22|Input port bit 1 of HRESP_S8[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":280:15:280:22|Input port bit 1 of HRESP_S9[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":293:15:293:23|Input port bit 1 of HRESP_S10[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":306:15:306:23|Input port bit 1 of HRESP_S11[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":319:15:319:23|Input port bit 1 of HRESP_S12[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":332:15:332:23|Input port bit 1 of HRESP_S13[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":345:15:345:23|Input port bit 1 of HRESP_S14[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":358:15:358:23|Input port bit 1 of HRESP_S15[1:0] is unused
+
+@W: CL247 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":371:15:371:23|Input port bit 1 of HRESP_S16[1:0] is unused
+
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":123:15:123:23|Input HBURST_M0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":124:15:124:22|Input HPROT_M0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":134:15:134:23|Input HBURST_M1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":135:15:135:22|Input HPROT_M1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":145:15:145:23|Input HBURST_M2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":146:15:146:22|Input HPROT_M2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":156:15:156:23|Input HBURST_M3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":157:15:157:22|Input HPROT_M3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":51:18:51:26|Input HWDATA_M1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":60:18:60:26|Input HWDATA_M2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":69:18:69:26|Input HWDATA_M3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":73:18:73:26|Input HRDATA_S0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":74:13:74:24|Input HREADYOUT_S0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":75:13:75:20|Input HRESP_S0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":84:18:84:26|Input HRDATA_S1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":85:13:85:24|Input HREADYOUT_S1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":86:13:86:20|Input HRESP_S1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":95:18:95:26|Input HRDATA_S2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":96:13:96:24|Input HREADYOUT_S2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":97:13:97:20|Input HRESP_S2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":106:18:106:26|Input HRDATA_S3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":107:13:107:24|Input HREADYOUT_S3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":108:13:108:20|Input HRESP_S3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":117:18:117:26|Input HRDATA_S4 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":118:13:118:24|Input HREADYOUT_S4 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":119:13:119:20|Input HRESP_S4 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":128:18:128:26|Input HRDATA_S5 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":129:13:129:24|Input HREADYOUT_S5 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":130:13:130:20|Input HRESP_S5 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":139:18:139:26|Input HRDATA_S6 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":140:13:140:24|Input HREADYOUT_S6 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":141:13:141:20|Input HRESP_S6 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":150:18:150:26|Input HRDATA_S7 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":151:13:151:24|Input HREADYOUT_S7 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":152:13:152:20|Input HRESP_S7 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":161:18:161:26|Input HRDATA_S8 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":162:13:162:24|Input HREADYOUT_S8 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":163:13:163:20|Input HRESP_S8 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":172:18:172:26|Input HRDATA_S9 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":173:13:173:24|Input HREADYOUT_S9 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":174:13:174:20|Input HRESP_S9 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":183:18:183:27|Input HRDATA_S10 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":184:13:184:25|Input HREADYOUT_S10 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":185:13:185:21|Input HRESP_S10 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":194:18:194:27|Input HRDATA_S11 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":195:13:195:25|Input HREADYOUT_S11 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":196:13:196:21|Input HRESP_S11 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":205:18:205:27|Input HRDATA_S12 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":206:13:206:25|Input HREADYOUT_S12 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":207:13:207:21|Input HRESP_S12 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":216:18:216:27|Input HRDATA_S13 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":217:13:217:25|Input HREADYOUT_S13 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":218:13:218:21|Input HRESP_S13 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":227:18:227:27|Input HRDATA_S14 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":228:13:228:25|Input HREADYOUT_S14 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":229:13:229:21|Input HRESP_S14 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":238:18:238:27|Input HRDATA_S15 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":239:13:239:25|Input HREADYOUT_S15 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":240:13:240:21|Input HRESP_S15 is unused.
+@N: CL201 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Trying to extract state machine for register arbRegSMCurrentState.
+Extracted state machine for register arbRegSMCurrentState
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input SDATAREADY is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input SHRESP is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S16 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S16 is unused.
+@W: CL246 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 15 to 0 of SDATAREADY[16:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 15 to 0 of SHRESP[16:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused.
+@N: CL159 :"C:\igloo\soc\z\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused.
+@N: CL159 :"c:\igloo\work\test.v":27:24:27:28|Input HRESP is unused.
+@N: CL159 :"c:\igloo\work\test.v":28:11:28:18|Input pll_lock is unused.
+@N: CL159 :"c:\igloo\work\test.v":262:6:262:9|Input mclk is unused.
+@N: CL201 :"c:\igloo\work\sd.v":529:0:529:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 13 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+@N: CL201 :"c:\igloo\work\sd.v":529:0:529:5|Trying to extract state machine for register bus_state.
+Extracted state machine for register bus_state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL156 :"c:\igloo\work\sd.v":155:12:155:20|*Input read_data[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL157 :"c:\igloo\work\sd.v":89:13:89:15|*Output led has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"c:\igloo\work\sd.v":67:6:67:10|Input bck_i is unused.
+@N: CL159 :"c:\igloo\work\sd.v":68:6:68:11|Input lrck_i is unused.
+@N: CL159 :"c:\igloo\work\sd.v":69:6:69:11|Input data_i is unused.
+@N: CL201 :"c:\igloo\work\ram.v":115:0:115:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL246 :"c:\igloo\work\ram.v":29:12:29:15|Input port bits 4 to 3 of ctrl[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\bigfifo.v":143:0:143:5|Optimizing register bit j[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"c:\igloo\work\bigfifo.v":143:0:143:5|Pruning register bits 7 to 4 of j[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"c:\igloo\work\bigfifo.v":143:0:143:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 1 of channel_status_shift[23:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 2 of channel_status_shift[23:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 3 of channel_status_shift[23:3]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 4 of channel_status_shift[23:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"c:\igloo\work\sound.v":942:0:942:5|Optimizing register bit channel_status_shift[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"c:\igloo\work\sound.v":942:0:942:5|Pruning register bit 5 of channel_status_shift[23:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"c:\igloo\work\sound.v":880:13:880:23|Input port bits 7 to 0 of source_left[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"c:\igloo\work\sound.v":881:13:881:24|Input port bits 7 to 0 of source_right[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"c:\igloo\work\sound.v":1747:2:1747:6|Input isDSD is unused.
+@W: CL247 :"c:\igloo\work\sd.v":1748:11:1748:14|Input port bit 7 of ctrl[7:0] is unused
+
+@W: CL246 :"c:\igloo\work\sd.v":1748:11:1748:14|Input port bits 5 to 3 of ctrl[7:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"c:\igloo\work\sd.v":1750:6:1750:8|Input dck is unused.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1571:0:1571:5|Optimizing register bit hh_L[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"c:\igloo\work\sound.v":1587:0:1587:5|Optimizing register bit hh_R[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"c:\igloo\work\sound.v":1587:0:1587:5|Pruning register bits 31 to 9 of hh_R[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"c:\igloo\work\sound.v":1571:0:1571:5|Pruning register bits 31 to 9 of hh_L[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"c:\igloo\work\sound.v":1260:6:1260:10|Input start is unused.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":42:25:42:36|*Output A_SB_CORRECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":43:25:43:36|*Output B_SB_CORRECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":44:25:44:35|*Output A_DB_DETECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":45:25:45:35|*Output B_DB_DETECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":46:25:46:30|Input WCLOCK is unused.
+@N: CL159 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\FIFO_FIFO_0_ram_wrapper.v":47:25:47:30|Input RCLOCK is unused.
+@N: CL159 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":97:29:97:34|Input re_top is unused.
+@N: CL159 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":98:29:98:42|Input empty_top_fwft is unused.
+@W: CL156 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":197:36:197:41|*Input EMPTY2 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"C:\igloo\soc\z\component\work\FIFO\FIFO_0\rtl\vlog\core\COREFIFO.v":163:36:163:40|Input MEMRD is unused.
+@N: CL159 :"c:\igloo\work\sound.v":1712:6:1712:10|Input start is unused.
+@W: CL246 :"c:\igloo\work\sound.v":533:12:533:16|Input port bits 6 to 3 of ictrl[7:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"c:\igloo\work\sound.v":536:6:536:12|Input in_lrck is unused.
+@N: CL159 :"c:\igloo\work\sound.v":538:6:538:12|Input in_data is unused.
+@N: CL201 :"c:\igloo\work\sd.v":1408:0:1408:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 8 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+@N: CL159 :"c:\igloo\work\sd.v":1354:7:1354:15|Input demo_mute is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 109MB peak: 118MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Jul 03 16:02:38 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File C:\igloo\soc\z\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 81MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jul 03 16:02:38 2021
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Sat Jul 03 16:02:38 2021
+
+###########################################################]

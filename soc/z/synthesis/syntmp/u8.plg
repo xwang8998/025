@@ -1,0 +1,107 @@
+@P:  Worst Slack : 0.259
+@P:  clock_divider|clk2_inferred_clock - Estimated Frequency : 191.0 MHz
+@P:  clock_divider|clk2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_divider|clk2_inferred_clock - Estimated Period : 5.235
+@P:  clock_divider|clk2_inferred_clock - Requested Period : 10.000
+@P:  clock_divider|clk2_inferred_clock - Slack : 4.765
+@P:  clock_divider|clk4_inferred_clock - Estimated Frequency : 191.0 MHz
+@P:  clock_divider|clk4_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_divider|clk4_inferred_clock - Estimated Period : 5.235
+@P:  clock_divider|clk4_inferred_clock - Requested Period : 10.000
+@P:  clock_divider|clk4_inferred_clock - Slack : 4.765
+@P:  clock_divider|clk8_inferred_clock - Estimated Frequency : 191.0 MHz
+@P:  clock_divider|clk8_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_divider|clk8_inferred_clock - Estimated Period : 5.235
+@P:  clock_divider|clk8_inferred_clock - Requested Period : 10.000
+@P:  clock_divider|clk8_inferred_clock - Slack : 4.765
+@P:  clock_div|clk2_inferred_clock - Estimated Frequency : 573.0 MHz
+@P:  clock_div|clk2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_div|clk2_inferred_clock - Estimated Period : 1.745
+@P:  clock_div|clk2_inferred_clock - Requested Period : 10.000
+@P:  clock_div|clk2_inferred_clock - Slack : 8.255
+@P:  clock_div|clk4_inferred_clock - Estimated Frequency : 573.0 MHz
+@P:  clock_div|clk4_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_div|clk4_inferred_clock - Estimated Period : 1.745
+@P:  clock_div|clk4_inferred_clock - Requested Period : 10.000
+@P:  clock_div|clk4_inferred_clock - Slack : 8.255
+@P:  clock_div|clk8_inferred_clock - Estimated Frequency : 573.0 MHz
+@P:  clock_div|clk8_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_div|clk8_inferred_clock - Estimated Period : 1.745
+@P:  clock_div|clk8_inferred_clock - Requested Period : 10.000
+@P:  clock_div|clk8_inferred_clock - Slack : 8.255
+@P:  clock_div|clk16_inferred_clock - Estimated Frequency : 573.0 MHz
+@P:  clock_div|clk16_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_div|clk16_inferred_clock - Estimated Period : 1.745
+@P:  clock_div|clk16_inferred_clock - Requested Period : 10.000
+@P:  clock_div|clk16_inferred_clock - Slack : 8.255
+@P:  clock_div|clk32_inferred_clock - Estimated Frequency : 771.2 MHz
+@P:  clock_div|clk32_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_div|clk32_inferred_clock - Estimated Period : 1.297
+@P:  clock_div|clk32_inferred_clock - Requested Period : 10.000
+@P:  clock_div|clk32_inferred_clock - Slack : 8.703
+@P:  mclk - Estimated Frequency : 573.0 MHz
+@P:  mclk - Requested Frequency : 125.0 MHz
+@P:  mclk - Estimated Period : 1.745
+@P:  mclk - Requested Period : 8.000
+@P:  mclk - Slack : 6.255
+@P:  pcm_tx|ii_inferred_clock[5] - Estimated Frequency : 324.8 MHz
+@P:  pcm_tx|ii_inferred_clock[5] - Requested Frequency : 100.0 MHz
+@P:  pcm_tx|ii_inferred_clock[5] - Estimated Period : 3.079
+@P:  pcm_tx|ii_inferred_clock[5] - Requested Period : 10.000
+@P:  pcm_tx|ii_inferred_clock[5] - Slack : 6.922
+@P:  sample|m_inferred_clock[4] - Estimated Frequency : 311.0 MHz
+@P:  sample|m_inferred_clock[4] - Requested Frequency : 100.0 MHz
+@P:  sample|m_inferred_clock[4] - Estimated Period : 3.215
+@P:  sample|m_inferred_clock[4] - Requested Period : 10.000
+@P:  sample|m_inferred_clock[4] - Slack : 6.785
+@P:  sdtop|dsd_clkr_inferred_clock - Estimated Frequency : 274.1 MHz
+@P:  sdtop|dsd_clkr_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  sdtop|dsd_clkr_inferred_clock - Estimated Period : 3.648
+@P:  sdtop|dsd_clkr_inferred_clock - Requested Period : 10.000
+@P:  sdtop|dsd_clkr_inferred_clock - Slack : 6.352
+@P:  sdtop|mmclk_d2_inferred_clock - Estimated Frequency : 181.2 MHz
+@P:  sdtop|mmclk_d2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  sdtop|mmclk_d2_inferred_clock - Estimated Period : 5.518
+@P:  sdtop|mmclk_d2_inferred_clock - Requested Period : 10.000
+@P:  sdtop|mmclk_d2_inferred_clock - Slack : 4.482
+@P:  sdtop|mmclk_d4_inferred_clock - Estimated Frequency : 771.2 MHz
+@P:  sdtop|mmclk_d4_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  sdtop|mmclk_d4_inferred_clock - Estimated Period : 1.297
+@P:  sdtop|mmclk_d4_inferred_clock - Requested Period : 10.000
+@P:  sdtop|mmclk_d4_inferred_clock - Slack : 8.703
+@P:  u8_FCCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 170.0 MHz
+@P:  u8_FCCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  u8_FCCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 5.882
+@P:  u8_FCCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  u8_FCCC_0_FCCC|GL0_net_inferred_clock - Slack : 4.118
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 102.7 MHz
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 9.741
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 0.259
+@P:  u8|clock138_bck - Estimated Frequency : 322.8 MHz
+@P:  u8|clock138_bck - Requested Frequency : 100.0 MHz
+@P:  u8|clock138_bck - Estimated Period : 3.098
+@P:  u8|clock138_bck - Requested Period : 10.000
+@P:  u8|clock138_bck - Slack : 6.902
+@P:  u8|sdclk - Estimated Frequency : 130.3 MHz
+@P:  u8|sdclk - Requested Frequency : 100.0 MHz
+@P:  u8|sdclk - Estimated Period : 7.676
+@P:  u8|sdclk - Requested Period : 10.000
+@P:  u8|sdclk - Slack : 2.324
+@P:  wck - Estimated Frequency : NA
+@P:  wck - Requested Frequency : 62.5 MHz
+@P:  wck - Estimated Period : NA
+@P:  wck - Requested Period : 16.000
+@P:  wck - Slack : NA
+@P:  System - Estimated Frequency : 226.5 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 4.415
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 5.585
+@P: u8 Part : m2gl005vf256std
+@P: u8 Register bits  : 3697 
+@P: u8 DSP Blocks  : 0
+@P: u8 I/O primitives : 29
+@P: u8 RAM1K18 :  2
+@P:  CPU Time : 0h:00m:17s

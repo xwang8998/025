@@ -1,0 +1,2 @@
+@E: CG301 :"c:\igloo\work\sound.v":1603:9:1603:32|Can't mix posedge/negedge use with plain signal references
+

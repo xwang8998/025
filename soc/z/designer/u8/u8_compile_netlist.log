@@ -1,0 +1,54 @@
+Warning: CMPG4-201: Net test_0/odata_i drives no load.
+Warning: CMPG4-201: Net test_0/olrck_i drives no load.
+Warning: CMPG4-201: Net test_0/obck_i drives no load.
+Warning: CMPG4-047: Deleted the global instance 'test_0/UCK1' because it's driven by a global net.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       16 
+      Globals that cannot be demoted:      7 
+      Globals considered for demotion:     9 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    475    0      4      'FCCC_0/GL0_INST' 
+    383    0      0      'test_0/UCK3' 
+    252    0      3      'test_0/u100/DSD138/UIN100/UCK10' 
+    74     0      2      'test_0/u100/UCK10' 
+    68     0      1      'test_0/u100/DSD138/UIN100/UCK14' 
+    47     0      0      'u8_sb_0/CCC_0/GL0_INST' 
+    1      0      1      'test_0/UCK11' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    1868   0      1      'test_0/u100/UPCMTX/ii_inferred_clock_RNIOI23[5]' 
+    468    0      0      'test_0/u100/u_sample/m_inferred_clock_RNI7021[4]' 
+    42     0      1      'test_0/u100/mmclk_d2_inferred_clock_RNIJAQ7' 
+    18     0      0      'clock138_bck_ibuf_RNIS2E8' 
+    0      3067   0      'test_0/u100/n_response_cnst_4_7_0_.reset_n_i_0_RNIGRB' 
+    0      345    6      'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIVGLD' 
+    0      68     0      'I_529' 
+    0      64     0      'test_0/u100/UD100/crc_clr_RNI1MED' 
+    0      18     0      'I_532' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'test_0/u100/UPCMTX/ii_inferred_clock_RNIOI23[5]'. 
+      Disconnected 1 data pins from global 'test_0/u100/mmclk_d2_inferred_clock_RNIJAQ7'. 
+      Disconnected 6 data pins from global 'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIVGLD'. 
+      Deleted global instance 'test_0/u100/u_sample/m_inferred_clock_RNI7021[4]' and replace it with a row global instance.
+      Deleted global instance 'test_0/u100/mmclk_d2_inferred_clock_RNIJAQ7'.
+      Deleted global instance 'clock138_bck_ibuf_RNIS2E8'.
+      Deleted global instance 'test_0/u100/n_response_cnst_4_7_0_.reset_n_i_0_RNIGRB' and replace it with a row global instance.
+      Deleted global instance 'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIVGLD' and replace it with a row global instance.
+      Deleted global instance 'I_529'.
+      Deleted global instance 'test_0/u100/UD100/crc_clr_RNI1MED'.
+      Deleted global instance 'I_532'.
+Info: CMPG4-302: Added 3 row global instances.
+Info: CMPG4-303: Deleted 8 global instances.
+
+===============================================================================.
+
