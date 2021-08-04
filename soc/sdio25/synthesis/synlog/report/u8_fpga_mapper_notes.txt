@@ -39,7 +39,6 @@
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[2] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[1] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\sd.v":1304:0:1304:5|Removing sequential instance UD100.is_last_data (in view: work.sdtop(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\820\igloo\work\ram.v":619:0:619:5|Removing sequential instance UADC.HWDATA[0] (in view: work.sdtop(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[6] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: FF150 :"d:\820\igloo\work\wavegen.v":113:15:113:31|Multiplier test_0.uGEN_DDS.U100.n_AX_3[68:0] implemented with multiple MACC blocks using cascade/shift feature.
@@ -140,14 +139,15 @@
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":81:0:81:5|Removing sequential instance test_0.u100.uctrl.ufifo.a_full[2] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":81:0:81:5|Removing sequential instance test_0.u100.uctrl.ufifo.a_full[3] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":70:0:70:5|Removing sequential instance test_0.u100.uctrl.ufifo.full (in view: work.u8(verilog)) because it does not drive other instances.
-@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.reset_n_arst on CLKINT  I_3432 
-@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.pclk_div2 on CLKINT  I_3433 
-@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_3434 
-@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_3435 
-@N: FP130 |Promoting Net test_0.u_pcm_tx.reset_n on CLKINT  I_3436 
-@N: FP130 |Promoting Net test_0.u_pcm_tx.in_bck_1 on CLKINT  I_3437 
-@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_3438 
-@N: FP130 |Promoting Net mclk_c on CLKINT  I_3439 
+@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.reset_n_arst on CLKINT  I_3465 
+@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.pclk_div2 on CLKINT  I_3466 
+@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_3467 
+@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_3468 
+@N: FP130 |Promoting Net test_0.u_pcm_tx.reset_n on CLKINT  I_3469 
+@N: FP130 |Promoting Net test_0.u_pcm_tx.in_bck_1 on CLKINT  I_3470 
+@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_3471 
+@N: FP130 |Promoting Net wstart_arst on CLKINT  I_3472 
+@N: FP130 |Promoting Net mclk_c on CLKINT  I_3473 
 @N: MT611 :|Automatically generated clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock is not used and is being removed
 @N: FX1056 |Writing EDF file: D:\820\igloo\soc\sdio25\synthesis\u8.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.

@@ -35,8 +35,8 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>adc96|clkd16_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>281.7 MHz</data>
-<data>6.451</data>
+<data>260.9 MHz</data>
+<data>6.167</data>
 </row>
 <row>
 <data>mclk</data>
@@ -47,14 +47,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>mclk4549</data>
 <data>62.5 MHz</data>
-<data>170.9 MHz</data>
-<data>10.150</data>
+<data>171.6 MHz</data>
+<data>10.173</data>
 </row>
 <row>
 <data>sdclk_n</data>
 <data>62.5 MHz</data>
-<data>111.7 MHz</data>
-<data>7.049</data>
+<data>105.5 MHz</data>
+<data>6.521</data>
 </row>
 <row>
 <data>test|c1_inferred_clock</data>

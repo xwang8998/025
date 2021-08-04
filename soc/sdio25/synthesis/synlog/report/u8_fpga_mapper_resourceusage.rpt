@@ -3,23 +3,23 @@ Resource Usage Report for u8
 Mapping to part: m2gl025vf400-1
 Cell usage:
 CCC             1 use
-CLKINT          11 uses
+CLKINT          12 uses
 CLKINT_PRESERVE  2 uses
 MSS_025         1 use
 SYSRESET        1 use
-CFG1           52 uses
-CFG2           232 uses
-CFG3           310 uses
-CFG4           502 uses
+CFG1           54 uses
+CFG2           268 uses
+CFG3           344 uses
+CFG4           477 uses
 
 Carry cells:
 ARI1            3476 uses - used for arithmetic functions
-ARI1            40 uses - used for Wide-Mux implementation
-Total ARI1      3516 uses
+ARI1            42 uses - used for Wide-Mux implementation
+Total ARI1      3518 uses
 
 
 Sequential Cells: 
-SLE            4397 uses
+SLE            4459 uses
 
 DSP Blocks:   12 of 34 (35%)
  MACC:        10 MultAdds
@@ -33,9 +33,9 @@ OUTBUF         4 uses
 TRIBUFF        8 uses
 
 
-Global Clock Buffers: 11
+Global Clock Buffers: 12
 
-Total LUTs:    4612
+Total LUTs:    4661
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -43,6 +43,6 @@ RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 432; LUTs = 432;
 
-Total number of SLEs after P&R:  4397 + 0 + 0 + 432 = 4829;
-Total number of LUTs after P&R:  4612 + 0 + 0 + 432 = 5044;
+Total number of SLEs after P&R:  4459 + 0 + 0 + 432 = 4891;
+Total number of LUTs after P&R:  4661 + 0 + 0 + 432 = 5093;
 

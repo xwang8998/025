@@ -923,12 +923,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: D:\820\igloo\soc\sdio25\synthesis\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:27s; Memory used current: 163MB peak: 186MB)
+At c_ver Exit (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 163MB peak: 186MB)
 
-Process took 0h:00m:27s realtime, 0h:00m:27s cputime
+Process took 0h:00m:25s realtime, 0h:00m:25s cputime
 
 Process completed successfully.
-# Wed Aug  4 11:32:29 2021
+# Wed Aug  4 15:40:38 2021
 
 ###########################################################]
 ###########################################################[
@@ -956,7 +956,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Aug  4 11:32:29 2021
+# Wed Aug  4 15:40:38 2021
 
 ###########################################################]
 
@@ -966,11 +966,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 23MB peak: 24MB)
 
-Process took 0h:00m:28s realtime, 0h:00m:28s cputime
+Process took 0h:00m:25s realtime, 0h:00m:25s cputime
 
 Process completed successfully.
-# Wed Aug  4 11:32:29 2021
+# Wed Aug  4 15:40:38 2021
 
 ###########################################################]

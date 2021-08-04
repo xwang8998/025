@@ -35,16 +35,16 @@ Warning: CMPG4-201: Net test_0/idsd_lp0 drives no load.
 ===============================================================================.
 
 Info: Global design data: 
-      Total globals:                       13 
+      Total globals:                       14 
       Globals that cannot be demoted:      3 
-      Globals considered for demotion:     10 
+      Globals considered for demotion:     11 
 
 
 Info: List of globals that cannot be demoted: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
     493    0      0      'test_0/UCK3' 
-    171    0      0      'test_0/UCK1' 
+    202    0      0      'test_0/UCK1' 
     37     0      0      'u8_sb_0/CCC_0/GL0_INST' 
 
 Info: List of globals considered for demotion: 
@@ -52,14 +52,15 @@ Info: List of globals considered for demotion:
     ---    ----   ----   ------------- 
     3605   0      0      'test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6' 
     71     0      1      'test_0/UADC/clkd16_inferred_clock_RNI61L' 
-    9      0      1      'test_0/u100/UCK99' 
+    40     0      1      'test_0/u100/UCK99' 
     5      0      0      'test_0/UCK4' 
     2      0      0      'mclk_ibuf_RNIC9QA' 
     0      3606   0      'test_0/uGEN_DDS/U100/reset_n_RNIOFM9' 
-    0      411    0      'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1' 
-    0      119    0      'test_0/u100/reset_n_RNI12DE' 
+    0      358    0      'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1' 
+    0      181    0      'test_0/u100/reset_n_RNI12DE' 
     0      70     0      'test_0/u_pcm_tx/reset_n_RNIQ1HA' 
     0      64     0      'test_0/u100/UD100/crc_clr_RNI1MED' 
+    0      53     0      'wstart_ibuf_RNIAT88' 
 
 Info: Demotion information: 
       Disconnected 1 data pins from global 'test_0/UADC/clkd16_inferred_clock_RNI61L'. 

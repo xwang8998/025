@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Wed Aug  4 11:33:31 2021
+<text>Date: Wed Aug  4 15:41:33 2021
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>5069</cell>
+ <cell>5118</cell>
  <cell>27696</cell>
- <cell>18.30</cell>
+ <cell>18.48</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>4829</cell>
+ <cell>4891</cell>
  <cell>27696</cell>
- <cell>17.44</cell>
+ <cell>17.66</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -160,9 +160,9 @@
 </row>
 <row>
  <cell>Chip Globals</cell>
- <cell>13</cell>
+ <cell>14</cell>
  <cell>16</cell>
- <cell>81.25</cell>
+ <cell>87.50</cell>
 </row>
 <row>
  <cell>CCC</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>4637</cell>
- <cell>4397</cell>
+ <cell>4686</cell>
+ <cell>4459</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>5069</cell>
- <cell>4829</cell>
+ <cell>5118</cell>
+ <cell>4891</cell>
 </row>
 </table>
 <section><name>HPMS Resource Usage</name></section>
@@ -278,7 +278,7 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>20</cell>
+ <cell>21</cell>
 </row>
 <row>
  <cell>6</cell>
@@ -286,15 +286,15 @@
 </row>
 <row>
  <cell>9</cell>
- <cell>3</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>10</cell>
- <cell>2</cell>
+ <cell>4</cell>
 </row>
 <row>
  <cell>11</cell>
- <cell>2</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell>14</cell>
@@ -330,7 +330,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>122</cell>
+ <cell>123</cell>
 </row>
 </table>
 <section><name>Detailed MACC Resource Usage</name></section>
@@ -461,7 +461,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>411</cell>
+ <cell>358</cell>
  <cell>INT_NET</cell>
  <cell>Net   : MSS_HPMS_READY_int_arst</cell>
 </row>
@@ -476,7 +476,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>171</cell>
+ <cell>202</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/mclk_1</cell>
 </row>
@@ -491,7 +491,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>119</cell>
+ <cell>181</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/u100/reset_n_arst</cell>
 </row>
@@ -551,6 +551,36 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
+ <cell>53</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : wstart_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: wstart_ibuf_RNIAT88/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>40</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/adc_clock</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UCK99/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
  <cell>37</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u8_sb_0/GL0_INST</cell>
@@ -559,21 +589,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: u8_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>9</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/adc_clock</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/UCK99/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>

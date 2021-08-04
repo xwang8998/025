@@ -6,23 +6,23 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-4 non-gated/non-generated clock tree(s) driving 671 clock pin(s) of sequential element(s)
-8 gated/generated clock tree(s) driving 3727 clock pin(s) of sequential element(s)
-0 instances converted, 3727 sequential instances remain driven by gated/generated clocks
+4 non-gated/non-generated clock tree(s) driving 702 clock pin(s) of sequential element(s)
+8 gated/generated clock tree(s) driving 3758 clock pin(s) of sequential element(s)
+0 instances converted, 3758 sequential instances remain driven by gated/generated clocks
 
 ============================================ Non-Gated/Non-Generated Clocks ============================================
 Clock Tree ID     Driving Element     Drive Element Type                      Fanout     Sample Instance                
 ------------------------------------------------------------------------------------------------------------------------
 @K:CKID0009       sdclk               port                                    5          test_0.u100.cmd0               
 @K:CKID0010       test_0.UCK3         clock definition on CLKINT_PRESERVE     493        test_0.u100.buffer_under_run[7]
-@K:CKID0011       test_0.UCK1         clock definition on CLKINT_PRESERVE     171        test_0.UADC.dsd_rpp[0]         
+@K:CKID0011       test_0.UCK1         clock definition on CLKINT_PRESERVE     202        test_0.UADC.dsd_rpp[0]         
 @K:CKID0012       mclk                clock definition on port                2          test_0.mclk_d2                 
 ========================================================================================================================
 ================================================================================= Gated/Generated Clocks =================================================================================
 Clock Tree ID     Driving Element                    Drive Element Type     Fanout     Sample Instance                         Explanation                                                
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 @K:CKID0001       test_0.uGEN_DDS.U100.pclk_div2     SLE                    3605       test_0.uGEN_DDS.U100.ystart[0]          No gated clock conversion method for cell cell:ACG4.SLE    
-@K:CKID0002       test_0.UADC.clkd16                 SLE                    80         test_0.u_pcm_tx.i[5]                    No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0002       test_0.UADC.clkd16                 SLE                    111        test_0.u_pcm_tx.i[5]                    No gated clock conversion method for cell cell:ACG4.SLE    
 @K:CKID0003       u8_sb_0.CCC_0.CCC_INST             CCC                    37         u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_025
 @K:CKID0004       test_0.UADC.clkd8                  SLE                    1          test_0.UADC.clkd16                      No gated clock conversion method for cell cell:ACG4.SLE    
 @K:CKID0005       test_0.UADC.clkd4                  SLE                    1          test_0.UADC.clkd8                       No gated clock conversion method for cell cell:ACG4.SLE    
