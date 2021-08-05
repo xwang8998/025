@@ -110,10 +110,10 @@
 @W: MT420 |Found inferred clock u8_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net u8_sb_0.CCC_0.GL0_net.
 @W: MT420 |Found inferred clock test|c1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.c1.
 @W: MT420 |Found inferred clock test|c2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.c2.
+@W: MT420 |Found inferred clock adc96|clkd16_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.UADC.clkd16.
 @W: MT420 |Found inferred clock adc96|clkd2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.UADC.clkd2.
 @W: MT420 |Found inferred clock adc96|clkd4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.UADC.clkd4.
 @W: MT420 |Found inferred clock adc96|clkd8_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.UADC.clkd8.
-@W: MT420 |Found inferred clock adc96|clkd16_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.UADC.clkd16.
 @W: MT420 |Found inferred clock wavegen|pclk_div2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.uGEN_DDS.U100.pclk_div2_0.
 @W: MT420 |Found inferred clock u8|sdclk with period 10.00ns. Please declare a user-defined clock on port sdclk.
 @W: MT447 :"d:/820/igloo/soc/sdio25/designer/u8/synthesis.fdc":13:0:13:0|Timing constraint (from [get_ports { DEVRST_N* }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 

@@ -1326,7 +1326,8 @@ assign source_right[31:24] = yr [7:0];
 
 
 reg state, n_state;
-reg [4:0] i, n_i;
+//reg [4:0] i, n_i;
+reg [5:0] i, n_i;//only  1 ch
 reg [31:0] din, n_din;
 reg flag, n_flag;
 reg ready, n_ready;
@@ -1366,8 +1367,8 @@ always @* begin
 
 IDLE: begin
     n_ready = 1'b0;
-    n_i = i + 5'd1;
-    if (start && i == 5'd20) begin
+    n_i = i + 6'd1;
+    if (start && i == 6'd20) begin
         n_state = WORK;
         n_din = source_left;
         n_i = 0;
@@ -1377,12 +1378,14 @@ IDLE: begin
 
 WORK: begin
     n_ready = 1'b0;
-    n_i = i + 5'd1;
-    if (i == 5'd31) n_ready = 1'b1;
-    if (i == 5'd31) begin
-        if (flag==1'b0) n_din = source_right; else n_din = source_left;
-        n_flag = ~flag;
+    n_i = i + 6'd1;
+    if (i == 6'd63) n_ready = 1'b1;
+    if (i == 6'd63) begin
+        //if (flag==1'b0) n_din = source_right; else n_din = source_left;
+        n_din = source_left;
+        
         end
+    if(i == 6'd31)    n_flag = ~flag;
     end
     endcase
     end

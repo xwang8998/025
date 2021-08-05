@@ -1,5 +1,5 @@
 CKID0001:@|S:test_0.uGEN_DDS.U100.pclk_div2@|E:test_0.uGEN_DDS.U100.ystart[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:test_0.UADC.clkd16@|E:test_0.u_pcm_tx.i[5]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0002:@|S:test_0.UADC.clkd16@|E:test_0.lldata[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
 CKID0003:@|S:u8_sb_0.CCC_0.CCC_INST@|E:u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
 CKID0004:@|S:test_0.UADC.clkd8@|E:test_0.UADC.clkd16@|F:@syn_sample_clock_path1==CKID0004@|M:ClockId0004 
 CKID0005:@|S:test_0.UADC.clkd4@|E:test_0.UADC.clkd8@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 

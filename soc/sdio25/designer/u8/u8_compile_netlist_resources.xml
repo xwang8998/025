@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Wed Aug  4 15:41:33 2021
+<text>Date: Wed Aug  4 21:07:35 2021
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>5118</cell>
+ <cell>5168</cell>
  <cell>27696</cell>
- <cell>18.48</cell>
+ <cell>18.66</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>4891</cell>
+ <cell>4929</cell>
  <cell>27696</cell>
- <cell>17.66</cell>
+ <cell>17.80</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>4686</cell>
- <cell>4459</cell>
+ <cell>4736</cell>
+ <cell>4497</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>5118</cell>
- <cell>4891</cell>
+ <cell>5168</cell>
+ <cell>4929</cell>
 </row>
 </table>
 <section><name>HPMS Resource Usage</name></section>
@@ -278,7 +278,7 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>21</cell>
+ <cell>22</cell>
 </row>
 <row>
  <cell>6</cell>
@@ -290,11 +290,11 @@
 </row>
 <row>
  <cell>10</cell>
- <cell>4</cell>
+ <cell>3</cell>
 </row>
 <row>
  <cell>11</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>14</cell>
@@ -321,6 +321,10 @@
  <cell>15</cell>
 </row>
 <row>
+ <cell>33</cell>
+ <cell>1</cell>
+</row>
+<row>
  <cell>40</cell>
  <cell>2</cell>
 </row>
@@ -330,7 +334,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>123</cell>
+ <cell>125</cell>
 </row>
 </table>
 <section><name>Detailed MACC Resource Usage</name></section>
@@ -461,7 +465,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>358</cell>
+ <cell>395</cell>
  <cell>INT_NET</cell>
  <cell>Net   : MSS_HPMS_READY_int_arst</cell>
 </row>
@@ -491,7 +495,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>181</cell>
+ <cell>182</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/u100/reset_n_arst</cell>
 </row>
@@ -506,7 +510,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>71</cell>
+ <cell>108</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/in_bck_1</cell>
 </row>
@@ -566,7 +570,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>40</cell>
+ <cell>41</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/u100/adc_clock</cell>
 </row>

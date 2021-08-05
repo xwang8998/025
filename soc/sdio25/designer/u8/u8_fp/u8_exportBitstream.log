@@ -1,10 +1,10 @@
 Software Version: 12.900.20.24
 Opened 'D:\820\igloo\soc\sdio25\designer\u8\u8_fp\u8.pro'
 PDB file 'D:\820\igloo\soc\sdio25\designer\u8\u8.pdb' has been loaded successfully.
-DESIGN : u8;  CHECKSUM : 2BCC;  PDB_VERSION : 1.9
-Successfully exported STAPL file: 'D:\820\igloo\soc\sdio25\designer\u8\export\u8start3.stp'; file programs Fabric.
-Fabric component bitstream digest: 4b447ac6a894b4e6c8b7465bf4082d8e717c1043f5e5faa4186e2e0ae6eac571
-Finished: Wed Aug 04 15:44:41 2021 (Elapsed time 00:00:14)
+DESIGN : u8;  CHECKSUM : 11F7;  PDB_VERSION : 1.9
+Successfully exported STAPL file: 'D:\820\igloo\soc\sdio25\designer\u8\export\u8.stp'; file programs Fabric.
+Fabric component bitstream digest: 212b3bb5eccf616e8bfe3dbfd5ff3d9f7bc43fc9b0df2177da680bc063262483
+Finished: Wed Aug 04 21:13:44 2021 (Elapsed time 00:00:14)
 
 Project saved.
 Project closed.

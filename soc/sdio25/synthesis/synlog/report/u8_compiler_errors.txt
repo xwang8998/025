@@ -1,0 +1,2 @@
+@E: CG301 :"D:\820\igloo\work\test.v":302:9:302:33|Can't mix posedge/negedge use with plain signal references
+

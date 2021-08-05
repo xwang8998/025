@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 12.900.20.24</text>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Wed Aug  4 15:41:56 2021 </text>
+Date: Wed Aug  4 21:07:58 2021 </text>
 <table>
 <header>
 </header>
@@ -51,14 +51,14 @@ Date: Wed Aug  4 15:41:56 2021 </text>
 <row>
  <cell>Setup</cell>
  <cell>         2742</cell>
- <cell>         4174</cell>
- <cell>         6916</cell>
+ <cell>         4244</cell>
+ <cell>         6986</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>         1253</cell>
+ <cell>         1291</cell>
  <cell>         3723</cell>
- <cell>         4976</cell>
+ <cell>         5014</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -68,22 +68,22 @@ Date: Wed Aug  4 15:41:56 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>         4079</cell>
- <cell>         7905</cell>
- <cell>        11984</cell>
+ <cell>         4117</cell>
+ <cell>         7975</cell>
+ <cell>        12092</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
  <cell>         2742</cell>
- <cell>         4174</cell>
- <cell>         6916</cell>
+ <cell>         4244</cell>
+ <cell>         6986</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>         1253</cell>
+ <cell>         1291</cell>
  <cell>         3723</cell>
- <cell>         4976</cell>
+ <cell>         5014</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -93,9 +93,9 @@ Date: Wed Aug  4 15:41:56 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>         4079</cell>
- <cell>         7905</cell>
- <cell>        11984</cell>
+ <cell>         4117</cell>
+ <cell>         7975</cell>
+ <cell>        12092</cell>
 </row>
 </table>
 <section>
@@ -283,14 +283,14 @@ Date: Wed Aug  4 15:41:56 2021 </text>
 <row>
  <cell>Setup</cell>
  <cell>            0</cell>
- <cell>          144</cell>
- <cell>          144</cell>
+ <cell>          214</cell>
+ <cell>          214</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          110</cell>
+ <cell>          148</cell>
  <cell>            0</cell>
- <cell>          110</cell>
+ <cell>          148</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -300,22 +300,22 @@ Date: Wed Aug  4 15:41:56 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>          110</cell>
- <cell>          146</cell>
- <cell>          256</cell>
+ <cell>          148</cell>
+ <cell>          216</cell>
+ <cell>          364</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
  <cell>            0</cell>
- <cell>          144</cell>
- <cell>          144</cell>
+ <cell>          214</cell>
+ <cell>          214</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          110</cell>
+ <cell>          148</cell>
  <cell>            0</cell>
- <cell>          110</cell>
+ <cell>          148</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -325,9 +325,9 @@ Date: Wed Aug  4 15:41:56 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>          110</cell>
- <cell>          146</cell>
- <cell>          256</cell>
+ <cell>          148</cell>
+ <cell>          216</cell>
+ <cell>          364</cell>
 </row>
 </table>
 <section>
@@ -365,6 +365,70 @@ Date: Wed Aug  4 15:41:56 2021 </text>
 <text> - Setup unconstrained for the following pins:</text>
 <text>   </text>
 <list>
+ <item>test_0/lldata[0]:D</item>
+ <item>test_0/lldata[0]:EN</item>
+ <item>test_0/lldata[10]:D</item>
+ <item>test_0/lldata[10]:EN</item>
+ <item>test_0/lldata[11]:D</item>
+ <item>test_0/lldata[11]:EN</item>
+ <item>test_0/lldata[12]:D</item>
+ <item>test_0/lldata[12]:EN</item>
+ <item>test_0/lldata[13]:D</item>
+ <item>test_0/lldata[13]:EN</item>
+ <item>test_0/lldata[14]:D</item>
+ <item>test_0/lldata[14]:EN</item>
+ <item>test_0/lldata[15]:D</item>
+ <item>test_0/lldata[15]:EN</item>
+ <item>test_0/lldata[16]:D</item>
+ <item>test_0/lldata[16]:EN</item>
+ <item>test_0/lldata[17]:D</item>
+ <item>test_0/lldata[17]:EN</item>
+ <item>test_0/lldata[18]:D</item>
+ <item>test_0/lldata[18]:EN</item>
+ <item>test_0/lldata[19]:D</item>
+ <item>test_0/lldata[19]:EN</item>
+ <item>test_0/lldata[1]:D</item>
+ <item>test_0/lldata[1]:EN</item>
+ <item>test_0/lldata[20]:D</item>
+ <item>test_0/lldata[20]:EN</item>
+ <item>test_0/lldata[21]:D</item>
+ <item>test_0/lldata[21]:EN</item>
+ <item>test_0/lldata[22]:D</item>
+ <item>test_0/lldata[22]:EN</item>
+ <item>test_0/lldata[23]:D</item>
+ <item>test_0/lldata[23]:EN</item>
+ <item>test_0/lldata[24]:D</item>
+ <item>test_0/lldata[24]:EN</item>
+ <item>test_0/lldata[25]:D</item>
+ <item>test_0/lldata[25]:EN</item>
+ <item>test_0/lldata[26]:D</item>
+ <item>test_0/lldata[26]:EN</item>
+ <item>test_0/lldata[27]:D</item>
+ <item>test_0/lldata[27]:EN</item>
+ <item>test_0/lldata[28]:D</item>
+ <item>test_0/lldata[28]:EN</item>
+ <item>test_0/lldata[29]:D</item>
+ <item>test_0/lldata[29]:EN</item>
+ <item>test_0/lldata[2]:D</item>
+ <item>test_0/lldata[2]:EN</item>
+ <item>test_0/lldata[30]:D</item>
+ <item>test_0/lldata[30]:EN</item>
+ <item>test_0/lldata[31]:D</item>
+ <item>test_0/lldata[31]:EN</item>
+ <item>test_0/lldata[3]:D</item>
+ <item>test_0/lldata[3]:EN</item>
+ <item>test_0/lldata[4]:D</item>
+ <item>test_0/lldata[4]:EN</item>
+ <item>test_0/lldata[5]:D</item>
+ <item>test_0/lldata[5]:EN</item>
+ <item>test_0/lldata[6]:D</item>
+ <item>test_0/lldata[6]:EN</item>
+ <item>test_0/lldata[7]:D</item>
+ <item>test_0/lldata[7]:EN</item>
+ <item>test_0/lldata[8]:D</item>
+ <item>test_0/lldata[8]:EN</item>
+ <item>test_0/lldata[9]:D</item>
+ <item>test_0/lldata[9]:EN</item>
  <item>test_0/u100/UADC_GEAR/din[0]:D</item>
  <item>test_0/u100/UADC_GEAR/din[0]:EN</item>
  <item>test_0/u100/UADC_GEAR/din[10]:D</item>
@@ -401,75 +465,75 @@ Date: Wed Aug  4 15:41:56 2021 </text>
  <item>test_0/u100/UADC_GEAR/din[24]:EN</item>
  <item>test_0/u100/UADC_GEAR/din[25]:D</item>
  <item>test_0/u100/UADC_GEAR/din[25]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[26]:D</item>
- <item>test_0/u100/UADC_GEAR/din[26]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[27]:D</item>
- <item>test_0/u100/UADC_GEAR/din[27]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[28]:D</item>
- <item>test_0/u100/UADC_GEAR/din[28]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[29]:D</item>
- <item>test_0/u100/UADC_GEAR/din[29]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[2]:D</item>
- <item>test_0/u100/UADC_GEAR/din[2]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[30]:D</item>
- <item>test_0/u100/UADC_GEAR/din[30]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[31]:D</item>
- <item>test_0/u100/UADC_GEAR/din[31]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[3]:D</item>
- <item>test_0/u100/UADC_GEAR/din[3]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[4]:D</item>
- <item>test_0/u100/UADC_GEAR/din[4]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[5]:D</item>
- <item>test_0/u100/UADC_GEAR/din[5]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[6]:D</item>
- <item>test_0/u100/UADC_GEAR/din[6]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[7]:D</item>
- <item>test_0/u100/UADC_GEAR/din[7]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[8]:D</item>
- <item>test_0/u100/UADC_GEAR/din[8]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[9]:D</item>
- <item>test_0/u100/UADC_GEAR/din[9]:EN</item>
- <item>test_0/u100/UADC_GEAR/flag:D</item>
- <item>test_0/u100/UADC_GEAR/flag:EN</item>
- <item>test_0/u100/UADC_GEAR/i[0]:D</item>
- <item>test_0/u100/UADC_GEAR/i[1]:D</item>
- <item>test_0/u100/UADC_GEAR/i[2]:D</item>
- <item>test_0/u100/UADC_GEAR/i[3]:D</item>
- <item>test_0/u100/UADC_GEAR/i[4]:D</item>
- <item>test_0/u100/UADC_GEAR/ready:D</item>
- <item>test_0/u100/UADC_GEAR/state:D</item>
- <item>test_0/u_pcm_tx/d1:D</item>
- <item>test_0/u_pcm_tx/i[0]:D</item>
- <item>test_0/u_pcm_tx/i[1]:D</item>
- <item>test_0/u_pcm_tx/i[2]:D</item>
- <item>test_0/u_pcm_tx/i[3]:D</item>
- <item>test_0/u_pcm_tx/i[4]:D</item>
- <item>test_0/u_pcm_tx/i[5]:D</item>
- <item>test_0/u_pcm_tx/t1[0]:D</item>
- <item>test_0/u_pcm_tx/t1[10]:D</item>
- <item>test_0/u_pcm_tx/t1[11]:D</item>
- <item>test_0/u_pcm_tx/t1[12]:D</item>
- <item>test_0/u_pcm_tx/t1[13]:D</item>
- <item>test_0/u_pcm_tx/t1[14]:D</item>
- <item>test_0/u_pcm_tx/t1[15]:D</item>
- <item>test_0/u_pcm_tx/t1[16]:D</item>
- <item>test_0/u_pcm_tx/t1[17]:D</item>
- <item>test_0/u_pcm_tx/t1[18]:D</item>
- <item>test_0/u_pcm_tx/t1[19]:D</item>
- <item>test_0/u_pcm_tx/t1[1]:D</item>
- <item>test_0/u_pcm_tx/t1[20]:D</item>
- <item>test_0/u_pcm_tx/t1[21]:D</item>
- <item>test_0/u_pcm_tx/t1[22]:D</item>
- <item>test_0/u_pcm_tx/t1[23]:D</item>
- <item>test_0/u_pcm_tx/t1[24]:D</item>
- <item>test_0/u_pcm_tx/t1[25]:D</item>
- <item>test_0/u_pcm_tx/t1[26]:D</item>
- <item>test_0/u_pcm_tx/t1[27]:D</item>
 </list>
 <text></text>
 <text> - Hold unconstrained for the following pins:</text>
 <text>   </text>
 <list>
+ <item>test_0/lldata[0]:D</item>
+ <item>test_0/lldata[0]:EN</item>
+ <item>test_0/lldata[10]:D</item>
+ <item>test_0/lldata[10]:EN</item>
+ <item>test_0/lldata[11]:D</item>
+ <item>test_0/lldata[11]:EN</item>
+ <item>test_0/lldata[12]:D</item>
+ <item>test_0/lldata[12]:EN</item>
+ <item>test_0/lldata[13]:D</item>
+ <item>test_0/lldata[13]:EN</item>
+ <item>test_0/lldata[14]:D</item>
+ <item>test_0/lldata[14]:EN</item>
+ <item>test_0/lldata[15]:D</item>
+ <item>test_0/lldata[15]:EN</item>
+ <item>test_0/lldata[16]:D</item>
+ <item>test_0/lldata[16]:EN</item>
+ <item>test_0/lldata[17]:D</item>
+ <item>test_0/lldata[17]:EN</item>
+ <item>test_0/lldata[18]:D</item>
+ <item>test_0/lldata[18]:EN</item>
+ <item>test_0/lldata[19]:D</item>
+ <item>test_0/lldata[19]:EN</item>
+ <item>test_0/lldata[1]:D</item>
+ <item>test_0/lldata[1]:EN</item>
+ <item>test_0/lldata[20]:D</item>
+ <item>test_0/lldata[20]:EN</item>
+ <item>test_0/lldata[21]:D</item>
+ <item>test_0/lldata[21]:EN</item>
+ <item>test_0/lldata[22]:D</item>
+ <item>test_0/lldata[22]:EN</item>
+ <item>test_0/lldata[23]:D</item>
+ <item>test_0/lldata[23]:EN</item>
+ <item>test_0/lldata[24]:D</item>
+ <item>test_0/lldata[24]:EN</item>
+ <item>test_0/lldata[25]:D</item>
+ <item>test_0/lldata[25]:EN</item>
+ <item>test_0/lldata[26]:D</item>
+ <item>test_0/lldata[26]:EN</item>
+ <item>test_0/lldata[27]:D</item>
+ <item>test_0/lldata[27]:EN</item>
+ <item>test_0/lldata[28]:D</item>
+ <item>test_0/lldata[28]:EN</item>
+ <item>test_0/lldata[29]:D</item>
+ <item>test_0/lldata[29]:EN</item>
+ <item>test_0/lldata[2]:D</item>
+ <item>test_0/lldata[2]:EN</item>
+ <item>test_0/lldata[30]:D</item>
+ <item>test_0/lldata[30]:EN</item>
+ <item>test_0/lldata[31]:D</item>
+ <item>test_0/lldata[31]:EN</item>
+ <item>test_0/lldata[3]:D</item>
+ <item>test_0/lldata[3]:EN</item>
+ <item>test_0/lldata[4]:D</item>
+ <item>test_0/lldata[4]:EN</item>
+ <item>test_0/lldata[5]:D</item>
+ <item>test_0/lldata[5]:EN</item>
+ <item>test_0/lldata[6]:D</item>
+ <item>test_0/lldata[6]:EN</item>
+ <item>test_0/lldata[7]:D</item>
+ <item>test_0/lldata[7]:EN</item>
+ <item>test_0/lldata[8]:D</item>
+ <item>test_0/lldata[8]:EN</item>
+ <item>test_0/lldata[9]:D</item>
+ <item>test_0/lldata[9]:EN</item>
  <item>test_0/u100/UADC_GEAR/din[0]:D</item>
  <item>test_0/u100/UADC_GEAR/din[0]:EN</item>
  <item>test_0/u100/UADC_GEAR/din[10]:D</item>
@@ -506,70 +570,6 @@ Date: Wed Aug  4 15:41:56 2021 </text>
  <item>test_0/u100/UADC_GEAR/din[24]:EN</item>
  <item>test_0/u100/UADC_GEAR/din[25]:D</item>
  <item>test_0/u100/UADC_GEAR/din[25]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[26]:D</item>
- <item>test_0/u100/UADC_GEAR/din[26]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[27]:D</item>
- <item>test_0/u100/UADC_GEAR/din[27]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[28]:D</item>
- <item>test_0/u100/UADC_GEAR/din[28]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[29]:D</item>
- <item>test_0/u100/UADC_GEAR/din[29]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[2]:D</item>
- <item>test_0/u100/UADC_GEAR/din[2]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[30]:D</item>
- <item>test_0/u100/UADC_GEAR/din[30]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[31]:D</item>
- <item>test_0/u100/UADC_GEAR/din[31]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[3]:D</item>
- <item>test_0/u100/UADC_GEAR/din[3]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[4]:D</item>
- <item>test_0/u100/UADC_GEAR/din[4]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[5]:D</item>
- <item>test_0/u100/UADC_GEAR/din[5]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[6]:D</item>
- <item>test_0/u100/UADC_GEAR/din[6]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[7]:D</item>
- <item>test_0/u100/UADC_GEAR/din[7]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[8]:D</item>
- <item>test_0/u100/UADC_GEAR/din[8]:EN</item>
- <item>test_0/u100/UADC_GEAR/din[9]:D</item>
- <item>test_0/u100/UADC_GEAR/din[9]:EN</item>
- <item>test_0/u100/UADC_GEAR/flag:D</item>
- <item>test_0/u100/UADC_GEAR/flag:EN</item>
- <item>test_0/u100/UADC_GEAR/i[0]:D</item>
- <item>test_0/u100/UADC_GEAR/i[1]:D</item>
- <item>test_0/u100/UADC_GEAR/i[2]:D</item>
- <item>test_0/u100/UADC_GEAR/i[3]:D</item>
- <item>test_0/u100/UADC_GEAR/i[4]:D</item>
- <item>test_0/u100/UADC_GEAR/ready:D</item>
- <item>test_0/u100/UADC_GEAR/state:D</item>
- <item>test_0/u_pcm_tx/d1:D</item>
- <item>test_0/u_pcm_tx/i[0]:D</item>
- <item>test_0/u_pcm_tx/i[1]:D</item>
- <item>test_0/u_pcm_tx/i[2]:D</item>
- <item>test_0/u_pcm_tx/i[3]:D</item>
- <item>test_0/u_pcm_tx/i[4]:D</item>
- <item>test_0/u_pcm_tx/i[5]:D</item>
- <item>test_0/u_pcm_tx/t1[0]:D</item>
- <item>test_0/u_pcm_tx/t1[10]:D</item>
- <item>test_0/u_pcm_tx/t1[11]:D</item>
- <item>test_0/u_pcm_tx/t1[12]:D</item>
- <item>test_0/u_pcm_tx/t1[13]:D</item>
- <item>test_0/u_pcm_tx/t1[14]:D</item>
- <item>test_0/u_pcm_tx/t1[15]:D</item>
- <item>test_0/u_pcm_tx/t1[16]:D</item>
- <item>test_0/u_pcm_tx/t1[17]:D</item>
- <item>test_0/u_pcm_tx/t1[18]:D</item>
- <item>test_0/u_pcm_tx/t1[19]:D</item>
- <item>test_0/u_pcm_tx/t1[1]:D</item>
- <item>test_0/u_pcm_tx/t1[20]:D</item>
- <item>test_0/u_pcm_tx/t1[21]:D</item>
- <item>test_0/u_pcm_tx/t1[22]:D</item>
- <item>test_0/u_pcm_tx/t1[23]:D</item>
- <item>test_0/u_pcm_tx/t1[24]:D</item>
- <item>test_0/u_pcm_tx/t1[25]:D</item>
- <item>test_0/u_pcm_tx/t1[26]:D</item>
- <item>test_0/u_pcm_tx/t1[27]:D</item>
 </list>
 <text></text>
 </section>

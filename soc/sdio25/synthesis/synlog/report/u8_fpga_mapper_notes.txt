@@ -15,6 +15,8 @@
 @N: BN362 :"d:\820\igloo\work\sd.v":382:0:382:5|Removing sequential instance demo[17:0] (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":142:0:142:5|Removing sequential instance j[3:0] (in view: work.bigfifo(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":114:0:114:5|Removing sequential instance isl[1:0] (in view: work.bigfifo(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO231 :"d:\820\igloo\work\test.v":302:0:302:5|Found counter in view:work.test(verilog) instance lldata[31:0] 
+@N: MO231 :"d:\820\igloo\work\test.v":302:0:302:5|Found counter in view:work.test(verilog) instance wi[4:0] 
 @N: MO230 :"d:\820\igloo\work\sd.v":382:0:382:5|Found up-down counter in view:work.sdtop(verilog) instance i[7:0]  
 @N: MO231 :"d:\820\igloo\work\sd.v":382:0:382:5|Found counter in view:work.sdtop(verilog) instance buffer_under_run[7:0] 
 @N: MO231 :"d:\820\igloo\work\sd.v":1304:0:1304:5|Found counter in view:work.sd_data(verilog) instance i[9:0] 
@@ -139,15 +141,15 @@
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":81:0:81:5|Removing sequential instance test_0.u100.uctrl.ufifo.a_full[2] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":81:0:81:5|Removing sequential instance test_0.u100.uctrl.ufifo.a_full[3] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":70:0:70:5|Removing sequential instance test_0.u100.uctrl.ufifo.full (in view: work.u8(verilog)) because it does not drive other instances.
-@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.reset_n_arst on CLKINT  I_3465 
-@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.pclk_div2 on CLKINT  I_3466 
-@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_3467 
-@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_3468 
-@N: FP130 |Promoting Net test_0.u_pcm_tx.reset_n on CLKINT  I_3469 
-@N: FP130 |Promoting Net test_0.u_pcm_tx.in_bck_1 on CLKINT  I_3470 
-@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_3471 
-@N: FP130 |Promoting Net wstart_arst on CLKINT  I_3472 
-@N: FP130 |Promoting Net mclk_c on CLKINT  I_3473 
+@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.reset_n_arst on CLKINT  I_3477 
+@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.pclk_div2 on CLKINT  I_3478 
+@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_3479 
+@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_3480 
+@N: FP130 |Promoting Net test_0.bck_g on CLKINT  I_3481 
+@N: FP130 |Promoting Net test_0.u_pcm_tx.reset_n on CLKINT  I_3482 
+@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_3483 
+@N: FP130 |Promoting Net wstart_arst on CLKINT  I_3484 
+@N: FP130 |Promoting Net mclk_c on CLKINT  I_3485 
 @N: MT611 :|Automatically generated clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock is not used and is being removed
 @N: FX1056 |Writing EDF file: D:\820\igloo\soc\sdio25\synthesis\u8.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.

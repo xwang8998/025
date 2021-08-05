@@ -63,6 +63,7 @@
 @W: CL279 :"D:\820\igloo\work\adc96.v":117:0:117:5|Pruning register bits 3 to 1 of dsd_rpp[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CG360 :"D:\820\igloo\work\test.v":269:12:269:17|Removing wire lrck_g, as there is no assignment to it.
 @W: CG360 :"D:\820\igloo\work\test.v":269:20:269:25|Removing wire data_g, as there is no assignment to it.
+@W: CL169 :"D:\820\igloo\work\test.v":302:0:302:5|Pruning unused register rrdata[31:0]. Make sure that there are no unused intermediate registers.
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":541:2:541:11|Type of parameter M0_AHBSLOTENABLE on the instance matrix4x16 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":541:2:541:11|Type of parameter M1_AHBSLOTENABLE on the instance matrix4x16 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":541:2:541:11|Type of parameter M2_AHBSLOTENABLE on the instance matrix4x16 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 

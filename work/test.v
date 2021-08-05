@@ -289,7 +289,7 @@ sdtop u100(.sdclk_p(sdclk_p), .sdclk_n(sdclk_n), .rst_n(reset_n), .cmd(cmd_in), 
     .HREADY(HREADY), .HRDATA(HRDATA), .HADDR(HADDR), .HWDATA(HWDATA), .HTRANS(HTRANS), .HWRITE(HWRITE),
     .sd_data_in(sd_data_in), .sd_data_out(sd_data_out), .sd_data_out_en(sd_data_out_en),
     .spdif_en(spdif_en), .spdif_tx(spdif_txx),
-    .xl(pcm32ldata), .xr(pcm32rdata),
+    .xl(lldata), .xr(pcm32rdata),
     .dsp0(dsp0), .dsp1(dsp1), .dsp2(dsp2), .dsp3(dsp3), .dsp4(dsp4), 
     .i2s_bck(i2s_bck), .i2s_lrck(i2s_lrck), .i2s_data(i2s_data),
     .mclk(mclk4549), .obck(obck_o), .olrck(olrck_o), .odata(odata_o), .dac_mode(dac_mode),
@@ -297,7 +297,23 @@ sdtop u100(.sdclk_p(sdclk_p), .sdclk_n(sdclk_n), .rst_n(reset_n), .cmd(cmd_in), 
     .bck_i(bck_g), .lrck_i(olrck_i), .data_i(odata_i)
     //.bck_i(bck_g), .lrck_i(lrck_g), .data_i(data_g)       /////DEBUG
     );
-
+reg [4:0]wi;
+reg  [31:0]lldata,rrdata;   
+always @(posedge bck_g or negedge reset_n)begin
+    if(!reset_n)begin
+        wi <= 0;
+        lldata <= 0;
+        rrdata <= 0;
+        end
+    else if(wi ==5'd31)  begin
+        lldata <= lldata + 32'd1;
+        rrdata <= rrdata + 32'd1;
+        wi <= 0;
+    end
+    else
+    wi <= wi + 5'd1;
+        
+end
 GEN_DDS uGEN_DDS(
 .mclk(mclk4549),
 .reset_n(wstart),

@@ -21,7 +21,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.900.20 
-Design: u8                              Started: Wed Aug  4 15:42:02 2021
+Design: u8                              Started: Wed Aug  4 21:08:04 2021
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -33,14 +33,14 @@ End of placement.
 Placer Runtime Summary   :
 Clustering (1 pass)      : 1 seconds
 Placement                : 8 seconds
-Improvement              : 18 seconds
+Improvement              : 25 seconds
 
 Placer completed successfully.
 
 Design: u8                              
-Finished: Wed Aug  4 15:42:59 2021
-Total CPU Time:     00:00:57            Total Elapsed Time: 00:00:57
-Total Memory Usage: 464.1 Mbytes
+Finished: Wed Aug  4 21:09:09 2021
+Total CPU Time:     00:01:06            Total Elapsed Time: 00:01:05
+Total Memory Usage: 468.3 Mbytes
                         o - o - o - o - o - o
 
 
@@ -62,15 +62,15 @@ Clock pins: 1
 Clock pins: 1
 
 Router 
-Design: D:\820\igloo\soc\sdio25\designer\u8\u8Started: Wed Aug  4 15:43:07 2021
+Design: D:\820\igloo\soc\sdio25\designer\u8\u8Started: Wed Aug  4 21:09:17 2021
 
 
 Router completed successfully.
 
 Design: D:\820\igloo\soc\sdio25\designer\u8\u8
-Finished: Wed Aug  4 15:43:21 2021
-Total CPU Time:     00:00:13            Total Elapsed Time: 00:00:14
-Total Memory Usage: 926.1 Mbytes
+Finished: Wed Aug  4 21:09:32 2021
+Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:15
+Total Memory Usage: 926.4 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
@@ -80,10 +80,10 @@ Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 5118 | 27696 | 18.48      |
-| DFF           | 4885 | 27696 | 17.64      |
+| 4LUT          | 5168 | 27696 | 18.66      |
+| DFF           | 4923 | 27696 | 17.78      |
 | I/O Register  | 6    | 801   | 0.75       |
-| Logic Element | 5564 | 27696 | 20.09      |
+| Logic Element | 5634 | 27696 | 20.34      |
 +---------------+------+-------+------------+
 
 I/O Placement

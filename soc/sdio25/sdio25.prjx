@@ -630,8 +630,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "D:\820\igloo\work\sound.v,hdl"
 STATE="utd"
-TIME="1627990987"
-SIZE="34725"
+TIME="1628079483"
+SIZE="34814"
 ENDFILE
 VALUE "D:\820\igloo\work\tap_rom.v,hdl"
 STATE="utd"
@@ -652,8 +652,8 @@ SIZE="1560"
 ENDFILE
 VALUE "D:\820\igloo\work\test.v,hdl"
 STATE="utd"
-TIME="1628061892"
-SIZE="12882"
+TIME="1628080199"
+SIZE="13221"
 ENDFILE
 VALUE "D:\820\igloo\work\wavegen.v,hdl"
 STATE="utd"

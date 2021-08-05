@@ -13,7 +13,7 @@ Hostname: WIN7-2020MEADRD
 
 Implementation : synthesis
 
-# Written on Wed Aug  4 15:40:44 2021
+# Written on Wed Aug  4 21:06:47 2021
 
 ##### DESIGN INFO #######################################################
 
@@ -54,21 +54,21 @@ u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       sdclk_n           
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       mclk4549                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     10.000           |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       adc96|clkd16_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       adc96|clkd2_inferred_clock                                    |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       adc96|clkd4_inferred_clock                                    |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       adc96|clkd8_inferred_clock                                    |     Diff grp         |     No paths         |     No paths         |     No paths                         
-u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       adc96|clkd16_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       u8|sdclk                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
 test|c1_inferred_clock                                        test|c1_inferred_clock                                        |     10.000           |     No paths         |     No paths         |     No paths                         
 test|c2_inferred_clock                                        test|c2_inferred_clock                                        |     10.000           |     No paths         |     No paths         |     No paths                         
+adc96|clkd16_inferred_clock                                   mclk4549                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+adc96|clkd16_inferred_clock                                   adc96|clkd16_inferred_clock                                   |     10.000           |     No paths         |     No paths         |     No paths                         
 adc96|clkd2_inferred_clock                                    adc96|clkd2_inferred_clock                                    |     10.000           |     No paths         |     No paths         |     No paths                         
 adc96|clkd4_inferred_clock                                    adc96|clkd4_inferred_clock                                    |     10.000           |     No paths         |     No paths         |     No paths                         
 adc96|clkd8_inferred_clock                                    mclk4549                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
 adc96|clkd8_inferred_clock                                    adc96|clkd8_inferred_clock                                    |     10.000           |     No paths         |     No paths         |     No paths                         
-adc96|clkd16_inferred_clock                                   mclk4549                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
-adc96|clkd16_inferred_clock                                   adc96|clkd16_inferred_clock                                   |     10.000           |     No paths         |     No paths         |     No paths                         
 wavegen|pclk_div2_inferred_clock                              mclk4549                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
 wavegen|pclk_div2_inferred_clock                              wavegen|pclk_div2_inferred_clock                              |     10.000           |     No paths         |     No paths         |     No paths                         
 u8|sdclk                                                      sdclk_n                                                       |     Diff grp         |     No paths         |     No paths         |     No paths                         

@@ -7,8 +7,8 @@
 
 Clock optimization not enabled
 4 non-gated/non-generated clock tree(s) driving 702 clock pin(s) of sequential element(s)
-8 gated/generated clock tree(s) driving 3758 clock pin(s) of sequential element(s)
-0 instances converted, 3758 sequential instances remain driven by gated/generated clocks
+8 gated/generated clock tree(s) driving 3796 clock pin(s) of sequential element(s)
+0 instances converted, 3796 sequential instances remain driven by gated/generated clocks
 
 ============================================ Non-Gated/Non-Generated Clocks ============================================
 Clock Tree ID     Driving Element     Drive Element Type                      Fanout     Sample Instance                
@@ -22,7 +22,7 @@ Clock Tree ID     Driving Element     Drive Element Type                      Fa
 Clock Tree ID     Driving Element                    Drive Element Type     Fanout     Sample Instance                         Explanation                                                
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 @K:CKID0001       test_0.uGEN_DDS.U100.pclk_div2     SLE                    3605       test_0.uGEN_DDS.U100.ystart[0]          No gated clock conversion method for cell cell:ACG4.SLE    
-@K:CKID0002       test_0.UADC.clkd16                 SLE                    111        test_0.u_pcm_tx.i[5]                    No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0002       test_0.UADC.clkd16                 SLE                    149        test_0.lldata[0]                        No gated clock conversion method for cell cell:ACG4.SLE    
 @K:CKID0003       u8_sb_0.CCC_0.CCC_INST             CCC                    37         u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_025
 @K:CKID0004       test_0.UADC.clkd8                  SLE                    1          test_0.UADC.clkd16                      No gated clock conversion method for cell cell:ACG4.SLE    
 @K:CKID0005       test_0.UADC.clkd4                  SLE                    1          test_0.UADC.clkd8                       No gated clock conversion method for cell cell:ACG4.SLE    
