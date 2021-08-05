@@ -18,38 +18,37 @@ Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 55 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 0 seconds
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
 
 Placer V5.0 - 12.900.20 
-Design: u8                              Started: Wed Aug  4 21:08:04 2021
+Design: u8                              Started: Thu Aug  5 13:04:45 2021
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
 Placing ...
 Improving placement ...
-Info:  This design contains global nets which are difficult to route, and extra effort is being applied to find a solution.
 End of placement.
 
 Placer Runtime Summary   :
 Clustering (1 pass)      : 1 seconds
-Placement                : 8 seconds
-Improvement              : 25 seconds
+Placement                : 7 seconds
+Improvement              : 18 seconds
 
 Placer completed successfully.
 
 Design: u8                              
-Finished: Wed Aug  4 21:09:09 2021
-Total CPU Time:     00:01:06            Total Elapsed Time: 00:01:05
-Total Memory Usage: 468.3 Mbytes
+Finished: Thu Aug  5 13:05:41 2021
+Total CPU Time:     00:00:56            Total Elapsed Time: 00:00:56
+Total Memory Usage: 466.6 Mbytes
                         o - o - o - o - o - o
 
 
 Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
-    Driver: test_0/c2:Q
-       Net: test_0/c2
-Clock pins: 1
     Driver: test_0/c1:Q
        Net: test_0/c1
+Clock pins: 1
+    Driver: test_0/c2:Q
+       Net: test_0/c2
 Clock pins: 1
     Driver: test_0/UADC/clkd2:Q
        Net: test_0/UADC/clkd2
@@ -62,15 +61,15 @@ Clock pins: 1
 Clock pins: 1
 
 Router 
-Design: D:\820\igloo\soc\sdio25\designer\u8\u8Started: Wed Aug  4 21:09:17 2021
+Design: D:\820\igloo\soc\sdio25\designer\u8\u8Started: Thu Aug  5 13:05:49 2021
 
 
 Router completed successfully.
 
 Design: D:\820\igloo\soc\sdio25\designer\u8\u8
-Finished: Wed Aug  4 21:09:32 2021
+Finished: Thu Aug  5 13:06:04 2021
 Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:15
-Total Memory Usage: 926.4 Mbytes
+Total Memory Usage: 925.8 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
@@ -80,10 +79,10 @@ Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 5168 | 27696 | 18.66      |
-| DFF           | 4923 | 27696 | 17.78      |
+| 4LUT          | 5189 | 27696 | 18.74      |
+| DFF           | 4980 | 27696 | 17.98      |
 | I/O Register  | 6    | 801   | 0.75       |
-| Logic Element | 5634 | 27696 | 20.34      |
+| Logic Element | 5660 | 27696 | 20.44      |
 +---------------+------+-------+------------+
 
 I/O Placement

@@ -51,13 +51,13 @@ Info: List of globals considered for demotion:
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
     3605   0      0      'test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6' 
-    108    0      1      'test_0/UADC/clkd16_inferred_clock_RNI61L' 
-    41     0      1      'test_0/u100/UCK99' 
+    164    0      1      'test_0/UADC/clkd16_inferred_clock_RNI61L' 
+    42     0      1      'test_0/u100/UCK99' 
     5      0      0      'test_0/UCK4' 
     2      0      0      'mclk_ibuf_RNIC9QA' 
     0      3606   0      'test_0/uGEN_DDS/U100/reset_n_RNIOFM9' 
-    0      395    0      'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1' 
-    0      182    0      'test_0/u100/reset_n_RNI12DE' 
+    0      419    0      'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1' 
+    0      183    0      'test_0/u100/reset_n_RNI12DE' 
     0      70     0      'test_0/u_pcm_tx/reset_n_RNIQ1HA' 
     0      64     0      'test_0/u100/UD100/crc_clr_RNI1MED' 
     0      53     0      'wstart_ibuf_RNIAT88' 

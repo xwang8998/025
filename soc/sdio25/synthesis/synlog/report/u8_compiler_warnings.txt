@@ -13,11 +13,11 @@
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":209:2:209:15|Type of parameter M_AHBSLOTENABLE on the instance address_decode is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2831:2:2831:14|Type of parameter M_AHBSLOTENABLE on the instance masterstage_3 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":209:2:209:15|Type of parameter M_AHBSLOTENABLE on the instance address_decode is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
-@W: CL169 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Pruning unused register demo[17:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"D:\820\igloo\work\sd.v":1272:0:1272:5|Pruning unused register dbg[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL271 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Pruning unused bits 31 to 28 of odin[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL113 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Feedback mux created for signal db[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL250 :"D:\820\igloo\work\sd.v":1304:0:1304:5|All reachable assignments to db[7:0] assign 0, register removed by optimization
+@W: CL169 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Pruning unused register demo[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\820\igloo\work\sd.v":1274:0:1274:5|Pruning unused register dbg[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Pruning unused bits 31 to 28 of odin[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL113 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Feedback mux created for signal db[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"D:\820\igloo\work\sd.v":1306:0:1306:5|All reachable assignments to db[7:0] assign 0, register removed by optimization
 @W: CL169 :"D:\820\igloo\work\bigfifo.v":110:0:110:5|Pruning unused register c3[31:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"D:\820\igloo\work\bigfifo.v":109:0:109:5|Pruning unused register c2[31:0]. Make sure that there are no unused intermediate registers.
 @W: CL190 :"D:\820\igloo\work\bigfifo.v":142:0:142:5|Optimizing register bit HTRANS[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -30,13 +30,13 @@
 @W: CL169 :"D:\820\igloo\work\ram.v":619:0:619:5|Pruning unused register ready. Make sure that there are no unused intermediate registers.
 @W: CL190 :"D:\820\igloo\work\ram.v":619:0:619:5|Optimizing register bit HTRANS[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL260 :"D:\820\igloo\work\ram.v":619:0:619:5|Pruning register bit 0 of HTRANS[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CS263 :"D:\820\igloo\work\sd.v":225:14:225:24|Port-width mismatch for port pcm_left. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"D:\820\igloo\work\sd.v":225:39:225:50|Port-width mismatch for port pcm_right. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"D:\820\igloo\work\sd.v":224:55:224:65|Port-width mismatch for port dsd138_ctrl. The port definition is 8 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
-@W: CG360 :"D:\820\igloo\work\sd.v":266:11:266:19|Removing wire adc_debug, as there is no assignment to it.
-@W: CL190 :"D:\820\igloo\work\sd.v":382:0:382:5|Optimizing register bit sound_card_ctrl[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"D:\820\igloo\work\sd.v":382:0:382:5|Optimizing register bit sound_card_ctrl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"D:\820\igloo\work\sd.v":382:0:382:5|Pruning register bits 4 to 3 of sound_card_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CS263 :"D:\820\igloo\work\sd.v":226:14:226:24|Port-width mismatch for port pcm_left. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\820\igloo\work\sd.v":226:39:226:50|Port-width mismatch for port pcm_right. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\820\igloo\work\sd.v":225:55:225:65|Port-width mismatch for port dsd138_ctrl. The port definition is 8 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"D:\820\igloo\work\sd.v":268:11:268:19|Removing wire adc_debug, as there is no assignment to it.
+@W: CL190 :"D:\820\igloo\work\sd.v":384:0:384:5|Optimizing register bit sound_card_ctrl[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\820\igloo\work\sd.v":384:0:384:5|Optimizing register bit sound_card_ctrl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\820\igloo\work\sd.v":384:0:384:5|Pruning register bits 4 to 3 of sound_card_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL169 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning unused register z[31][31:0]. Make sure that there are no unused intermediate registers.
 @W: CL271 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning unused bits 30 to 0 of z[30][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL265 :"D:\820\igloo\work\wavegen.v":53:0:53:5|Removing unused bit 71 of AX[71:0]. Either assign all bits or reduce the width of the signal.
@@ -63,7 +63,7 @@
 @W: CL279 :"D:\820\igloo\work\adc96.v":117:0:117:5|Pruning register bits 3 to 1 of dsd_rpp[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CG360 :"D:\820\igloo\work\test.v":269:12:269:17|Removing wire lrck_g, as there is no assignment to it.
 @W: CG360 :"D:\820\igloo\work\test.v":269:20:269:25|Removing wire data_g, as there is no assignment to it.
-@W: CL169 :"D:\820\igloo\work\test.v":302:0:302:5|Pruning unused register rrdata[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\820\igloo\work\test.v":304:0:304:5|Pruning unused register rrdata[31:0]. Make sure that there are no unused intermediate registers.
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":541:2:541:11|Type of parameter M0_AHBSLOTENABLE on the instance matrix4x16 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":541:2:541:11|Type of parameter M1_AHBSLOTENABLE on the instance matrix4x16 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG1283 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":541:2:541:11|Type of parameter M2_AHBSLOTENABLE on the instance matrix4x16 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
@@ -179,8 +179,8 @@
 @W: CL279 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning register bits 31 to 30 of z[27][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL279 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning register bits 31 to 30 of z[28][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL279 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning register bits 31 to 30 of z[29][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL156 :"D:\820\igloo\work\sd.v":224:9:224:18|*Input master_bck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
-@W: CL156 :"D:\820\igloo\work\sd.v":224:28:224:38|*Input master_lrck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\820\igloo\work\sd.v":225:9:225:18|*Input master_bck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\820\igloo\work\sd.v":225:28:225:38|*Input master_lrck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
 @W: CL190 :"D:\820\igloo\work\ram.v":619:0:619:5|Optimizing register bit j[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"D:\820\igloo\work\ram.v":619:0:619:5|Optimizing register bit j[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"D:\820\igloo\work\ram.v":619:0:619:5|Optimizing register bit j[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -194,6 +194,6 @@
 @W: CL190 :"D:\820\igloo\work\bigfifo.v":142:0:142:5|Optimizing register bit j[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"D:\820\igloo\work\bigfifo.v":142:0:142:5|Optimizing register bit j[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL279 :"D:\820\igloo\work\bigfifo.v":142:0:142:5|Pruning register bits 7 to 4 of j[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL190 :"D:\820\igloo\work\sd.v":1272:0:1272:5|Optimizing register bit k[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"D:\820\igloo\work\sd.v":1272:0:1272:5|Pruning register bit 3 of k[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"D:\820\igloo\work\sd.v":1274:0:1274:5|Optimizing register bit k[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\820\igloo\work\sd.v":1274:0:1274:5|Pruning register bit 3 of k[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 

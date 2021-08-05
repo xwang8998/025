@@ -1327,7 +1327,8 @@ assign source_right[31:24] = yr [7:0];
 
 reg state, n_state;
 //reg [4:0] i, n_i;
-reg [5:0] i, n_i;//only  1 ch
+//reg [5:0] i, n_i;//only  1 ch
+reg [6:0] i, n_i;//only  1 ch  16bit
 reg [31:0] din, n_din;
 reg flag, n_flag;
 reg ready, n_ready;
@@ -1378,14 +1379,14 @@ IDLE: begin
 
 WORK: begin
     n_ready = 1'b0;
-    n_i = i + 6'd1;
-    if (i == 6'd63) n_ready = 1'b1;
-    if (i == 6'd63) begin
+    n_i = i + 7'd1;
+    if (i == 7'd127) n_ready = 1'b1;
+    if (i == 7'd127) begin
         //if (flag==1'b0) n_din = source_right; else n_din = source_left;
         n_din = source_left;
         
         end
-    if(i == 6'd31)    n_flag = ~flag;
+    if(i == 7'd127)    n_flag = ~flag;
     end
     endcase
     end

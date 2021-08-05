@@ -1,6 +1,6 @@
 set_component u8_sb_CCC_0_FCCC
 # Microsemi Corp.
-# Date: 2021-Aug-03 17:16:40
+# Date: 2021-Aug-05 11:10:49
 #
 
 create_clock -period 20.3451 [ get_pins { CCC_INST/CLK0 } ]

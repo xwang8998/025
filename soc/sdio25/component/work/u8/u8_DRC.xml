@@ -3,10 +3,24 @@
 <drcreport>
   <header>u8</header>
   <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin test_0:HWDATA[15:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/u8/pins/test_0:HWDATA</crossprobe>
+  </drc>
+  <drc>
     <status>C:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
     <StatusMessage>Error</StatusMessage>
-    <message>Out-of-date Instance</message>
-    <detail>Component definition is not consistent for instance test_0</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/u8/instances/test_0</crossprobe>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin test_0:HRDATA[15:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/u8/pins/test_0:HRDATA</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin u8_sb_0:HPMS_FIC_0_USER_MASTER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/u8/pins/u8_sb_0:HPMS_FIC_0_USER_MASTER</crossprobe>
   </drc>
 </drcreport>

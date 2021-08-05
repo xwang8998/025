@@ -1,15 +1,15 @@
 C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\820\igloo\soc\sdio25\synthesis   -part M2GL025  -package VF400  -grade -1    -continue_on_error -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile D:\820\igloo\soc\sdio25\synthesis\synlog\report\u8_fpga_mapper.xml -merge_inferred_clocks 0  -top_level_module  u8  -implementation  synthesis  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  D:\820\igloo\soc\sdio25\synthesis\scratchproject.prs  -multisrs  -oedif  D:\820\igloo\soc\sdio25\synthesis\u8.edn   -freq 100.000   -tcl  D:\820\igloo\soc\sdio25\designer\u8\synthesis.fdc  D:\820\igloo\soc\sdio25\synthesis\synwork\u8_prem.srd  -sap  D:\820\igloo\soc\sdio25\synthesis\u8.sap  -otap  D:\820\igloo\soc\sdio25\synthesis\u8.tap  -omap  D:\820\igloo\soc\sdio25\synthesis\u8.map  -devicelib  C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v  -ologparam  D:\820\igloo\soc\sdio25\synthesis\syntmp\u8.plg  -osyn  D:\820\igloo\soc\sdio25\synthesis\u8.srm  -prjdir  D:\820\igloo\soc\sdio25\synthesis\  -prjname  u8_syn  -log  D:\820\igloo\soc\sdio25\synthesis\synlog\u8_fpga_mapper.srr  -sn  2020.03  -jobname  "fpga_mapper" 
 relcom:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part M2GL025 -package VF400 -grade -1 -continue_on_error -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ..\synlog\report\u8_fpga_mapper.xml -merge_inferred_clocks 0 -top_level_module u8 -implementation synthesis -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -multisrs -oedif ..\u8.edn -freq 100.000 -tcl ..\..\designer\u8\synthesis.fdc ..\synwork\u8_prem.srd -sap ..\u8.sap -otap ..\u8.tap -omap ..\u8.map -devicelib C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v -ologparam u8.plg -osyn ..\u8.srm -prjdir ..\ -prjname u8_syn -log ..\synlog\u8_fpga_mapper.srr -sn 2020.03 -jobname "fpga_mapper"
-rc:1 success:1 runtime:37
+rc:1 success:1 runtime:39
 file:..\scratchproject.prs|io:o|time:1627994993|size:4751|exec:0|csum:
-file:..\u8.edn|io:o|time:1628082439|size:6535587|exec:0|csum:
-file:..\..\designer\u8\synthesis.fdc|io:i|time:1628082372|size:1525|exec:0|csum:465B0A4BF2D1CCEDA7741492964E4543
-file:..\synwork\u8_prem.srd|io:i|time:1628082406|size:402569|exec:0|csum:49C1A6B6100289A527D6DA932BAB67C9
-file:..\u8.sap|io:o|time:1628082407|size:7241|exec:0|csum:
+file:..\u8.edn|io:o|time:1628139836|size:6571961|exec:0|csum:
+file:..\..\designer\u8\synthesis.fdc|io:i|time:1628139798|size:1525|exec:0|csum:6C6FAD4269A17DCE033D571CE2149286
+file:..\synwork\u8_prem.srd|io:i|time:1628139803|size:403775|exec:0|csum:F1E1A716D5976F2337AF747929BC1738
+file:..\u8.sap|io:o|time:1628139805|size:7381|exec:0|csum:
 file:..\u8.tap|io:o|time:0|size:-1|exec:0|csum:
-file:..\u8.map|io:o|time:1628082445|size:28|exec:0|csum:
+file:..\u8.map|io:o|time:1628139843|size:28|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v|io:i|time:1604390290|size:16445|exec:0|csum:0C1A855CE2A914A7AF1E723A1690BFF3
-file:u8.plg|io:o|time:1628082445|size:3672|exec:0|csum:
-file:..\u8.srm|io:o|time:1628082435|size:12854|exec:0|csum:
-file:..\synlog\u8_fpga_mapper.srr|io:o|time:1628082445|size:159192|exec:0|csum:
+file:u8.plg|io:o|time:1628139843|size:3672|exec:0|csum:
+file:..\u8.srm|io:o|time:1628139833|size:12863|exec:0|csum:
+file:..\synlog\u8_fpga_mapper.srr|io:o|time:1628139843|size:162054|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe|io:i|time:1604390270|size:42820608|exec:1|csum:39CFAC34BBF814CB465BAE1969F6836F

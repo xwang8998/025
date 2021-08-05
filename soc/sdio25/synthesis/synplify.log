@@ -2,7 +2,7 @@
 Starting:    C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 Hostname:    WIN7-2020MEADRD
-Date:        Wed Aug  4 21:06:13 2021
+Date:        Thu Aug  5 13:03:19 2021
 Version:     Q-2020.03M-SP1
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log u8_syn.tcl
@@ -27,55 +27,48 @@ Running: synthesis in foreground
 Running u8_syn|synthesis
 
 Running Flow: compile (Compile) on u8_syn|synthesis
-# Wed Aug  4 21:06:14 2021
+# Thu Aug  5 13:03:20 2021
 
 Running Flow: compile_flow (Compile Process) on u8_syn|synthesis
-# Wed Aug  4 21:06:14 2021
+# Thu Aug  5 13:03:20 2021
 
 Running: compiler (Compile Input) on u8_syn|synthesis
-# Wed Aug  4 21:06:14 2021
-Copied D:\820\igloo\soc\sdio25\synthesis\synwork\u8_comp.srs to D:\820\igloo\soc\sdio25\synthesis\u8.srs
+# Thu Aug  5 13:03:20 2021
 
 compiler completed
-# Wed Aug  4 21:06:42 2021
-
-Return Code: 0
-Run Time:00h:00m:28s
-
-Running: multi_srs_gen (Multi-srs Generator) on u8_syn|synthesis
-# Wed Aug  4 21:06:42 2021
-
-multi_srs_gen completed
-# Wed Aug  4 21:06:43 2021
+# Thu Aug  5 13:03:21 2021
 
 Return Code: 0
 Run Time:00h:00m:01s
-Copied D:\820\igloo\soc\sdio25\synthesis\synwork\u8_mult.srs to D:\820\igloo\soc\sdio25\synthesis\u8.srs
+
+Running: multi_srs_gen (Multi-srs Generator) on u8_syn|synthesis
+# Thu Aug  5 13:03:21 2021
+Up-To-Date: multi_srs_gen. No run necessary
 Complete: Compile Process on u8_syn|synthesis
 
 Running: premap (Premap) on u8_syn|synthesis
-# Wed Aug  4 21:06:43 2021
+# Thu Aug  5 13:03:21 2021
 
 premap completed with warnings
-# Wed Aug  4 21:06:48 2021
+# Thu Aug  5 13:03:25 2021
 
 Return Code: 1
-Run Time:00h:00m:05s
+Run Time:00h:00m:04s
 Complete: Compile on u8_syn|synthesis
 
 Running Flow: map (Map) on u8_syn|synthesis
-# Wed Aug  4 21:06:48 2021
+# Thu Aug  5 13:03:25 2021
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on u8_syn|synthesis
-# Wed Aug  4 21:06:48 2021
+# Thu Aug  5 13:03:25 2021
 Copied D:\820\igloo\soc\sdio25\synthesis\synwork\u8_m.srm to D:\820\igloo\soc\sdio25\synthesis\u8.srm
 
 fpga_mapper completed with warnings
-# Wed Aug  4 21:07:25 2021
+# Thu Aug  5 13:04:04 2021
 
 Return Code: 1
-Run Time:00h:00m:37s
+Run Time:00h:00m:39s
 Complete: Map on u8_syn|synthesis
 Complete: Logic Synthesis on u8_syn|synthesis
 TCL script complete: "u8_syn.tcl"

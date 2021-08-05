@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03M-SP1
 #--  Project file D:\820\igloo\soc\sdio25\synthesis\run_options.txt
-#--  Written on Wed Aug  4 21:06:14 2021
+#--  Written on Thu Aug  5 13:03:19 2021
 
 
 #project files

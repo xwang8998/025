@@ -60,13 +60,13 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.2.100\CoreAHBLite.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982200"
+TIME="1628133049"
 SIZE="4344"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.2.100\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1627982200"
+TIME="1628133049"
 SIZE="3063"
 PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\5.2.100\CoreAHBLite.cxf"
 IS_READONLY="TRUE"
@@ -207,7 +207,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982200"
+TIME="1628133049"
 SIZE="584"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 ENDFILE
@@ -227,13 +227,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982200"
+TIME="1628133049"
 SIZE="241"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982202"
+TIME="1628133051"
 SIZE="684"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 ENDFILE
@@ -263,104 +263,104 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982196"
+TIME="1628133045"
 SIZE="526"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133040"
 SIZE="253"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133040"
 SIZE="254"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133040"
 SIZE="254"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133041"
 SIZE="254"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133041"
 SIZE="254"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133041"
 SIZE="255"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133041"
 SIZE="254"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133041"
 SIZE="255"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133041"
 SIZE="258"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982192"
+TIME="1628133041"
 SIZE="256"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\component\work\u8\u8.cxf,actgen_cxf"
 STATE="utd"
-TIME="1628047053"
+TIME="1628133181"
 SIZE="10344"
 ENDFILE
 VALUE "<project>\component\work\u8\u8.v,hdl"
 STATE="utd"
-TIME="1628047051"
+TIME="1628133180"
 SIZE="10468"
 PARENT="<project>\component\work\u8\u8.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982200"
+TIME="1628133049"
 SIZE="684"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.v,hdl"
 STATE="utd"
-TIME="1627982200"
+TIME="1628133049"
 SIZE="1690"
 PARENT="<project>\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982202"
+TIME="1628133051"
 SIZE="459"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v,hdl"
 STATE="utd"
-TIME="1627982202"
+TIME="1628133051"
 SIZE="825"
 PARENT="<project>\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.cxf"
 IS_READONLY="TRUE"
@@ -372,36 +372,36 @@ SIZE="602"
 ENDFILE
 VALUE "<project>\component\work\u8_sb\u8_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982203"
+TIME="1628133052"
 SIZE="10263"
 ENDFILE
 VALUE "<project>\component\work\u8_sb\u8_sb.v,hdl"
 STATE="utd"
-TIME="1627982202"
+TIME="1628133051"
 SIZE="37104"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\u8_sb_HPMS\test.bfm,sim"
 STATE="utd"
-TIME="1627982196"
+TIME="1628133045"
 SIZE="537"
 ENDFILE
 VALUE "<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1627982197"
+TIME="1628133046"
 SIZE="15525"
 ENDFILE
 VALUE "<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.v,hdl"
 STATE="utd"
-TIME="1627982196"
+TIME="1628133045"
 SIZE="47250"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\u8_sb_HPMS\u8_sb_HPMS_pre.v,hdl"
 STATE="utd"
-TIME="1627982196"
+TIME="1628133045"
 SIZE="58969"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -413,7 +413,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\u8_sb_HPMS\u8_sb_HPMS_syn.v,hdl"
 STATE="utd"
-TIME="1627982196"
+TIME="1628133045"
 SIZE="51680"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -484,7 +484,7 @@ PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1627982196"
+TIME="1628133045"
 SIZE="537"
 PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
@@ -494,7 +494,7 @@ TIME="1627980465"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\u8.edn,syn_edn"
-STATE="utd"
+STATE="ood"
 TIME="1627979470"
 SIZE="7390152"
 ENDFILE
@@ -504,7 +504,7 @@ TIME="1508933054"
 SIZE="197"
 ENDFILE
 VALUE "<project>\synthesis\u8_sdc.sdc,syn_sdc"
-STATE="utd"
+STATE="ood"
 TIME="1508933052"
 SIZE="7441"
 ENDFILE
@@ -613,14 +613,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "D:\820\igloo\work\ram.v,hdl"
 STATE="utd"
-TIME="1627561365"
-SIZE="19394"
-IS_READONLY="TRUE"
+TIME="1628132955"
+SIZE="20173"
 ENDFILE
 VALUE "D:\820\igloo\work\sd.v,hdl"
 STATE="utd"
-TIME="1627994778"
-SIZE="54692"
+TIME="1628133011"
+SIZE="54757"
 ENDFILE
 VALUE "D:\820\igloo\work\sdm.v,hdl"
 STATE="utd"
@@ -630,8 +629,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "D:\820\igloo\work\sound.v,hdl"
 STATE="utd"
-TIME="1628079483"
-SIZE="34814"
+TIME="1628135897"
+SIZE="34857"
 ENDFILE
 VALUE "D:\820\igloo\work\tap_rom.v,hdl"
 STATE="utd"
@@ -652,8 +651,8 @@ SIZE="1560"
 ENDFILE
 VALUE "D:\820\igloo\work\test.v,hdl"
 STATE="utd"
-TIME="1628080199"
-SIZE="13221"
+TIME="1628139628"
+SIZE="13867"
 ENDFILE
 VALUE "D:\820\igloo\work\wavegen.v,hdl"
 STATE="utd"
@@ -681,8 +680,6 @@ VALUE "D:\820\igloo\work\test.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\u8.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -706,8 +703,6 @@ VALUE "<project>\designer\impl1\u8.adb,adb"
 ENDUsed_File_List
 ENDLIST
 LIST Impl2
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\u8.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -726,8 +721,6 @@ VALUE "<project>\synthesis\u8.v,syn_hdl"
 ENDUsed_File_List
 ENDLIST
 LIST Impl3
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\u8.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -772,38 +765,6 @@ VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bf
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\test\user\testbench.v,tb_hdl"
-ENDLIST
-LIST ProjectState5.1
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl3
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
 ENDLIST
 ENDLIST
 LIST "u8_sb_HPMS::work"
@@ -944,8 +905,6 @@ ENDLIST
 LIST ProjectState5.1
 LIST "u8::work"
 LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\u8.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -969,8 +928,6 @@ VALUE "<project>\designer\impl1\u8.adb,adb"
 ENDUsed_File_List
 ENDLIST
 LIST Impl2
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\u8.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -989,8 +946,6 @@ VALUE "<project>\synthesis\u8.v,syn_hdl"
 ENDUsed_File_List
 ENDLIST
 LIST Impl3
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\u8.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1006,38 +961,6 @@ VALUE "<project>\phy_synthesis\u8_palace.sdc,palace_sdc"
 VALUE "<project>\phy_synthesis\u8_palace.v,palace_hdl"
 VALUE "<project>\synthesis\u8.edn,syn_edn"
 VALUE "<project>\synthesis\u8.v,syn_hdl"
-ENDUsed_File_List
-ENDLIST
-ENDLIST
-LIST "u8_sb::work"
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl3
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
@@ -1055,7 +978,7 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Export Bitstream:u8_exportBitstream.log
+ReportsCurrentItem;Synthesize:synthesis_sdc_errors.log
 HDL;D:\820\igloo\work\ram.v;0
 SmartDesign;u8;0
 HDL;D:\820\igloo\work\sound.v;0
@@ -1252,14 +1175,10 @@ LIST "tap_rom::work","D:\820\igloo\work\tap_rom.v","FALSE","FALSE"
 ENDLIST
 LIST "tap_rom2::work","D:\820\igloo\work\tap_rom2.v","FALSE","FALSE"
 ENDLIST
-LIST "test::work","D:\820\igloo\work\test.v","FALSE","FALSE"
-SUBBLOCK "GEN_DDS::work","D:\820\igloo\work\GEN_DDS.v","FALSE","FALSE"
-SUBBLOCK "adc96::work","D:\820\igloo\work\adc96.v","FALSE","FALSE"
-SUBBLOCK "pcm_tx::work","D:\820\igloo\work\sound.v","FALSE","FALSE"
-SUBBLOCK "sdtop::work","D:\820\igloo\work\sd.v","FALSE","FALSE"
+LIST "test::work","","FALSE","FALSE"
 ENDLIST
 LIST "u8::work","component\work\u8\u8.v","TRUE","FALSE"
-SUBBLOCK "test::work","D:\820\igloo\work\test.v","FALSE","FALSE"
+SUBBLOCK "test::work","","FALSE","FALSE"
 SUBBLOCK "u8_sb::work","component\work\u8_sb\u8_sb.v","TRUE","FALSE"
 ENDLIST
 LIST "u8_sb::work","component\work\u8_sb\u8_sb.v","TRUE","FALSE"

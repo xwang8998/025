@@ -13,7 +13,7 @@ Hostname: WIN7-2020MEADRD
 
 Implementation : synthesis
 
-# Written on Wed Aug  4 21:06:44 2021
+# Written on Thu Aug  5 13:03:22 2021
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "D:\820\igloo\soc\sdio25\designer\u8\synthesis.fdc"
@@ -41,7 +41,7 @@ Level     Clock                                                         Frequenc
                                                                                                                                               
 0 -       wavegen|pclk_div2_inferred_clock                              100.0 MHz     10.000        inferred     Inferred_clkgroup_8     3672 
                                                                                                                                               
-0 -       adc96|clkd16_inferred_clock                                   100.0 MHz     10.000        inferred     Inferred_clkgroup_4     152  
+0 -       adc96|clkd16_inferred_clock                                   100.0 MHz     10.000        inferred     Inferred_clkgroup_4     209  
                                                                                                                                               
 0 -       u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_0     113  
                                                                                                                                               
@@ -75,7 +75,7 @@ mclk                                                          2         mclk(por
                                                                                                                                                                                                                                                                                          
 wavegen|pclk_div2_inferred_clock                              3672      test_0.uGEN_DDS.U100.pclk_div2.Q[0](dffr)                    test_0.uGEN_DDS.U100.xstart[39:0].C              -                                       -                                                          
                                                                                                                                                                                                                                                                                          
-adc96|clkd16_inferred_clock                                   152       test_0.UADC.clkd16.Q[0](dffr)                                test_0.wi[4:0].C                                 test_0.u100.UADC.sync_bck[2:0].D[0]     test_0.UDAT20.I(IOBUF)                                     
+adc96|clkd16_inferred_clock                                   209       test_0.UADC.clkd16.Q[0](dffr)                                test_0.nlldata[31:0].C                           test_0.u100.UADC.sync_bck[2:0].D[0]     test_0.UDAT20.I(IOBUF)                                     
                                                                                                                                                                                                                                                                                          
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       113       u8_sb_0.CCC_0.CCC_INST.GL0(CCC)                              u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST.CLK_BASE     -                                       u8_sb_0.CCC_0.GL0_INST.I(BUFG)                             
                                                                                                                                                                                                                                                                                          

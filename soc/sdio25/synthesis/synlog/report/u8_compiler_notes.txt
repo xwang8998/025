@@ -6,8 +6,8 @@
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT in library work.
 @N: CG364 :"D:\820\igloo\work\crc7.v":47:7:47:11|Synthesizing module crc16 in library work.
 @N: CG179 :"D:\820\igloo\work\crc7.v":72:20:72:22|Removing redundant assignment.
-@N: CG364 :"D:\820\igloo\work\sd.v":1190:7:1190:13|Synthesizing module sd_data in library work.
-@N: CG179 :"D:\820\igloo\work\sd.v":1284:22:1284:22|Removing redundant assignment.
+@N: CG364 :"D:\820\igloo\work\sd.v":1192:7:1192:13|Synthesizing module sd_data in library work.
+@N: CG179 :"D:\820\igloo\work\sd.v":1286:22:1286:22|Removing redundant assignment.
 @N: CG364 :"D:\820\igloo\work\ram.v":402:7:402:16|Synthesizing module sync_logic in library work.
 @N: CG364 :"D:\820\igloo\work\ram.v":402:7:402:16|Synthesizing module sync_logic in library work.
 @N: CG364 :"D:\820\igloo\work\bigfifo.v":6:7:6:13|Synthesizing module bigfifo in library work.
@@ -39,6 +39,7 @@
 @N: CG179 :"D:\820\igloo\work\down882.v":92:25:92:29|Removing redundant assignment.
 @N: CG364 :"D:\820\igloo\work\adc96.v":6:7:6:11|Synthesizing module adc96 in library work.
 @N: CG364 :"D:\820\igloo\work\test.v":40:7:40:10|Synthesizing module test in library work.
+@N: CG179 :"D:\820\igloo\work\test.v":342:15:342:21|Removing redundant assignment.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":729:7:729:9|Synthesizing module CCC in library work.
@@ -168,12 +169,12 @@
 @N: CL159 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused.
 @N: CL159 :"D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused.
 @N: CL201 :"D:\820\igloo\work\wavegen.v":53:0:53:5|Trying to extract state machine for register state.
-@N: CL201 :"D:\820\igloo\work\sd.v":382:0:382:5|Trying to extract state machine for register state.
-@N: CL201 :"D:\820\igloo\work\sd.v":382:0:382:5|Trying to extract state machine for register bus_state.
+@N: CL201 :"D:\820\igloo\work\sd.v":384:0:384:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\820\igloo\work\sd.v":384:0:384:5|Trying to extract state machine for register bus_state.
 @N: CL135 :"D:\820\igloo\work\ram.v":584:0:584:5|Found sequential shift c2 with address depth of 3 words and data bit width of 32.
 @N: CL201 :"D:\820\igloo\work\ram.v":619:0:619:5|Trying to extract state machine for register state.
 @N: CL201 :"D:\820\igloo\work\ram.v":115:0:115:5|Trying to extract state machine for register state.
 @N: CL201 :"D:\820\igloo\work\bigfifo.v":142:0:142:5|Trying to extract state machine for register state.
-@N: CL201 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Trying to extract state machine for register state.
 @N|Running in 64-bit mode
 

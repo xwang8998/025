@@ -1,23 +1,23 @@
 
-fsm_encoding {1213040130412} onehot
+fsm_encoding {1213060130612} onehot
 
-fsm_state_encoding {1213040130412} IDLE {00000001}
+fsm_state_encoding {1213060130612} IDLE {00000001}
 
-fsm_state_encoding {1213040130412} WAIT_DATA {00000010}
+fsm_state_encoding {1213060130612} WAIT_DATA {00000010}
 
-fsm_state_encoding {1213040130412} READ_DATA {00000100}
+fsm_state_encoding {1213060130612} READ_DATA {00000100}
 
-fsm_state_encoding {1213040130412} CRC_AND_RESPONSE {00001000}
+fsm_state_encoding {1213060130612} CRC_AND_RESPONSE {00001000}
 
-fsm_state_encoding {1213040130412} DATA_BUSY {00010000}
+fsm_state_encoding {1213060130612} DATA_BUSY {00010000}
 
-fsm_state_encoding {1213040130412} SD_READ {00100000}
+fsm_state_encoding {1213060130612} SD_READ {00100000}
 
-fsm_state_encoding {1213040130412} SD_READ_20 {01000000}
+fsm_state_encoding {1213060130612} SD_READ_20 {01000000}
 
-fsm_state_encoding {1213040130412} SD_READ_30 {10000000}
+fsm_state_encoding {1213060130612} SD_READ_30 {10000000}
 
-fsm_registers {1213040130412} {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+fsm_registers {1213060130612} {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
 
 fsm_encoding {11142014211} onehot
 
@@ -59,35 +59,35 @@ fsm_state_encoding {961906199} CONFIG {10000}
 
 fsm_registers {961906199} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
 
-fsm_encoding {1238203828} onehot
+fsm_encoding {1238403848} onehot
 
-fsm_state_encoding {1238203828} INIT {0000000000001}
+fsm_state_encoding {1238403848} INIT {0000000000001}
 
-fsm_state_encoding {1238203828} READ_CMD {0000000000010}
+fsm_state_encoding {1238403848} READ_CMD {0000000000010}
 
-fsm_state_encoding {1238203828} HANDLE_CMD {0000000000100}
+fsm_state_encoding {1238403848} HANDLE_CMD {0000000000100}
 
-fsm_state_encoding {1238203828} SEND_RESP {0000000001000}
+fsm_state_encoding {1238403848} SEND_RESP {0000000001000}
 
-fsm_state_encoding {1238203828} SEND_RESP_20 {0000000010000}
+fsm_state_encoding {1238403848} SEND_RESP_20 {0000000010000}
 
-fsm_state_encoding {1238203828} HANDLE_CMD357 {0000000100000}
+fsm_state_encoding {1238403848} HANDLE_CMD357 {0000000100000}
 
-fsm_state_encoding {1238203828} HANDLE_CMD52 {0000001000000}
+fsm_state_encoding {1238403848} HANDLE_CMD52 {0000001000000}
 
-fsm_state_encoding {1238203828} HANDLE_CCCR {0000010000000}
+fsm_state_encoding {1238403848} HANDLE_CCCR {0000010000000}
 
-fsm_state_encoding {1238203828} HANDLE_FBR {0000100000000}
+fsm_state_encoding {1238403848} HANDLE_FBR {0000100000000}
 
-fsm_state_encoding {1238203828} HANDLE_CIS {0001000000000}
+fsm_state_encoding {1238403848} HANDLE_CIS {0001000000000}
 
-fsm_state_encoding {1238203828} HANDLE_CMD53 {0010000000000}
+fsm_state_encoding {1238403848} HANDLE_CMD53 {0010000000000}
 
-fsm_state_encoding {1238203828} CARD_RESET {0100000000000}
+fsm_state_encoding {1238403848} CARD_RESET {0100000000000}
 
-fsm_state_encoding {1238203828} HANDLE_USER {1000000000000}
+fsm_state_encoding {1238403848} HANDLE_USER {1000000000000}
 
-fsm_registers {1238203828} {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+fsm_registers {1238403848} {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
 
 fsm_encoding {6530537} sequential
 

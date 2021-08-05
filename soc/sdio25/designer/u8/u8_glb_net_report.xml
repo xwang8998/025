@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Wed Aug  4 21:09:11 2021
+<text>Date: Thu Aug  5 13:05:43 2021
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -19,14 +19,14 @@
  <cell>1</cell>
  <cell>GB[9] </cell>
  <cell>(303, 72)</cell>
- <cell>test_0/uGEN_DDS/U100/reset_n_RNIOFM9/U0_YWn</cell>
+ <cell>test_0/uGEN_DDS/U100/reset_n_RNIOFM9/U0_YWn_GEast</cell>
  <cell>3606</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[1] </cell>
  <cell>(291, 72)</cell>
- <cell>test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6/U0_YWn</cell>
+ <cell>test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6/U0_YWn_GEast</cell>
  <cell>3605</cell>
 </row>
 <row>
@@ -41,13 +41,13 @@
  <cell>GB[4] </cell>
  <cell>(294, 72)</cell>
  <cell>u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1/U0_YWn</cell>
- <cell>395</cell>
+ <cell>419</cell>
 </row>
 <row>
  <cell>5</cell>
  <cell>GB[14] </cell>
  <cell>(308, 72)</cell>
- <cell>test_0/UCK1/U0_YWn</cell>
+ <cell>test_0/UCK1/U0_YWn_GEast</cell>
  <cell>202</cell>
 </row>
 <row>
@@ -55,14 +55,14 @@
  <cell>GB[7] </cell>
  <cell>(297, 72)</cell>
  <cell>test_0/u100/reset_n_RNI12DE/U0_YWn_GEast</cell>
- <cell>182</cell>
+ <cell>183</cell>
 </row>
 <row>
  <cell>7</cell>
  <cell>GB[13] </cell>
  <cell>(307, 72)</cell>
  <cell>test_0/UADC/clkd16_inferred_clock_RNI61L/U0_YWn_GEast</cell>
- <cell>108</cell>
+ <cell>164</cell>
 </row>
 <row>
  <cell>8</cell>
@@ -90,13 +90,13 @@
  <cell>GB[2] </cell>
  <cell>(292, 72)</cell>
  <cell>test_0/u100/UCK99/U0_YWn_GEast</cell>
- <cell>41</cell>
+ <cell>42</cell>
 </row>
 <row>
  <cell>12</cell>
  <cell>GB[6] </cell>
  <cell>(296, 72)</cell>
- <cell>u8_sb_0/CCC_0/GL0_INST/U0_YWn</cell>
+ <cell>u8_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
  <cell>37</cell>
 </row>
 <row>
@@ -185,7 +185,7 @@
 <row>
  <cell>1</cell>
  <cell>test_0/uGEN_DDS/U100/reset_n:Y</cell>
- <cell>(437, 42)</cell>
+ <cell>(570, 45)</cell>
  <cell>GB[9] </cell>
  <cell>test_0/uGEN_DDS/U100/reset_n</cell>
  <cell>ROUTED</cell>
@@ -194,7 +194,7 @@
 <row>
  <cell>2</cell>
  <cell>test_0/uGEN_DDS/U100/pclk_div2:Q</cell>
- <cell>(530, 76)</cell>
+ <cell>(408, 76)</cell>
  <cell>GB[1] </cell>
  <cell>test_0/uGEN_DDS/U100/pclk_div2_0</cell>
  <cell>ROUTED</cell>
@@ -203,7 +203,7 @@
 <row>
  <cell>3</cell>
  <cell>test_0/UCK3_RNO:Y</cell>
- <cell>(410, 12)</cell>
+ <cell>(462, 12)</cell>
  <cell>GB[0] </cell>
  <cell>test_0/sdclk_c_i</cell>
  <cell>ROUTED</cell>
@@ -212,7 +212,7 @@
 <row>
  <cell>4</cell>
  <cell>u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep:Q</cell>
- <cell>(228, 34)</cell>
+ <cell>(435, 94)</cell>
  <cell>GB[4] </cell>
  <cell>u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep</cell>
  <cell>ROUTED</cell>
@@ -221,7 +221,7 @@
 <row>
  <cell>5</cell>
  <cell>test_0/mclk_d2:Q</cell>
- <cell>(578, 79)</cell>
+ <cell>(308, 52)</cell>
  <cell>GB[14] </cell>
  <cell>test_0/mclk_d2</cell>
  <cell>ROUTED</cell>
@@ -230,7 +230,7 @@
 <row>
  <cell>6</cell>
  <cell>test_0/u100/reset_n:Y</cell>
- <cell>(232, 33)</cell>
+ <cell>(433, 108)</cell>
  <cell>GB[7] </cell>
  <cell>test_0/u100/reset_n</cell>
  <cell>ROUTED</cell>
@@ -239,7 +239,7 @@
 <row>
  <cell>7</cell>
  <cell>test_0/UADC/clkd16:Q</cell>
- <cell>(426, 70)</cell>
+ <cell>(422, 76)</cell>
  <cell>GB[13] </cell>
  <cell>test_0/clkd16</cell>
  <cell>ROUTED</cell>
@@ -248,7 +248,7 @@
 <row>
  <cell>8</cell>
  <cell>test_0/u_pcm_tx/reset_n:Y</cell>
- <cell>(413, 33)</cell>
+ <cell>(434, 93)</cell>
  <cell>GB[10] </cell>
  <cell>test_0/u_pcm_tx/reset_n_0</cell>
  <cell>ROUTED</cell>
@@ -257,7 +257,7 @@
 <row>
  <cell>9</cell>
  <cell>test_0/u100/UD100/crc_clr:Q</cell>
- <cell>(384, 13)</cell>
+ <cell>(459, 19)</cell>
  <cell>GB[3] </cell>
  <cell>test_0/u100/UD100/crc_clr_0</cell>
  <cell>ROUTED</cell>
@@ -266,7 +266,7 @@
 <row>
  <cell>10</cell>
  <cell>test_0/UADC/clkd16:Q</cell>
- <cell>(426, 70)</cell>
+ <cell>(422, 76)</cell>
  <cell>GB[2] </cell>
  <cell>test_0/clkd16</cell>
  <cell>ROUTED</cell>
@@ -317,7 +317,7 @@
 <row>
  <cell>1</cell>
  <cell>test_0/mclk_d2_RNIPAT8:Y</cell>
- <cell>(578, 78)</cell>
+ <cell>(308, 51)</cell>
  <cell>u8_sb_0/CCC_0/CCC_INST/INST_CCC_IP:CLK0</cell>
  <cell>CCC-NW1 (18, 134)</cell>
  <cell>test_0.mclk_d2_i</cell>
@@ -348,11 +348,11 @@
  <cell>1</cell>
  <cell>GB[9] </cell>
  <cell>(303, 72)</cell>
- <cell>test_0/uGEN_DDS/U100/reset_n_RNIOFM9/U0_YWn</cell>
+ <cell>test_0/uGEN_DDS/U100/reset_n_RNIOFM9/U0_YWn_GEast</cell>
  <cell>3606</cell>
  <cell>1</cell>
- <cell>(147, 42)</cell>
- <cell>27</cell>
+ <cell>(447, 39)</cell>
+ <cell>146</cell>
 </row>
 <row>
  <cell> </cell>
@@ -361,8 +361,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(147, 45)</cell>
- <cell>41</cell>
+ <cell>(448, 57)</cell>
+ <cell>229</cell>
 </row>
 <row>
  <cell> </cell>
@@ -371,8 +371,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(147, 51)</cell>
- <cell>99</cell>
+ <cell>(448, 63)</cell>
+ <cell>262</cell>
 </row>
 <row>
  <cell> </cell>
@@ -381,8 +381,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(147, 54)</cell>
- <cell>71</cell>
+ <cell>(448, 66)</cell>
+ <cell>222</cell>
 </row>
 <row>
  <cell> </cell>
@@ -391,8 +391,8 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(147, 57)</cell>
- <cell>71</cell>
+ <cell>(448, 69)</cell>
+ <cell>175</cell>
 </row>
 <row>
  <cell> </cell>
@@ -401,8 +401,8 @@
  <cell></cell>
  <cell></cell>
  <cell>6</cell>
- <cell>(147, 60)</cell>
- <cell>97</cell>
+ <cell>(448, 78)</cell>
+ <cell>207</cell>
 </row>
 <row>
  <cell> </cell>
@@ -411,8 +411,8 @@
  <cell></cell>
  <cell></cell>
  <cell>7</cell>
- <cell>(147, 63)</cell>
- <cell>63</cell>
+ <cell>(448, 90)</cell>
+ <cell>207</cell>
 </row>
 <row>
  <cell> </cell>
@@ -421,8 +421,8 @@
  <cell></cell>
  <cell></cell>
  <cell>8</cell>
- <cell>(147, 66)</cell>
- <cell>8</cell>
+ <cell>(449, 36)</cell>
+ <cell>81</cell>
 </row>
 <row>
  <cell> </cell>
@@ -431,8 +431,8 @@
  <cell></cell>
  <cell></cell>
  <cell>9</cell>
- <cell>(147, 69)</cell>
- <cell>41</cell>
+ <cell>(449, 51)</cell>
+ <cell>233</cell>
 </row>
 <row>
  <cell> </cell>
@@ -441,8 +441,8 @@
  <cell></cell>
  <cell></cell>
  <cell>10</cell>
- <cell>(147, 75)</cell>
- <cell>70</cell>
+ <cell>(449, 54)</cell>
+ <cell>190</cell>
 </row>
 <row>
  <cell> </cell>
@@ -451,8 +451,8 @@
  <cell></cell>
  <cell></cell>
  <cell>11</cell>
- <cell>(147, 78)</cell>
- <cell>72</cell>
+ <cell>(449, 75)</cell>
+ <cell>151</cell>
 </row>
 <row>
  <cell> </cell>
@@ -461,8 +461,8 @@
  <cell></cell>
  <cell></cell>
  <cell>12</cell>
- <cell>(147, 81)</cell>
- <cell>50</cell>
+ <cell>(449, 87)</cell>
+ <cell>211</cell>
 </row>
 <row>
  <cell> </cell>
@@ -471,8 +471,8 @@
  <cell></cell>
  <cell></cell>
  <cell>13</cell>
- <cell>(147, 84)</cell>
- <cell>37</cell>
+ <cell>(449, 99)</cell>
+ <cell>118</cell>
 </row>
 <row>
  <cell> </cell>
@@ -481,8 +481,8 @@
  <cell></cell>
  <cell></cell>
  <cell>14</cell>
- <cell>(147, 87)</cell>
- <cell>64</cell>
+ <cell>(450, 42)</cell>
+ <cell>128</cell>
 </row>
 <row>
  <cell> </cell>
@@ -491,8 +491,8 @@
  <cell></cell>
  <cell></cell>
  <cell>15</cell>
- <cell>(147, 90)</cell>
- <cell>35</cell>
+ <cell>(450, 45)</cell>
+ <cell>82</cell>
 </row>
 <row>
  <cell> </cell>
@@ -501,8 +501,8 @@
  <cell></cell>
  <cell></cell>
  <cell>16</cell>
- <cell>(147, 93)</cell>
- <cell>36</cell>
+ <cell>(450, 48)</cell>
+ <cell>157</cell>
 </row>
 <row>
  <cell> </cell>
@@ -511,8 +511,8 @@
  <cell></cell>
  <cell></cell>
  <cell>17</cell>
- <cell>(147, 102)</cell>
- <cell>21</cell>
+ <cell>(450, 60)</cell>
+ <cell>220</cell>
 </row>
 <row>
  <cell> </cell>
@@ -521,8 +521,8 @@
  <cell></cell>
  <cell></cell>
  <cell>18</cell>
- <cell>(147, 105)</cell>
- <cell>12</cell>
+ <cell>(450, 81)</cell>
+ <cell>174</cell>
 </row>
 <row>
  <cell> </cell>
@@ -531,18 +531,48 @@
  <cell></cell>
  <cell></cell>
  <cell>19</cell>
- <cell>(148, 48)</cell>
- <cell>37</cell>
+ <cell>(450, 84)</cell>
+ <cell>210</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20</cell>
+ <cell>(450, 102)</cell>
+ <cell>80</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>21</cell>
+ <cell>(450, 105)</cell>
+ <cell>40</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22</cell>
+ <cell>(451, 93)</cell>
+ <cell>83</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[1] </cell>
  <cell>(291, 72)</cell>
- <cell>test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6/U0_YWn</cell>
+ <cell>test_0/uGEN_DDS/U100/pclk_div2_inferred_clock_RNIV7J6/U0_YWn_GEast</cell>
  <cell>3605</cell>
  <cell>1</cell>
- <cell>(146, 42)</cell>
- <cell>27</cell>
+ <cell>(446, 39)</cell>
+ <cell>146</cell>
 </row>
 <row>
  <cell> </cell>
@@ -551,8 +581,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(146, 45)</cell>
- <cell>41</cell>
+ <cell>(446, 90)</cell>
+ <cell>207</cell>
 </row>
 <row>
  <cell> </cell>
@@ -561,8 +591,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(146, 51)</cell>
- <cell>99</cell>
+ <cell>(447, 36)</cell>
+ <cell>81</cell>
 </row>
 <row>
  <cell> </cell>
@@ -571,8 +601,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(146, 54)</cell>
- <cell>71</cell>
+ <cell>(447, 42)</cell>
+ <cell>128</cell>
 </row>
 <row>
  <cell> </cell>
@@ -581,8 +611,8 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(146, 57)</cell>
- <cell>71</cell>
+ <cell>(447, 45)</cell>
+ <cell>82</cell>
 </row>
 <row>
  <cell> </cell>
@@ -591,8 +621,8 @@
  <cell></cell>
  <cell></cell>
  <cell>6</cell>
- <cell>(146, 60)</cell>
- <cell>97</cell>
+ <cell>(447, 48)</cell>
+ <cell>157</cell>
 </row>
 <row>
  <cell> </cell>
@@ -601,8 +631,8 @@
  <cell></cell>
  <cell></cell>
  <cell>7</cell>
- <cell>(146, 63)</cell>
- <cell>63</cell>
+ <cell>(447, 51)</cell>
+ <cell>233</cell>
 </row>
 <row>
  <cell> </cell>
@@ -611,8 +641,8 @@
  <cell></cell>
  <cell></cell>
  <cell>8</cell>
- <cell>(146, 66)</cell>
- <cell>8</cell>
+ <cell>(447, 54)</cell>
+ <cell>190</cell>
 </row>
 <row>
  <cell> </cell>
@@ -621,8 +651,8 @@
  <cell></cell>
  <cell></cell>
  <cell>9</cell>
- <cell>(146, 69)</cell>
- <cell>41</cell>
+ <cell>(447, 57)</cell>
+ <cell>229</cell>
 </row>
 <row>
  <cell> </cell>
@@ -631,8 +661,8 @@
  <cell></cell>
  <cell></cell>
  <cell>10</cell>
- <cell>(146, 75)</cell>
- <cell>70</cell>
+ <cell>(447, 63)</cell>
+ <cell>262</cell>
 </row>
 <row>
  <cell> </cell>
@@ -641,8 +671,8 @@
  <cell></cell>
  <cell></cell>
  <cell>11</cell>
- <cell>(146, 78)</cell>
- <cell>72</cell>
+ <cell>(447, 66)</cell>
+ <cell>222</cell>
 </row>
 <row>
  <cell> </cell>
@@ -651,8 +681,8 @@
  <cell></cell>
  <cell></cell>
  <cell>12</cell>
- <cell>(146, 81)</cell>
- <cell>50</cell>
+ <cell>(447, 69)</cell>
+ <cell>175</cell>
 </row>
 <row>
  <cell> </cell>
@@ -661,8 +691,8 @@
  <cell></cell>
  <cell></cell>
  <cell>13</cell>
- <cell>(146, 84)</cell>
- <cell>37</cell>
+ <cell>(447, 78)</cell>
+ <cell>207</cell>
 </row>
 <row>
  <cell> </cell>
@@ -671,8 +701,8 @@
  <cell></cell>
  <cell></cell>
  <cell>14</cell>
- <cell>(146, 87)</cell>
- <cell>64</cell>
+ <cell>(447, 84)</cell>
+ <cell>210</cell>
 </row>
 <row>
  <cell> </cell>
@@ -681,8 +711,8 @@
  <cell></cell>
  <cell></cell>
  <cell>15</cell>
- <cell>(146, 90)</cell>
- <cell>35</cell>
+ <cell>(447, 87)</cell>
+ <cell>211</cell>
 </row>
 <row>
  <cell> </cell>
@@ -691,8 +721,8 @@
  <cell></cell>
  <cell></cell>
  <cell>16</cell>
- <cell>(146, 93)</cell>
- <cell>36</cell>
+ <cell>(447, 99)</cell>
+ <cell>118</cell>
 </row>
 <row>
  <cell> </cell>
@@ -701,8 +731,8 @@
  <cell></cell>
  <cell></cell>
  <cell>17</cell>
- <cell>(146, 102)</cell>
- <cell>21</cell>
+ <cell>(448, 60)</cell>
+ <cell>220</cell>
 </row>
 <row>
  <cell> </cell>
@@ -711,8 +741,8 @@
  <cell></cell>
  <cell></cell>
  <cell>18</cell>
- <cell>(146, 105)</cell>
- <cell>12</cell>
+ <cell>(448, 75)</cell>
+ <cell>150</cell>
 </row>
 <row>
  <cell> </cell>
@@ -721,8 +751,38 @@
  <cell></cell>
  <cell></cell>
  <cell>19</cell>
- <cell>(147, 48)</cell>
- <cell>37</cell>
+ <cell>(448, 81)</cell>
+ <cell>174</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20</cell>
+ <cell>(448, 93)</cell>
+ <cell>83</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>21</cell>
+ <cell>(448, 102)</cell>
+ <cell>80</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22</cell>
+ <cell>(448, 105)</cell>
+ <cell>40</cell>
 </row>
 <row>
  <cell>3</cell>
@@ -730,69 +790,29 @@
  <cell>(290, 72)</cell>
  <cell>test_0/UCK3/U0_YWn</cell>
  <cell>493</cell>
- <cell>1</cell>
+ <cell> </cell>
  <cell>(146, 0)</cell>
  <cell>2</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>2</cell>
- <cell>(146, 18)</cell>
- <cell>7</cell>
 </row>
 <row>
  <cell>4</cell>
  <cell>GB[4] </cell>
  <cell>(294, 72)</cell>
  <cell>u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1/U0_YWn</cell>
- <cell>395</cell>
- <cell>1</cell>
+ <cell>419</cell>
+ <cell> </cell>
  <cell>(147, 0)</cell>
  <cell>2</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>2</cell>
- <cell>(147, 18)</cell>
- <cell>7</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>3</cell>
- <cell>(149, 48)</cell>
- <cell>9</cell>
 </row>
 <row>
  <cell>5</cell>
  <cell>GB[14] </cell>
  <cell>(308, 72)</cell>
- <cell>test_0/UCK1/U0_YWn</cell>
+ <cell>test_0/UCK1/U0_YWn_GEast</cell>
  <cell>202</cell>
- <cell> </cell>
- <cell>(146, 48)</cell>
- <cell>9</cell>
-</row>
-<row>
- <cell>6</cell>
- <cell>GB[7] </cell>
- <cell>(297, 72)</cell>
- <cell>test_0/u100/reset_n_RNI12DE/U0_YWn_GEast</cell>
- <cell>182</cell>
  <cell>1</cell>
- <cell>(447, 21)</cell>
- <cell>5</cell>
+ <cell>(446, 15)</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell> </cell>
@@ -801,8 +821,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(448, 69)</cell>
- <cell>8</cell>
+ <cell>(446, 36)</cell>
+ <cell>10</cell>
 </row>
 <row>
  <cell> </cell>
@@ -811,7 +831,7 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(448, 84)</cell>
+ <cell>(446, 42)</cell>
  <cell>9</cell>
 </row>
 <row>
@@ -821,8 +841,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(448, 87)</cell>
- <cell>6</cell>
+ <cell>(446, 45)</cell>
+ <cell>24</cell>
 </row>
 <row>
  <cell> </cell>
@@ -831,8 +851,8 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(448, 90)</cell>
- <cell>9</cell>
+ <cell>(446, 48)</cell>
+ <cell>10</cell>
 </row>
 <row>
  <cell> </cell>
@@ -841,8 +861,8 @@
  <cell></cell>
  <cell></cell>
  <cell>6</cell>
- <cell>(448, 99)</cell>
- <cell>43</cell>
+ <cell>(446, 51)</cell>
+ <cell>9</cell>
 </row>
 <row>
  <cell> </cell>
@@ -851,8 +871,8 @@
  <cell></cell>
  <cell></cell>
  <cell>7</cell>
- <cell>(448, 105)</cell>
- <cell>6</cell>
+ <cell>(446, 60)</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell> </cell>
@@ -861,8 +881,8 @@
  <cell></cell>
  <cell></cell>
  <cell>8</cell>
- <cell>(449, 81)</cell>
- <cell>5</cell>
+ <cell>(446, 75)</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell> </cell>
@@ -871,8 +891,8 @@
  <cell></cell>
  <cell></cell>
  <cell>9</cell>
- <cell>(449, 93)</cell>
- <cell>41</cell>
+ <cell>(446, 81)</cell>
+ <cell>7</cell>
 </row>
 <row>
  <cell> </cell>
@@ -881,8 +901,8 @@
  <cell></cell>
  <cell></cell>
  <cell>10</cell>
- <cell>(449, 102)</cell>
- <cell>42</cell>
+ <cell>(446, 87)</cell>
+ <cell>10</cell>
 </row>
 <row>
  <cell> </cell>
@@ -891,17 +911,67 @@
  <cell></cell>
  <cell></cell>
  <cell>11</cell>
- <cell>(450, 78)</cell>
- <cell>8</cell>
+ <cell>(446, 93)</cell>
+ <cell>6</cell>
 </row>
 <row>
- <cell>7</cell>
- <cell>GB[13] </cell>
- <cell>(307, 72)</cell>
- <cell>test_0/UADC/clkd16_inferred_clock_RNI61L/U0_YWn_GEast</cell>
- <cell>108</cell>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>12</cell>
+ <cell>(446, 96)</cell>
+ <cell>22</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>13</cell>
+ <cell>(446, 99)</cell>
+ <cell>25</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>14</cell>
+ <cell>(446, 102)</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>15</cell>
+ <cell>(446, 105)</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>16</cell>
+ <cell>(446, 108)</cell>
+ <cell>32</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>GB[7] </cell>
+ <cell>(297, 72)</cell>
+ <cell>test_0/u100/reset_n_RNI12DE/U0_YWn_GEast</cell>
+ <cell>183</cell>
  <cell>1</cell>
- <cell>(447, 108)</cell>
+ <cell>(446, 111)</cell>
  <cell>10</cell>
 </row>
 <row>
@@ -911,8 +981,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(449, 57)</cell>
- <cell>8</cell>
+ <cell>(447, 18)</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell> </cell>
@@ -921,8 +991,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(449, 60)</cell>
- <cell>12</cell>
+ <cell>(447, 108)</cell>
+ <cell>55</cell>
 </row>
 <row>
  <cell> </cell>
@@ -931,8 +1001,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(449, 111)</cell>
- <cell>8</cell>
+ <cell>(448, 84)</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell> </cell>
@@ -941,8 +1011,8 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(453, 78)</cell>
- <cell>5</cell>
+ <cell>(448, 87)</cell>
+ <cell>10</cell>
 </row>
 <row>
  <cell> </cell>
@@ -951,8 +1021,8 @@
  <cell></cell>
  <cell></cell>
  <cell>6</cell>
- <cell>(453, 81)</cell>
- <cell>12</cell>
+ <cell>(448, 96)</cell>
+ <cell>22</cell>
 </row>
 <row>
  <cell> </cell>
@@ -961,8 +1031,8 @@
  <cell></cell>
  <cell></cell>
  <cell>7</cell>
- <cell>(453, 90)</cell>
- <cell>43</cell>
+ <cell>(448, 99)</cell>
+ <cell>25</cell>
 </row>
 <row>
  <cell> </cell>
@@ -971,8 +1041,98 @@
  <cell></cell>
  <cell></cell>
  <cell>8</cell>
- <cell>(453, 96)</cell>
+ <cell>(449, 60)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>9</cell>
+ <cell>(449, 81)</cell>
+ <cell>7</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
  <cell>10</cell>
+ <cell>(449, 93)</cell>
+ <cell>6</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>11</cell>
+ <cell>(449, 102)</cell>
+ <cell>17</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>12</cell>
+ <cell>(449, 105)</cell>
+ <cell>27</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>GB[13] </cell>
+ <cell>(307, 72)</cell>
+ <cell>test_0/UADC/clkd16_inferred_clock_RNI61L/U0_YWn_GEast</cell>
+ <cell>164</cell>
+ <cell>1</cell>
+ <cell>(449, 111)</cell>
+ <cell>47</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(450, 108)</cell>
+ <cell>46</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(451, 45)</cell>
+ <cell>32</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(451, 48)</cell>
+ <cell>32</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(451, 54)</cell>
+ <cell>7</cell>
 </row>
 <row>
  <cell>8</cell>
@@ -981,8 +1141,8 @@
  <cell>test_0/u_pcm_tx/reset_n_RNIQ1HA/U0_YWn_GEast</cell>
  <cell>70</cell>
  <cell>1</cell>
- <cell>(446, 108)</cell>
- <cell>10</cell>
+ <cell>(448, 54)</cell>
+ <cell>7</cell>
 </row>
 <row>
  <cell> </cell>
@@ -991,8 +1151,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(447, 57)</cell>
- <cell>8</cell>
+ <cell>(449, 45)</cell>
+ <cell>31</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1001,48 +1161,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(447, 60)</cell>
- <cell>12</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>4</cell>
- <cell>(447, 111)</cell>
- <cell>8</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>5</cell>
- <cell>(449, 90)</cell>
- <cell>10</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>6</cell>
- <cell>(450, 81)</cell>
- <cell>12</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>7</cell>
- <cell>(450, 96)</cell>
- <cell>10</cell>
+ <cell>(449, 48)</cell>
+ <cell>32</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -1051,8 +1171,8 @@
  <cell>test_0/u100/UD100/crc_clr_RNI1MED/U0_YWn_GEast</cell>
  <cell>64</cell>
  <cell>1</cell>
- <cell>(446, 9)</cell>
- <cell>12</cell>
+ <cell>(446, 24)</cell>
+ <cell>32</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1061,8 +1181,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(446, 12)</cell>
- <cell>12</cell>
+ <cell>(446, 27)</cell>
+ <cell>20</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1071,18 +1191,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(446, 24)</cell>
+ <cell>(446, 30)</cell>
  <cell>12</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>4</cell>
- <cell>(446, 27)</cell>
- <cell>28</cell>
 </row>
 <row>
  <cell>10</cell>
@@ -1091,7 +1201,7 @@
  <cell>wstart_ibuf_RNIAT88/U0_YWn_GEast</cell>
  <cell>53</cell>
  <cell>1</cell>
- <cell>(447, 114)</cell>
+ <cell>(448, 36)</cell>
  <cell>10</cell>
 </row>
 <row>
@@ -1101,8 +1211,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(448, 42)</cell>
- <cell>1</cell>
+ <cell>(448, 45)</cell>
+ <cell>24</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1121,26 +1231,66 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(448, 63)</cell>
- <cell>5</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>5</cell>
- <cell>(448, 96)</cell>
+ <cell>(449, 42)</cell>
  <cell>9</cell>
 </row>
 <row>
+ <cell>11</cell>
+ <cell>GB[2] </cell>
+ <cell>(292, 72)</cell>
+ <cell>test_0/u100/UCK99/U0_YWn_GEast</cell>
+ <cell>42</cell>
+ <cell>1</cell>
+ <cell>(448, 111)</cell>
+ <cell>10</cell>
+</row>
+<row>
  <cell> </cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>6</cell>
+ <cell>2</cell>
+ <cell>(449, 108)</cell>
+ <cell>23</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(451, 105)</cell>
+ <cell>9</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>GB[6] </cell>
+ <cell>(296, 72)</cell>
+ <cell>u8_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
+ <cell>37</cell>
+ <cell>1</cell>
+ <cell>(446, 144)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(447, 90)</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
  <cell>(449, 84)</cell>
  <cell>6</cell>
 </row>
@@ -1150,59 +1300,19 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>7</cell>
- <cell>(450, 102)</cell>
- <cell>12</cell>
-</row>
-<row>
- <cell>11</cell>
- <cell>GB[2] </cell>
- <cell>(292, 72)</cell>
- <cell>test_0/u100/UCK99/U0_YWn_GEast</cell>
- <cell>41</cell>
- <cell>1</cell>
- <cell>(451, 84)</cell>
- <cell>3</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>2</cell>
- <cell>(451, 87)</cell>
- <cell>6</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>3</cell>
- <cell>(452, 90)</cell>
- <cell>9</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
  <cell>4</cell>
- <cell>(453, 93)</cell>
- <cell>23</cell>
+ <cell>(449, 96)</cell>
+ <cell>11</cell>
 </row>
 <row>
- <cell>12</cell>
- <cell>GB[6] </cell>
- <cell>(296, 72)</cell>
- <cell>u8_sb_0/CCC_0/GL0_INST/U0_YWn</cell>
- <cell>37</cell>
  <cell> </cell>
- <cell>(146, 33)</cell>
- <cell>6</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(450, 93)</cell>
+ <cell>15</cell>
 </row>
 <row>
  <cell>13</cell>
@@ -1211,7 +1321,7 @@
  <cell>test_0/UCK4/U0_YWn_GEast</cell>
  <cell>5</cell>
  <cell> </cell>
- <cell>(448, 9)</cell>
+ <cell>(447, 12)</cell>
  <cell>5</cell>
 </row>
 <row>
@@ -1220,9 +1330,19 @@
  <cell>(305, 72)</cell>
  <cell>mclk_ibuf_RNIC9QA/U0_YWn_GEast</cell>
  <cell>2</cell>
+ <cell>1</cell>
+ <cell>(448, 42)</cell>
+ <cell>1</cell>
+</row>
+<row>
  <cell> </cell>
- <cell>(449, 78)</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
  <cell>2</cell>
+ <cell>(448, 51)</cell>
+ <cell>1</cell>
 </row>
 </table>
 <text></text>
@@ -1240,15 +1360,15 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>test_0/c2:Q</cell>
- <cell>test_0/c2</cell>
- <cell>test_0/c3:CLK</cell>
-</row>
-<row>
- <cell>2</cell>
  <cell>test_0/c1:Q</cell>
  <cell>test_0/c1</cell>
  <cell>test_0/c2:CLK</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>test_0/c2:Q</cell>
+ <cell>test_0/c2</cell>
+ <cell>test_0/c3:CLK</cell>
 </row>
 <row>
  <cell>3</cell>

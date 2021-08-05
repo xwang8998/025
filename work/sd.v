@@ -216,6 +216,7 @@ always @* begin
     end
 
 //mem_controller uctrl(.sdclk(clk), .mclk(mclk), .reset_n(rst_n),
+
 mem_controller uctrl(.sdclk_n(sdclk_n), .mclk(mclk), .reset_n(reset_n),
     .HREADY(HREADY_DAC), .HRDATA(HRDATA_DAC), 
     .HADDR(HADDR_DAC), .HWDATA(HWDATA_DAC), .HTRANS(HTRANS_DAC), .HWRITE(HWRITE_DAC),
@@ -247,7 +248,8 @@ wire [7:0] adc_dbm;
 wire adc_pcm_ready;
 wire [31:0]adc_pcm32;
 wire is_right;
-
+//wire [15:0]adc_pcm16;
+//assign adc_pcm16 = adc_pcm32[31:16];
 adc_controller UADC(.sdclk_n(sdclk_n), .mclk(mclk), .bck(adc_clock), .reset_n(reset_n & use_adc_mode),
     .HREADY(HREADY_ADC), .HRDATA(HRDATA_ADC), 
     .HADDR(HADDR_ADC), .HWDATA(HWDATA_ADC), .HTRANS(HTRANS_ADC), .HWRITE(HWRITE_ADC),

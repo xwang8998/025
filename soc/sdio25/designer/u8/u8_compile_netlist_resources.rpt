@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Wed Aug  4 21:07:35 2021
+Date: Thu Aug  5 13:04:16 2021
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 5168 | 27696 | 18.66      |
-| DFF                       | 4929 | 27696 | 17.80      |
+| 4LUT                      | 5189 | 27696 | 18.74      |
+| DFF                       | 4986 | 27696 | 18.00      |
 | I/O Register              | 0    | 801   | 0.00       |
 | User I/O                  | 55   | 267   | 20.60      |
 | -- Single-ended I/O       | 55   | 267   | 20.60      |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+------+
 | Type                     | 4LUT | DFF  |
 +--------------------------+------+------+
-| Fabric Logic             | 4736 | 4497 |
+| Fabric Logic             | 4757 | 4554 |
 | RAM64x18 Interface Logic | 0    | 0    |
 | RAM1K18 Interface Logic  | 0    | 0    |
 | MACC Interface Logic     | 432  | 432  |
-| Total Used               | 5168 | 4929 |
+| Total Used               | 5189 | 4986 |
 +--------------------------+------+------+
 
 HPMS Resource Usage
@@ -83,20 +83,21 @@ Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
 | 2      | 22   |
-| 6      | 1    |
+| 6      | 2    |
+| 7      | 2    |
 | 9      | 2    |
-| 10     | 3    |
-| 11     | 2    |
+| 10     | 4    |
+| 11     | 1    |
 | 14     | 1    |
 | 15     | 2    |
+| 16     | 1    |
 | 27     | 3    |
 | 28     | 4    |
 | 29     | 7    |
 | 30     | 15   |
-| 33     | 1    |
 | 40     | 2    |
 | 41     | 60   |
-| Total  | 125  |
+| Total  | 128  |
 +--------+------+
 
 Detailed MACC Resource Usage
@@ -137,16 +138,16 @@ Nets assigned to chip global resources
 | 493    | INT_NET | Net   : test_0/sdclk_n_1                                              |
 |        |         | Driver: test_0/UCK3/U0_RGB1                                           |
 |        |         | Source: NETLIST                                                       |
-| 395    | INT_NET | Net   : MSS_HPMS_READY_int_arst                                       |
+| 419    | INT_NET | Net   : MSS_HPMS_READY_int_arst                                       |
 |        |         | Driver: u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1/U0_RGB1   |
 |        |         | Source: NETLIST                                                       |
 | 202    | INT_NET | Net   : test_0/mclk_1                                                 |
 |        |         | Driver: test_0/UCK1/U0_RGB1                                           |
 |        |         | Source: NETLIST                                                       |
-| 182    | INT_NET | Net   : test_0/u100/reset_n_arst                                      |
+| 183    | INT_NET | Net   : test_0/u100/reset_n_arst                                      |
 |        |         | Driver: test_0/u100/reset_n_RNI12DE/U0_RGB1                           |
 |        |         | Source: NETLIST                                                       |
-| 108    | INT_NET | Net   : test_0/in_bck_1                                               |
+| 164    | INT_NET | Net   : test_0/in_bck_1                                               |
 |        |         | Driver: test_0/UADC/clkd16_inferred_clock_RNI61L/U0_RGB1              |
 |        |         | Source: NETLIST                                                       |
 | 70     | INT_NET | Net   : test_0/u_pcm_tx/reset_n                                       |
@@ -158,7 +159,7 @@ Nets assigned to chip global resources
 | 53     | INT_NET | Net   : wstart_arst                                                   |
 |        |         | Driver: wstart_ibuf_RNIAT88/U0_RGB1                                   |
 |        |         | Source: NETLIST                                                       |
-| 41     | INT_NET | Net   : test_0/u100/adc_clock                                         |
+| 42     | INT_NET | Net   : test_0/u100/adc_clock                                         |
 |        |         | Driver: test_0/u100/UCK99/U0_RGB1                                     |
 |        |         | Source: NETLIST                                                       |
 | 37     | INT_NET | Net   : u8_sb_0/GL0_INST                                              |

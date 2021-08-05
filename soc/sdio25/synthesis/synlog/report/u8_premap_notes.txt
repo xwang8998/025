@@ -1,19 +1,19 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_1 (in view: work.sdtop(verilog)) on net led_1 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_2 (in view: work.sdtop(verilog)) on net led_2 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_3 (in view: work.sdtop(verilog)) on net led_3 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_4 (in view: work.sdtop(verilog)) on net led_4 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_5 (in view: work.sdtop(verilog)) on net led_5 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_6 (in view: work.sdtop(verilog)) on net led_6 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_7 (in view: work.sdtop(verilog)) on net led_7 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_8 (in view: work.sdtop(verilog)) on net led_8 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_1 (in view: work.sdtop(verilog)) on net led_1 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_2 (in view: work.sdtop(verilog)) on net led_2 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_3 (in view: work.sdtop(verilog)) on net led_3 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_4 (in view: work.sdtop(verilog)) on net led_4 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_5 (in view: work.sdtop(verilog)) on net led_5 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_6 (in view: work.sdtop(verilog)) on net led_6 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_7 (in view: work.sdtop(verilog)) on net led_7 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_8 (in view: work.sdtop(verilog)) on net led_8 (in view: work.sdtop(verilog)) has its enable tied to GND.
 @N: MO111 :"d:\820\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"d:\820\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":142:0:142:5|Removing sequential instance write_addr[13:0] (in view: work.bigfifo(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":142:0:142:5|Removing sequential instance write_block_addr[13:0] (in view: work.bigfifo(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"d:\820\igloo\work\sd.v":382:0:382:5|Removing sequential instance demo_mute (in view: work.sdtop(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\820\igloo\work\sd.v":384:0:384:5|Removing sequential instance demo_mute (in view: work.sdtop(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN115 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":639:4:639:19|Removing instance default_slave_sm (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_1_0(verilog) because it does not drive other instances.
 @N: BN115 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":209:2:209:15|Removing instance address_decode (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_ADDRDEC_Z2_0(verilog) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHTRANS (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.

@@ -21,14 +21,14 @@ Running optimization stage 1 on CLKINT .......
 @N: CG364 :"D:\820\igloo\work\crc7.v":47:7:47:11|Synthesizing module crc16 in library work.
 @N: CG179 :"D:\820\igloo\work\crc7.v":72:20:72:22|Removing redundant assignment.
 Running optimization stage 1 on crc16 .......
-@N: CG364 :"D:\820\igloo\work\sd.v":1190:7:1190:13|Synthesizing module sd_data in library work.
-@N: CG179 :"D:\820\igloo\work\sd.v":1284:22:1284:22|Removing redundant assignment.
+@N: CG364 :"D:\820\igloo\work\sd.v":1192:7:1192:13|Synthesizing module sd_data in library work.
+@N: CG179 :"D:\820\igloo\work\sd.v":1286:22:1286:22|Removing redundant assignment.
 Running optimization stage 1 on sd_data .......
-@W: CL169 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Pruning unused register demo[17:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"D:\820\igloo\work\sd.v":1272:0:1272:5|Pruning unused register dbg[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL271 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Pruning unused bits 31 to 28 of odin[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL113 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Feedback mux created for signal db[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL250 :"D:\820\igloo\work\sd.v":1304:0:1304:5|All reachable assignments to db[7:0] assign 0, register removed by optimization
+@W: CL169 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Pruning unused register demo[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\820\igloo\work\sd.v":1274:0:1274:5|Pruning unused register dbg[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Pruning unused bits 31 to 28 of odin[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL113 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Feedback mux created for signal db[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"D:\820\igloo\work\sd.v":1306:0:1306:5|All reachable assignments to db[7:0] assign 0, register removed by optimization
 @N: CG364 :"D:\820\igloo\work\ram.v":402:7:402:16|Synthesizing module sync_logic in library work.
 
 	c_DATA_WIDTH=32'b00000000000000000000000000000001
@@ -63,14 +63,14 @@ Running optimization stage 1 on simple_pcm_gear .......
 @N: CG179 :"D:\820\igloo\work\crc7.v":33:20:33:22|Removing redundant assignment.
 Running optimization stage 1 on crc7 .......
 @N: CG364 :"D:\820\igloo\work\sd.v":48:7:48:11|Synthesizing module sdtop in library work.
-@W: CS263 :"D:\820\igloo\work\sd.v":225:14:225:24|Port-width mismatch for port pcm_left. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"D:\820\igloo\work\sd.v":225:39:225:50|Port-width mismatch for port pcm_right. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"D:\820\igloo\work\sd.v":224:55:224:65|Port-width mismatch for port dsd138_ctrl. The port definition is 8 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
-@W: CG360 :"D:\820\igloo\work\sd.v":266:11:266:19|Removing wire adc_debug, as there is no assignment to it.
+@W: CS263 :"D:\820\igloo\work\sd.v":226:14:226:24|Port-width mismatch for port pcm_left. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\820\igloo\work\sd.v":226:39:226:50|Port-width mismatch for port pcm_right. The port definition is 32 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\820\igloo\work\sd.v":225:55:225:65|Port-width mismatch for port dsd138_ctrl. The port definition is 8 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"D:\820\igloo\work\sd.v":268:11:268:19|Removing wire adc_debug, as there is no assignment to it.
 Running optimization stage 1 on sdtop .......
-@W: CL190 :"D:\820\igloo\work\sd.v":382:0:382:5|Optimizing register bit sound_card_ctrl[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"D:\820\igloo\work\sd.v":382:0:382:5|Optimizing register bit sound_card_ctrl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"D:\820\igloo\work\sd.v":382:0:382:5|Pruning register bits 4 to 3 of sound_card_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"D:\820\igloo\work\sd.v":384:0:384:5|Optimizing register bit sound_card_ctrl[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\820\igloo\work\sd.v":384:0:384:5|Optimizing register bit sound_card_ctrl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\820\igloo\work\sd.v":384:0:384:5|Pruning register bits 4 to 3 of sound_card_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"D:\820\igloo\work\cordic.v":17:7:17:12|Synthesizing module cordic in library work.
 Running optimization stage 1 on cordic .......
 @W: CL169 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning unused register z[31][31:0]. Make sure that there are no unused intermediate registers.
@@ -127,10 +127,12 @@ Running optimization stage 1 on adc96 .......
 @W: CL279 :"D:\820\igloo\work\adc96.v":117:0:117:5|Pruning register bits 3 to 1 of dsd_lpp[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL279 :"D:\820\igloo\work\adc96.v":117:0:117:5|Pruning register bits 3 to 1 of dsd_rpp[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"D:\820\igloo\work\test.v":40:7:40:10|Synthesizing module test in library work.
+@N: CG179 :"D:\820\igloo\work\test.v":342:15:342:21|Removing redundant assignment.
 @W: CG360 :"D:\820\igloo\work\test.v":269:12:269:17|Removing wire lrck_g, as there is no assignment to it.
 @W: CG360 :"D:\820\igloo\work\test.v":269:20:269:25|Removing wire data_g, as there is no assignment to it.
 Running optimization stage 1 on test .......
-@W: CL169 :"D:\820\igloo\work\test.v":302:0:302:5|Pruning unused register rrdata[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\820\igloo\work\test.v":304:0:304:5|Pruning unused register rrdata[31:0]. Make sure that there are no unused intermediate registers.
+@A: CL282 :"D:\820\igloo\work\test.v":322:0:322:5|Feedback mux created for signal nnlldata[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND in library work.
@@ -761,7 +763,7 @@ Running optimization stage 2 on cordic .......
 @W: CL279 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning register bits 31 to 30 of z[28][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL279 :"D:\820\igloo\work\cordic.v":97:0:97:5|Pruning register bits 31 to 30 of z[29][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Running optimization stage 2 on sdtop .......
-@N: CL201 :"D:\820\igloo\work\sd.v":382:0:382:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\820\igloo\work\sd.v":384:0:384:5|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 13 reachable states with original encodings of:
    0000
@@ -777,9 +779,9 @@ State machine has 13 reachable states with original encodings of:
    1010
    1011
    1100
-@N: CL201 :"D:\820\igloo\work\sd.v":382:0:382:5|Trying to extract state machine for register bus_state.
-@W: CL156 :"D:\820\igloo\work\sd.v":224:9:224:18|*Input master_bck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
-@W: CL156 :"D:\820\igloo\work\sd.v":224:28:224:38|*Input master_lrck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL201 :"D:\820\igloo\work\sd.v":384:0:384:5|Trying to extract state machine for register bus_state.
+@W: CL156 :"D:\820\igloo\work\sd.v":225:9:225:18|*Input master_bck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\820\igloo\work\sd.v":225:28:225:38|*Input master_lrck to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
 Running optimization stage 2 on crc7 .......
 Running optimization stage 2 on simple_pcm_gear .......
 Running optimization stage 2 on adc_controller .......
@@ -825,9 +827,9 @@ State machine has 5 reachable states with original encodings of:
 Running optimization stage 2 on sync_logic_3s .......
 Running optimization stage 2 on sync_logic_1s .......
 Running optimization stage 2 on sd_data .......
-@W: CL190 :"D:\820\igloo\work\sd.v":1272:0:1272:5|Optimizing register bit k[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"D:\820\igloo\work\sd.v":1272:0:1272:5|Pruning register bit 3 of k[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CL201 :"D:\820\igloo\work\sd.v":1304:0:1304:5|Trying to extract state machine for register state.
+@W: CL190 :"D:\820\igloo\work\sd.v":1274:0:1274:5|Optimizing register bit k[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\820\igloo\work\sd.v":1274:0:1274:5|Pruning register bit 3 of k[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\820\igloo\work\sd.v":1306:0:1306:5|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 8 reachable states with original encodings of:
    0000

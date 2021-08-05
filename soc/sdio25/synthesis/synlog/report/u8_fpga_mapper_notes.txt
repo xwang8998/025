@@ -1,25 +1,26 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_1 (in view: work.sdtop(verilog)) on net led_1 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_2 (in view: work.sdtop(verilog)) on net led_2 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_3 (in view: work.sdtop(verilog)) on net led_3 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_4 (in view: work.sdtop(verilog)) on net led_4 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_5 (in view: work.sdtop(verilog)) on net led_5 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_6 (in view: work.sdtop(verilog)) on net led_6 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_7 (in view: work.sdtop(verilog)) on net led_7 (in view: work.sdtop(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\820\igloo\work\sd.v":266:11:266:19|Tristate driver led_8 (in view: work.sdtop(verilog)) on net led_8 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_1 (in view: work.sdtop(verilog)) on net led_1 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_2 (in view: work.sdtop(verilog)) on net led_2 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_3 (in view: work.sdtop(verilog)) on net led_3 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_4 (in view: work.sdtop(verilog)) on net led_4 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_5 (in view: work.sdtop(verilog)) on net led_5 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_6 (in view: work.sdtop(verilog)) on net led_6 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_7 (in view: work.sdtop(verilog)) on net led_7 (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\820\igloo\work\sd.v":268:11:268:19|Tristate driver led_8 (in view: work.sdtop(verilog)) on net led_8 (in view: work.sdtop(verilog)) has its enable tied to GND.
 @N: MO111 :|Tristate driver led0_t (in view: work.test(verilog)) on net led0 (in view: work.test(verilog)) has its enable tied to GND.
 @N: MO111 :|Tristate driver led1_t (in view: work.test(verilog)) on net led1 (in view: work.test(verilog)) has its enable tied to GND.
 @N: BN362 :"d:\820\igloo\work\ram.v":115:0:115:5|Removing sequential instance flag (in view: work.mem_controller(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"d:\820\igloo\work\sd.v":382:0:382:5|Removing sequential instance demo[17:0] (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\820\igloo\work\sd.v":384:0:384:5|Removing sequential instance demo[17:0] (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":142:0:142:5|Removing sequential instance j[3:0] (in view: work.bigfifo(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":114:0:114:5|Removing sequential instance isl[1:0] (in view: work.bigfifo(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: MO231 :"d:\820\igloo\work\test.v":302:0:302:5|Found counter in view:work.test(verilog) instance lldata[31:0] 
-@N: MO231 :"d:\820\igloo\work\test.v":302:0:302:5|Found counter in view:work.test(verilog) instance wi[4:0] 
-@N: MO230 :"d:\820\igloo\work\sd.v":382:0:382:5|Found up-down counter in view:work.sdtop(verilog) instance i[7:0]  
-@N: MO231 :"d:\820\igloo\work\sd.v":382:0:382:5|Found counter in view:work.sdtop(verilog) instance buffer_under_run[7:0] 
-@N: MO231 :"d:\820\igloo\work\sd.v":1304:0:1304:5|Found counter in view:work.sd_data(verilog) instance i[9:0] 
+@N: MO231 :"d:\820\igloo\work\test.v":304:0:304:5|Found counter in view:work.test(verilog) instance lldata[15:0] 
+@N: MO231 :"d:\820\igloo\work\test.v":322:0:322:5|Found counter in view:work.test(verilog) instance wii[6:0] 
+@N: MO231 :"d:\820\igloo\work\test.v":304:0:304:5|Found counter in view:work.test(verilog) instance wi[5:0] 
+@N: MO230 :"d:\820\igloo\work\sd.v":384:0:384:5|Found up-down counter in view:work.sdtop(verilog) instance i[7:0]  
+@N: MO231 :"d:\820\igloo\work\sd.v":384:0:384:5|Found counter in view:work.sdtop(verilog) instance buffer_under_run[7:0] 
+@N: MO231 :"d:\820\igloo\work\sd.v":1306:0:1306:5|Found counter in view:work.sd_data(verilog) instance i[9:0] 
 @N: MO225 :"d:\820\igloo\work\ram.v":115:0:115:5|There are no possible illegal states for state machine state[3:0] (in view: work.mem_controller(verilog)); safe FSM implementation is not required.
 @N: BN362 :"d:\820\igloo\work\ram.v":444:0:444:5|Removing sequential instance usync102.data_buf_sync[2:0] (in view: work.mem_controller(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\ram.v":428:0:428:5|Removing sequential instance usync102.data_buf[2:0] (in view: work.mem_controller(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
@@ -40,7 +41,7 @@
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[2] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[1] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\820\igloo\work\sd.v":1304:0:1304:5|Removing sequential instance UD100.is_last_data (in view: work.sdtop(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\820\igloo\work\sd.v":1306:0:1306:5|Removing sequential instance UD100.is_last_data (in view: work.sdtop(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[6] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: FF150 :"d:\820\igloo\work\wavegen.v":113:15:113:31|Multiplier test_0.uGEN_DDS.U100.n_AX_3[68:0] implemented with multiple MACC blocks using cascade/shift feature.
@@ -121,7 +122,7 @@
 @N: BN362 :"d:\820\igloo\work\ram.v":444:0:444:5|Removing sequential instance test_0.u100.uctrl.usync100.update_strobe_dly[3] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\ram.v":444:0:444:5|Removing sequential instance test_0.u100.uctrl.usync100.update_strobe_dly[2] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\ram.v":444:0:444:5|Removing sequential instance test_0.u100.uctrl.usync100.update_strobe_dly[1] (in view: work.u8(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\820\igloo\work\sd.v":1304:0:1304:5|Removing sequential instance test_0.u100.UD100.wen (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\820\igloo\work\sd.v":1306:0:1306:5|Removing sequential instance test_0.u100.UD100.wen (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":142:0:142:5|Removing sequential instance test_0.u100.uctrl.ufifo.read_addr[0] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":142:0:142:5|Removing sequential instance test_0.u100.uctrl.ufifo.read_addr[1] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":142:0:142:5|Removing sequential instance test_0.u100.uctrl.ufifo.read_addr[2] (in view: work.u8(verilog)) because it does not drive other instances.
@@ -141,15 +142,15 @@
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":81:0:81:5|Removing sequential instance test_0.u100.uctrl.ufifo.a_full[2] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":81:0:81:5|Removing sequential instance test_0.u100.uctrl.ufifo.a_full[3] (in view: work.u8(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\820\igloo\work\bigfifo.v":70:0:70:5|Removing sequential instance test_0.u100.uctrl.ufifo.full (in view: work.u8(verilog)) because it does not drive other instances.
-@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.reset_n_arst on CLKINT  I_3477 
-@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.pclk_div2 on CLKINT  I_3478 
-@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_3479 
-@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_3480 
-@N: FP130 |Promoting Net test_0.bck_g on CLKINT  I_3481 
-@N: FP130 |Promoting Net test_0.u_pcm_tx.reset_n on CLKINT  I_3482 
-@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_3483 
-@N: FP130 |Promoting Net wstart_arst on CLKINT  I_3484 
-@N: FP130 |Promoting Net mclk_c on CLKINT  I_3485 
+@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.reset_n_arst on CLKINT  I_3112 
+@N: FP130 |Promoting Net test_0.uGEN_DDS.U100.pclk_div2 on CLKINT  I_3113 
+@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_3114 
+@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_3115 
+@N: FP130 |Promoting Net test_0.bck_g on CLKINT  I_3116 
+@N: FP130 |Promoting Net test_0.u_pcm_tx.reset_n on CLKINT  I_3117 
+@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_3118 
+@N: FP130 |Promoting Net wstart_arst on CLKINT  I_3119 
+@N: FP130 |Promoting Net mclk_c on CLKINT  I_3120 
 @N: MT611 :|Automatically generated clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock is not used and is being removed
 @N: FX1056 |Writing EDF file: D:\820\igloo\soc\sdio25\synthesis\u8.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.

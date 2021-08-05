@@ -14,84 +14,15 @@ Hostname: WIN7-2020MEADRD
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
 
-Modified Files: 1
+Modified Files: 0
 FID:  path (prevtimestamp, timestamp)
-34       D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 34
+Modules that may have changed as a result of file changes: 0
 MID:  lib.cell.view
-55       work.GEN_DDS.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-15       work.adc96.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-16       work.adc_controller.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-17       work.adc_pcm_gear.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-18       work.bigfifo.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-19       work.clock_divider.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-20       work.cordic.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-22       work.crc16.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-23       work.crc7.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-24       work.dop_gear.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-25       work.down_441.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-26       work.down_882.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-27       work.down_rom.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-28       work.dsd128_176.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-29       work.dsd128_rom.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-30       work.dsd_input_gear.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-31       work.dsd_tx.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-32       work.dsdout.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-33       work.i2s32_input_gear.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-34       work.inctrl.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-35       work.kill_dc176.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-36       work.mem_controller.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-37       work.outctrl.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-38       work.pcm2dsd.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-39       work.pcm_tx.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-40       work.pcmin.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-42       work.ram_2p.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-43       work.sd_data.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-44       work.sdtop.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-45       work.simple_pcm_gear.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-46       work.spdif_tx.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-47       work.sync_logic.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
-48       work.test.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (module definition)
-54       work.wavegen.verilog may have changed because the following files changed:
-                        D:\820\igloo\work\test.v (2021-08-04 20:42:43, 2021-08-04 21:05:49) <-- (may instantiate this module)
 
 *******************************************************************
-Unmodified files: 35
+Unmodified files: 36
 FID:  path (timestamp)
 0        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v (2020-11-03 15:58:10)
 1        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v (2020-11-03 15:58:13)
@@ -108,12 +39,12 @@ FID:  path (timestamp)
 12       D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (2021-07-22 15:48:19)
 13       D:\820\igloo\soc\sdio25\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (2021-07-22 15:48:19)
 14       D:\820\igloo\soc\sdio25\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2021-07-22 15:48:21)
-15       D:\820\igloo\soc\sdio25\component\work\u8\u8.v (2021-08-04 11:17:31)
-16       D:\820\igloo\soc\sdio25\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.v (2021-08-03 17:16:40)
-17       D:\820\igloo\soc\sdio25\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v (2021-08-03 17:16:42)
-18       D:\820\igloo\soc\sdio25\component\work\u8_sb\u8_sb.v (2021-08-03 17:16:42)
-19       D:\820\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS.v (2021-08-03 17:16:36)
-20       D:\820\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS_syn.v (2021-08-03 17:16:36)
+15       D:\820\igloo\soc\sdio25\component\work\u8\u8.v (2021-08-05 11:13:00)
+16       D:\820\igloo\soc\sdio25\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.v (2021-08-05 11:10:49)
+17       D:\820\igloo\soc\sdio25\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v (2021-08-05 11:10:51)
+18       D:\820\igloo\soc\sdio25\component\work\u8_sb\u8_sb.v (2021-08-05 11:10:51)
+19       D:\820\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS.v (2021-08-05 11:10:45)
+20       D:\820\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS_syn.v (2021-08-05 11:10:45)
 36       D:\820\igloo\work\GEN_DDS.v (2021-08-03 20:28:55)
 21       D:\820\igloo\work\adc96.v (2021-08-03 20:29:21)
 22       D:\820\igloo\work\bigfifo.v (2017-10-25 19:52:43)
@@ -124,13 +55,14 @@ FID:  path (timestamp)
 27       D:\820\igloo\work\down_rom.v (2021-07-29 20:22:45)
 28       D:\820\igloo\work\dsd128_rom.v (2021-07-29 20:22:45)
 29       D:\820\igloo\work\dsd128filter.v (2021-07-29 20:22:45)
-31       D:\820\igloo\work\ram.v (2021-07-29 20:22:45)
-32       D:\820\igloo\work\sd.v (2021-08-03 20:46:18)
-33       D:\820\igloo\work\sound.v (2021-08-04 20:18:03)
+31       D:\820\igloo\work\ram.v (2021-08-05 11:09:15)
+32       D:\820\igloo\work\sd.v (2021-08-05 11:10:11)
+33       D:\820\igloo\work\sound.v (2021-08-05 11:58:17)
+34       D:\820\igloo\work\test.v (2021-08-05 13:01:07)
 35       D:\820\igloo\work\wavegen.v (2021-07-27 13:48:30)
 
 *******************************************************************
-Unchanged modules: 21
+Unchanged modules: 55
 MID:  lib.cell.view
 0        COREAHBLITE_LIB.COREAHBLITE_ADDRDEC.verilog
 1        COREAHBLITE_LIB.COREAHBLITE_DEFAULTSLAVESM.verilog
@@ -140,6 +72,7 @@ MID:  lib.cell.view
 5        COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE.verilog
 6        COREAHBLITE_LIB.CoreAHBLite.verilog
 7        work.CoreResetP.verilog
+55       work.GEN_DDS.verilog
 8        work.MSS_025.verilog
 9        work.RCOSC_1MHZ.verilog
 10       work.RCOSC_1MHZ_FAB.verilog
@@ -147,9 +80,42 @@ MID:  lib.cell.view
 12       work.RCOSC_25_50MHZ_FAB.verilog
 13       work.XTLOSC.verilog
 14       work.XTLOSC_FAB.verilog
+15       work.adc96.verilog
+16       work.adc_controller.verilog
+17       work.adc_pcm_gear.verilog
+18       work.bigfifo.verilog
+19       work.clock_divider.verilog
+20       work.cordic.verilog
 21       work.coreresetp_pcie_hotreset.verilog
+22       work.crc16.verilog
+23       work.crc7.verilog
+24       work.dop_gear.verilog
+25       work.down_441.verilog
+26       work.down_882.verilog
+27       work.down_rom.verilog
+28       work.dsd128_176.verilog
+29       work.dsd128_rom.verilog
+30       work.dsd_input_gear.verilog
+31       work.dsd_tx.verilog
+32       work.dsdout.verilog
+33       work.i2s32_input_gear.verilog
+34       work.inctrl.verilog
+35       work.kill_dc176.verilog
+36       work.mem_controller.verilog
+37       work.outctrl.verilog
+38       work.pcm2dsd.verilog
+39       work.pcm_tx.verilog
+40       work.pcmin.verilog
+42       work.ram_2p.verilog
+43       work.sd_data.verilog
+44       work.sdtop.verilog
+45       work.simple_pcm_gear.verilog
+46       work.spdif_tx.verilog
+47       work.sync_logic.verilog
+48       work.test.verilog
 49       work.u8.verilog
 50       work.u8_sb.verilog
 51       work.u8_sb_CCC_0_FCCC.verilog
 52       work.u8_sb_FABOSC_0_OSC.verilog
 53       work.u8_sb_HPMS.verilog
+54       work.wavegen.verilog
